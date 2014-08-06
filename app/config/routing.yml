@@ -1,0 +1,11 @@
+ifresco_client:
+    resource: "@IfrescoClientBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+ifresco_client_plugins:
+    resource: .
+    type: custom
+
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+

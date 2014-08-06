@@ -1,0 +1,49 @@
+jms_security_extra:
+    secure_all_services: false
+    expressions: true
+
+security:
+    encoders:
+        Symfony\Component\Security\Core\User\User: plaintext
+
+    role_hierarchy:
+        ROLE_ADMIN:       ROLE_USER
+        ROLE_SUPER_ADMIN: [ROLE_USER, ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH]
+
+    providers:
+        in_memory:
+            memory:
+                users:
+                    user:  { password: userpass, roles: [ 'ROLE_USER' ] }
+                    admin: { password: adminpass, roles: [ 'ROLE_ADMIN' ] }
+
+    firewalls:
+        dev:
+            pattern:  ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        login:
+            pattern:  ^/demo/secured/login$
+            security: false
+
+        secured_area:
+            pattern:    ^/
+            form_login:
+                check_path: /login_check
+                login_path: /login
+            logout:
+                path:   /logout
+                target: /
+            anonymous: ~
+            #http_basic:
+            #    realm: "Secured Demo Area"
+
+    access_control:
+        #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/nodeactions/imagepreview, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/install, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/viewShare, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/nodeactions/sharePreview, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/RESTService, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/, roles: ROLE_USER }
