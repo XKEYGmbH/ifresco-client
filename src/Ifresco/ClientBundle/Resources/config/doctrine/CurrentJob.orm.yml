@@ -1,0 +1,17 @@
+Ifresco\ClientBundle\Entity\CurrentJob:
+    type: entity
+    table: current_jobs
+    repositoryClass: Ifresco\ClientBundle\Repository\CurrentJobRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        type:
+            type: string
+        status:
+            type: string
+        json_data:
+            type: text
+        created_at:
+            type: datetime

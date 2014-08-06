@@ -1,0 +1,15 @@
+Ifresco\ClientBundle\Entity\NamespaceMapping:
+    type: entity
+    table: namespace_mappings
+    repositoryClass: Ifresco\ClientBundle\Repository\NamespaceMappingRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        namespace:
+            type: string
+            length: 255
+        prefix:
+            type: string
+            length: 255

@@ -1,0 +1,862 @@
+/* fa button fix */
+.fa {
+	background: none !important;
+	
+}
+
+.fa-trash-o {
+	padding-left:6px !important; 
+}
+
+.ifresco-north-panel .fa {
+	font-size:25px;
+}
+
+.ifa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: none !important;
+  padding:2px;
+  font-size:16px;
+}
+
+.rotate-text {
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);	
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	margin-top:14px;
+}
+
+/* NORTH. Search panel: input buttons and etc.*/
+.ifresco-search-link:hover { color: #46494D !important }
+.ifresco-search-input INPUT { background: url("../images/search/search-icon.gif") no-repeat 3px 4px #FFFFFF; height: 26px; padding: 3px 6px 3px 21px; margin-right: 5px }
+
+
+.ifresco-search-button-container .x-panel-body-default {background: #EEEEEE}
+.ifresco-search-button-container .x-btn-default-small { background: none #2D7BB2 }
+  .ifresco-search-button-container .x-btn-default-small:hover {background: #46494D}
+.ifresco-search-button { border: 1px solid #2D7BB2 !important}
+.ifresco-search-button:hover {border: 1px solid #46494D !important}
+.ifresco-search-button-container A SPAN {font-weight: bold !important; color: #FFFFFF !important}
+
+.ifresco-search-button-toolbar {
+	background: #2D7BB2 !important; 
+	border: 1px solid #2D7BB2 !important;
+	color:#fff !important;
+}
+
+.ifresco-search-button-toolbar .x-btn-inner {
+	color:#fff !important;
+	font-size:14px !important;
+	
+}
+
+.ifresco-search-button-toolbar:hover {
+	background: #46494D !important;
+	border: 1px solid #46494D !important;
+}
+
+.ifresco-form-search { background: #F7F7F7 !important}
+  .ifresco-form-search .x-panel-body-default { background: #F7F7F7 !important}
+
+.ifresco-search-horizontal-split-button {
+  background: url("../images/toolbar/horizontal-split.png") !important;
+  border-radius: 0 !important;
+}
+
+.ifresco-search-vertical-split-button {
+  background: url("../images/toolbar/vertical-split.png") !important;
+  border-radius: 0 !important;
+}
+
+.ifresco-search-admin-button {
+  background: url("../images/toolbar/admin.png") !important;
+  border-radius: 0 !important;
+}
+
+.ifresco-search-clipboard-button {
+  background: url("../images/toolbar/clipboard.png") !important;
+  border-radius: 0 !important;
+}
+
+.ifresco-search-logout-button {
+  background: url("../images/toolbar/logout.png") !important;
+  border-radius: 0 !important;
+}
+
+.ifresco-toolbar-button-container {
+  /*border: 5px solid #52B3E0;
+  border-right: 1px solid #D0D0D0;
+  border-left: 1px solid #D0D0D0;
+  background-color: #EEEEEE;*/
+/*padding:3px 5px;*/
+	padding-right:5px !important;
+	padding-left:5px !important;
+	
+}
+
+.ifresco-toolbar-button-container-body {
+	width:37px !important;
+	height:30px !important;
+}
+
+.ifresco-toolbar-button-container-body .x-btn {
+
+	
+}
+
+.ifresco-toolbar-button-container-body .x-btn-wrap {
+	height: 100% !important;
+	width: 100%;
+	position: absolute !important;
+	top: 0;
+}
+
+
+.ifresco-toolbar-button-container-active {
+	color:#2D7BB2 !important;
+	
+}
+
+
+.ifresco-toolbar-button-container-inactive {
+  /*border: 5px solid #DDDDDD;
+  border-right: 1px solid #D0D0D0;
+  border-left: 1px solid #D0D0D0;
+  background-color: #EEEEEE;*/
+	/*padding:3px 5px;*/
+  color:#000 !important;
+  
+}
+
+.ifresco-toolbar-button-container:hover {
+  /*border-top: 5px solid #E9B511;
+  border-bottom: 5px solid #5BA826;*/
+  cursor: pointer;
+  color:#2D7BB2 !important;
+}
+
+
+.ifresco-toolbar-separator {
+  margin: 0 !important;
+  border-left: 1px solid #EEEEEE;
+  border-width: 0 1px 0 0;
+  height: 34px;
+	margin-left:5px !important;
+}
+
+.ifresco-admin-menu .x-btn-default-small {
+  background: none;
+  border-radius: 0 !important;
+  border: 1px solid white;
+  border-left: 0;
+  border-right: 0;
+}
+
+.ifresco-admin-menu .x-btn-default-small:hover {
+  background-color: #DFE8F6 !important;
+  border-top: 1px solid #A3BAE9;
+  border-bottom: 1px solid #A3BAE9;
+}
+
+.ifresco-admin-menu .x-panel-header {
+  border-top: 0;
+  border-left: 0;
+}
+
+.ifresco-admin-menu .x-panel-body {
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.ifresco-home-image { background: url("../images/tab/house.png") !important;}
+.ifresco-create-folder-button { background-image:url("../images/toolbar/grid/create-space.gif") !important;}
+.ifresco-create-html-button { background-image:url("../images/toolbar/grid/create-html.png") !important;}
+.ifresco-column-sets-button { background-image:url("../images/toolbar/grid/column-sets.png") !important;}
+.ifresco-metadata-edit-button { background-image:url("../images/toolbar/metadata/edit.png") !important;}
+.ifresco-google-drive-button { background-image:url("../images/icon/google-drive.png") !important;}
+.ifresco-manage-aspects-button { background-image:url("../images/toolbar/metadata/manage-aspects.png") !important;}
+.ifresco-specify-type-button { background-image:url("../images/toolbar/metadata/specify-type.png") !important;}
+.ifresco-download-node-button { background-image:url("../images/toolbar/metadata/download-node.png") !important;}
+.ifresco-checkout-node-button { background-image:url("../images/toolbar/metadata/checkout-node.png") !important;}
+.ifresco-checkin-node-button { background-image:url("../images/toolbar/metadata/checkin-node.png") !important;}
+.ifresco-zoho-writer-button { background-image:url("../images/toolbar/metadata/zoho-writer.png") !important;}
+.ifresco-cancel-checkout-button { background-image:url("../images/toolbar/metadata/cancel-checkout.png") !important;}
+.ifresco-copy-link-button { background-image:url("../images/toolbar/metadata/copy-link.png") !important;}
+.ifresco-export-csv-button { background-image:url("../images/toolbar/grid/export-csv.png") !important;}
+.ifresco-export-pdf-button { background-image:url("../images/toolbar/grid/export-pdf.png") !important;}
+.ifresco-copy-clipboard-button { background-image:url("../images/toolbar/grid/copy-clipboard.png") !important;}
+.ifresco-cut-clipboard-button { background-image:url("../images/toolbar/grid/cut-clipboard.png") !important;}
+.ifresco-link-clipboard-button { background-image:url("../images/toolbar/grid/link-clipboard.png") !important;}
+.ifresco-remove-clipboard-button { background-image:url("../images/toolbar/grid/remove-clipboard.png") !important;}
+.ifresco-open-alfresco-button { background-image:url("../images/toolbar/grid/open-alfresco.png") !important;}
+
+.ifresco-icon-save { background-image: url(../images/icon/save.png) !important;}
+.ifresco-icon-cancel { background-image: url(../images/icon/cross.png) !important;}
+.ifresco-icon-refresh { background-image: url(../images/icon/refresh.png) !important;}
+.ifresco-icon-add-button { background-image: url(../images/icon/add-button.png) !important;}
+.ifresco-icon-delete-button { background-image: url(../images/icon/delete-button.png) !important;}
+.ifresco-icon-refresh { background-image: url(../images/icon/refresh.png) !important;}
+.ifresco-icon-revert { background-image:url("../images/icon/revert.png") !important;}
+.ifresco-icon-add { background-image:url("../images/icon/add-button.png") !important; }
+.ifresco-icon-cut { background-image:url("../images/icon/cut.png") !important; }
+.ifresco-icon-edit { background-image:url("../images/icon/pencil.png") !important; }
+.ifresco-icon-upload { background-image:url("../images/icon/upload.png") !important;}
+.ifresco-icon-download { background-image:url("../images/icon/download.png") !important;}
+.ifresco-icon-selector { background-image:url("../images/icon/selector.png") !important;}
+.ifresco-icon-panel { background-image:url("../images/icon/panel.png") !important;}
+.ifresco-icon-print { background-image:url("../images/icon/print.png") !important;}
+.ifresco-icon-scan { background-image:url("../images/icon/scan.png") !important;}
+.ifresco-icon-tree-folder { background: url("../images/icon/tree-folder.png") !important;}
+.ifresco-icon-magnifier { background-image:url("../images/icon/magnifier.png") !important;}
+.ifresco-icon-magnifier-zoom-in { background: url("../images/icon/magnifier-zoom-in.png") !important;}
+.ifresco-icon-collapse-all {background-image:url(../images/toolbar/arrow_up.png) !important;}
+.ifresco-icon-expand-all {background-image:url(../images/toolbar/arrow_down.png) !important;}   
+.ifresco-icon-arrow {background-image:url(../images/icon/arrow.png) !important;}
+.ifresco-icon-email {background-image:url(../images/icon/email.png) !important;}
+.ifresco-icon-star {background-image:url(../images/icon/star.png) !important;}
+.ifresco-icon-tag {background-image:url(../images/icon/tag.png) !important;}
+.ifresco-icon-tag-green {background-image:url(../images/icon/tag-green.png) !important;}
+.ifresco-icon-attach {background-image:url(../images/icon/attach.png) !important;}
+.ifresco-icon-add-tab-button {background-image:url(../images/icon/add-tab.png) !important;}
+
+
+
+.ifresco-icon-tree-category { background-image:url(../images/icon/tag_green.png) !important;}
+.ifresco-category-tag_green.x-tree-icon, .x-tree-node-leaf .ifresco-category-tag_green { background-image:url(../images/icon/tag_green.png); }
+.ifresco-category-tag_orange.x-tree-icon, .x-tree-node-leaf .ifresco-category-tag_orange { background-image:url(../images/icon/tag_orange.png); }
+.ifresco-category-tag_pink.x-tree-icon, .x-tree-node-leaf .ifresco-category-tag_pink { background-image:url(../images/icon/tag_pink.png); }
+.ifresco-category-tag_purple.x-tree-icon, .x-tree-node-leaf .ifresco-category-tag_purple { background-image:url(../images/icon/tag_purple.png); }
+.ifresco-category-tag_yellow.x-tree-icon, .x-tree-node-leaf .ifresco-category-tag_yellow { background-image:url(../images/icon/tag_yellow.png); }
+.ifresco-category-tag_red.x-tree-icon, .x-tree-node-leaf .ifresco-category-tag_red { background-image:url(../images/icon/tag_red.png); }
+
+
+.ifresco-propertyselector .x-tool-close{
+  position: absolute;
+  right: 5px;
+  top: 4px;
+}
+
+.ifresco-autocomplete .x-tool-close {
+  position: absolute;
+  right: 5px;
+}
+
+.ifresco-autocomplete {
+  line-height: 12px;
+}
+
+.ifresco-autocomplete .x-tool-close:hover {
+  background-position: -15px 0;
+}
+
+.ifresco-autocomplete .ifresco-template-property {
+  height: 20px;
+  padding-left: 5px;
+}
+
+.ifresco-propertyselector {
+}
+
+.ifresco-propertyselector label {
+  text-indent: 15px;
+}
+
+.ifresco-propertyselector input[type="radio"] {
+  margin: 3px;
+    /*vertical-align: bottom;*/
+}
+
+.ifresco-propertyselector .x-tool-close:hover{
+  background-position: -15px 0;
+}
+
+.ifresco-template-property-title {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.ifresco-template-property-name {
+  color: #444;
+  line-height: 12px;
+}
+
+.ifresco-template-property-dataType {
+  color: #444;
+  line-height: 12px;
+}
+
+.ifresco-propertyselector .even{
+  background-color: #eaeaea;
+  padding: 5px;
+  margin: 1px 2px 0px 2px;
+}
+
+.ifresco-propertyselector .odd{
+  background-color: #f2f2f2;
+  padding: 5px;
+  margin: 1px 2px 0px 2px;
+}
+
+.ifresco-propertyselector .x-boundlist-selected .even{
+  background-color: #cbdaf0;
+}
+
+.ifresco-propertyselector .x-boundlist-selected .odd{
+  background-color: #cbdaf0;
+}
+
+.ifresco-propertyselector .x-boundlist-item-over .even{
+  background-color: #d5e3f1; 
+}
+
+.ifresco-propertyselector .x-boundlist-item-over .odd{
+  background-color: #d5e3f1; 
+}
+
+.ifresco-propertyselector .x-boundlist-item {
+  padding: 0;    
+}
+
+.ifresco-view-template-tabpanel .x-tab-bar-body .x-btn {
+  height: 21px;
+}
+
+.ifresco-template-property-custom {
+  border: 2px solid #95cbe5;
+}
+
+.ifresco-propertyselector td > div{
+  word-wrap: break-word;
+  overflow-x: hidden !important;
+}
+
+.ifresco-view-settings-row-left {
+  background: #dfe9f6;
+  vertical-align: top;
+  font-weight: bold;
+  border-top: 1px solid #99bce8;
+  border-left: 1px solid #99bce8;
+  border-bottom: 1px solid #99bce8;
+}
+
+.ifresco-view-settings-row-right {
+  border-top: 1px solid #99bce8;
+  border-right: 1px solid #99bce8;
+  border-bottom: 1px solid #99bce8;
+}
+
+.ifresco-view-settings-row-right label{
+  margin-left: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+.ifresco-view-settings-types {
+  font-size: 12px;
+  color: #444; 
+  padding-left: 10px;
+}
+
+.ifresco-view-settings-label-desc {
+  font-size: 12px;
+  color: #444;
+  vertical-align: top;
+}
+
+.ifresco-treepanel-invalid div{
+  border-color: #cc3300;
+}
+
+.ifresco-loadmask-button.x-mask-msg {
+  border: none;
+  background-color: transparent;
+}
+
+.ifresco-mask-button {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.65;
+  background: #FFF;
+}
+
+.ifresco-loadmask-button .x-mask-loading {
+  border: none;  
+  background-color: transparent;
+}
+
+.ifresco-button-add-property-disabled {
+  cursor: default;
+}
+
+.ifresco-button-add-property-disabled .x-btn-button{
+  background-image: url(../../ifrescoclient/images/extjs/grid/loading.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.x-tag {
+  margin: 1px 0 1px 0; 
+  padding: 2px 20px 1px 5px;
+  border: 1px solid #99bce9;
+  display: inline-block;
+  background-color: #d5e3f1;
+  color: #335;
+  position: relative;
+}
+
+.x-tags {
+  color: #888;
+}
+
+.x-tag .x-tool-img {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+.ifresco-advancedsearch-link {
+  cursor: pointer !important;
+  cursor: hand !important;
+  border: none !important;
+  /* Disable the button-style */
+  background-color: transparent !important;
+  background:none !important;
+  background-image:none !important;
+  padding: 0px !important;
+}
+
+.ifresco-advancedsearch-link span {
+  color: #2d7bb2 !important;
+  font-size: 12px !important;
+  text-decoration: underline !important;
+}
+
+.ifresco-advancedsearch-link:hover span{
+  color: #46494d !important;
+}
+
+div.x-tag {
+  border: 1px solid #99bce9;
+  background-color: #d5e3f1;
+  color: #335;
+  position: relative;
+  word-break: break-all;
+}
+
+.x-tags .x-boundlist-item {
+  display: inline-block;
+  margin: 1px 1px 0 0; 
+  padding: 2px 20px 1px 5px;
+  color: #888;
+  line-height: normal;
+  cursor: default;
+}
+
+div.x-tag .x-tool-img {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+.ifresco-metadata-grid .x-grid-table .x-grid-row{
+  background: #E0E8F6;
+}
+
+.ifresco-metadata-grid .x-grid-table .x-grid-row-over{
+  background: #99bce9;
+}
+
+
+
+.ifresco-metadata-grid .x-grid-row .ifresco-metadata-grid-key {
+  font-weight: bold;
+  background: transparent;
+}
+
+.ifresco-metadata-grid .x-grid-row .ifresco-metadata-grid-value {
+  background: transparent;
+}
+
+.ifresco-metadata-grid-value .x-grid-cell-inner {
+  margin: 3px;
+  padding: 2px; 
+  background: #fff;
+}
+
+.ifresco-metadata-grid-key .x-grid-cell-inner {
+  padding: 4px 2px 2px 6px;
+}
+
+.ifresco-metadata-tab-panel {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.ifresco-metadata-lock-tooltip {
+  background: #FEF3B4 !important;
+}
+
+.ifresco-metadata-lock-tooltip .x-btn-default-toolbar-small-over {
+  border-color: #AAA;
+  background-color: #FEF3B4;
+  background-image: -webkit-linear-gradient(top, #EEEECC, #EFEFCC 48%, #DED3b4 52%, #DEDfb4);
+  background-image: -moz-linear-gradient(top, #EEEECC, #EFEFCC 48%, #DED3b4 52%, #DEDfb4);
+  background-image: -o-linear-gradient(top, #EEEECC, #EFEFCC 48%, #DED3b4 52%, #DEDfb4);
+  background-image: -ms-linear-gradient(top, #EEEECC, #EFEFCC 48%, #DED3b4 52%, #DEDfb4);
+  background-image: linear-gradient(top, #EEEECC, #EFEFCC 48%, #DED3b4 52%, #DEDfb4);
+}
+
+.ifresco-metadata-empty-row, .ifresco-metadata-empty-row .x-grid-table, .ifresco-metadata-empty-row .x-grid-table .x-grid-row {
+	background: none !important;
+	border:none !important;
+	display:none !important;
+}
+
+
+.ifresco-icon-tag-cloud { background: url("../images/icon/tag.png") !important;}
+
+.ifresco-tag-cloud {
+  margin:0; padding:0; padding-top:10px;color:#585858;
+}
+
+.ifresco-tag-entry {
+  color:#585858;
+  list-style-type:none; 
+  float:left; 
+  margin:0 2px; 
+  height:25px;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.ifresco-tag-cloud .x-item-over, .ifresco-tag-cloud li:hover {
+  text-decoration:underline; 
+  color:#585858;
+}
+
+.ifresco-tag-cloud .x-item-selected {
+  background-color:#FFDC71;
+  color:#585858;
+}
+
+
+.ifresco-icon-sites { background: url("../images/icon/world.png") !important;}
+
+.ifresco-sites {
+  margin:0; padding:0; 
+  float:left;
+	width:100%;
+}
+
+.ifresco-sites-entry {
+  list-style-type:none; 
+  float:left; 
+  width:100%;
+  margin:0; 
+  border-bottom:1px solid #d0d0d0;
+  text-decoration:none;
+  cursor:pointer;
+  background-color:none;
+}
+
+.ifresco-sites-entry h1 {
+  font-size:13px;
+  padding:0;
+  margin:0;
+  padding-top:4px;
+	padding-left:29px;
+	background: url("../images/icon/world.png") no-repeat 7px 4px;
+	height:23px;
+}
+
+.ifresco-sites-entry p {
+  font-size:11px !important;
+	padding-left:6px;
+}
+
+.ifresco-sites .x-item-over, .ifresco-sites li:hover {
+  background-color:#d9e7f8 !important;
+}
+
+.ifresco-sites .x-item-selected {
+  background-color:#FFDC71 !important;
+  color:#585858;
+}
+
+.ifresco-sites li:nth-child(even) {
+	background-color: #FCFCFC;
+}
+.ifresco-sites li:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Comments */
+
+.ifresco-comments {
+  margin:0; padding:0; 
+  float:left;
+	padding:10px;
+	width:100%;
+}
+
+.ifresco-comments li:nth-child(even) {
+	background-color: #EDEDED;
+}
+.ifresco-comments li:nth-child(odd) {
+    background-color: #FCFCFC;
+}
+
+.ifresco-comments .x-item-over, .ifresco-comments li:hover {
+  background-color:#d9e7f8;
+}
+
+.ifresco-comments .x-item-selected {
+  background-color:#FFDC71;
+  color:#585858;
+	
+}
+
+	.ifresco-comments .comment-item {
+	  list-style-type:none; 
+	  float:left; 
+	  width:100%;
+	  margin:0; 
+	  border:1px solid #e0e8f6;
+	  text-decoration:none;
+	  cursor:pointer;
+	  background-color:none;
+		padding:5px;
+		margin-bottom:8px;
+	}
+	
+		.ifresco-comments .comment-author {
+			float:left;
+			width:80%;
+			color:#999;
+		}
+		
+		.ifresco-comments .comment-buttons {
+			float:right;
+			width:20%;
+		}
+		
+		.ifresco-comments .comment-content {
+			float:left;
+			width:100%;
+		}
+		
+		
+		
+		.ifresco-comments .comment-delete {
+			background-image: url(../images/icon/cross.png) !important;
+			width:16px;
+			height:16px;
+			float:right;	
+		}
+		
+		.ifresco-comments .comment-edit {
+			background-image:url("../images/icon/pencil.png") !important;
+			width:16px;
+			height:16px;
+			float:right;
+			margin-right:5px;
+		}
+		
+		
+/* MANAGE CATEGORIES */
+		
+.ifresco-manage-categories {
+  margin:0; padding:0; 
+  float:left;
+	padding:2px;
+	width:100%;
+}
+
+.ifresco-manage-categories li:nth-child(even) {
+	background-color: #EDEDED;
+}
+.ifresco-manage-categories li:nth-child(odd) {
+    background-color: #FCFCFC;
+}
+
+.ifresco-manage-categories .x-item-over, .ifresco-manage-categories li:hover {
+  background-color:#d9e7f8;
+}
+
+.ifresco-manage-categories .x-item-selected {
+  background-color:#FFDC71;
+  color:#585858;
+	
+}
+
+	.ifresco-manage-categories .category-item {
+	  list-style-type:none; 
+	  float:left; 
+	  width:100%;
+	  margin:0; 
+	  border:1px solid #e0e8f6;
+	  text-decoration:none;
+	  cursor:pointer;
+	  background-color:none;
+		padding:5px;
+		margin-bottom:2px;
+	}
+	
+		.ifresco-manage-categories .category-buttons {
+			float:right;
+			width:20%;
+		}
+		
+		.ifresco-manage-categories .category-name {
+			float:left;
+			width:80%;
+		}
+
+		.ifresco-manage-categories .category-delete {
+			background-image: url(../images/icon/cross.png) !important;
+			width:16px;
+			height:16px;
+			float:right;	
+		}
+
+.ifresco-edit-metadata-categories  {
+  margin:0; padding:0; 
+  float:left;
+  padding:2px;
+  width:100%;
+}
+
+.ifresco-edit-metadata-categories li:nth-child(even) {
+	background-color: #EDEDED;
+}
+.ifresco-edit-metadata-categories li:nth-child(odd) {
+    background-color: #FCFCFC;
+}
+
+.ifresco-edit-metadata-categories .category-item {
+  list-style-type:none; 
+  float:left; 
+  margin:0; 
+  border:1px solid #e0e8f6;
+  text-decoration:none;
+  cursor:pointer;
+  background-color:none;
+  padding:5px;
+  margin-right:5px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+.ifresco-edit-metadata-categories .category-name {
+			float:left;
+		}
+
+.ifresco-edit-metadata-categories .category-delete {
+			background-image: url(../images/icon/cross.png) !important;
+			width:16px;
+			height:16px;	
+	float:left;
+	margin-left:10px;
+		}
+
+	
+
+		
+/* DASHBOARD */
+.x-panel-ghost {
+    z-index: 1;
+}
+.x-border-layout-ct {
+    background: #DFE8F6;
+}
+
+.x-portal .x-panel-dd-spacer {
+    border: 2px dashed #99bbe8;
+    background: #f6f6f6;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin-bottom: 10px;
+}
+.x-portlet {
+    margin-bottom:10px;
+    padding: 1px;
+}
+.x-portlet .x-panel-body {
+    background: #fff;
+}
+.portlet-content {
+    font-size: 11px;
+}
+
+#app-options .portlet-content {
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* VERSION */
+
+#uploadNewVersionElement .fileItem {
+    float:left;
+    width:240px;
+    padding:5px;
+    background-color:#FEF3B4;
+    border-bottom:1px solid #fff;
+    font-size:12px;
+}
+
+#uploadNewVersionElement .fileItem .name {
+    float:left;
+}
+
+#uploadNewVersionElement .fileItem .cancel {
+    float:right;
+}
+
+#uploadNewVersionElement .fileInfo {
+    float:left;
+    background-color:#FEF3B4;
+    width:240px;
+    padding:5px;
+    font-size:10px;
+}
+
+#uploadNewVersionElement .fileInfo .size {
+
+}
+
+#uploadNewVersionElement .fileInfo .uploadStatus {
+    border-top:1px solid #fff;
+    background-color:#FEF3B4;
+    float:right;
+
+}
+
+
+/* TOOL TIP HACKS */
+
+.x-tip {
+    width: auto !important;
+}
+.x-tip-body {
+    width: auto !important;
+}
+.x-tip-body span {
+    width: auto !important;
+}
+
+/* checkauth hack */
+
+#loginBox {
+	margin-top: 0px !important;
+}

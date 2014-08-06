@@ -1,0 +1,29 @@
+ifresco_client_search_templates_get:
+    pattern: /templates
+    defaults: { _controller: IfrescoClientBundle:Search:getTemplates }
+    options:
+        expose: true
+
+ifresco_client_search_template_data_get:
+    pattern: /template/data
+    defaults: { _controller: IfrescoClientBundle:Search:getSearchTemplateData }
+    options:
+        expose: true
+
+ifresco_client_search_save:
+    pattern: /save
+    defaults: { _controller: IfrescoClientBundle:Search:saveSearch }
+    options:
+        expose: true
+
+ifresco_client_search_saved_get:
+    pattern: /saved
+    defaults: { _controller: IfrescoClientBundle:Search:getSavedSearch }
+    options:
+        expose: true
+
+ifresco_client_search_saved_delete:
+    pattern: /saved/delete
+    defaults: { _controller: IfrescoClientBundle:Search:deleteSavedSearch }
+    options:
+        expose: true

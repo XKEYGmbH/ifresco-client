@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>ifresco client - document management by May Computer - powered by Alfresco</title>
+{#'bundles/ifrescoclient/css/extjs/ext-theme-neptune-all-debug.css'#}
+        {% stylesheets filter='cssrewrite'
+        'bundles/ifrescoclient/css/ifresco.css'
+        'bundles/ifrescoclient/css/ItemSelector.css'
+        'bundles/ifrescoclient/css/extjs/ext-all-debug.css'
+        'bundles/ifrescoclient/css/font-awesome.min.css' 
+        'bundles/ifrescoclient/js/flowplayer/skin/minimalist.css'
+        'bundles/ifrescoclient/js/ux/boxselect/BoxSelect.css'
+        'bundles/ifrescoclient/js/ux/container/ButtonSegment.css'
+        'bundles/ifrescoclient/js/ux/grid/feature/Tileview.css'
+        %}
+        <link href="{{ asset_url }}" rel="stylesheet" />
+        {% endstylesheets %}
+
+        {# begin: This include is needed to generate routes inside js files #}
+        <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+        <script src="{{ path('fos_js_routing_js', {"callback": "fos.Router.setData"}) }}"></script>
+        {# end #}
+        {# '@IfrescoClientBundle/Resources/public/js/ext-theme-neptune.js' #}
+        {% javascripts
+        '@IfrescoClientBundle/Resources/public/js/jquery-1.3.2.min.js'
+        '@IfrescoClientBundle/Resources/public/js/jquery-1.4.js'
+        '@IfrescoClientBundle/Resources/public/js/jquery.latest.min.js'
+        '@IfrescoClientBundle/Resources/public/js/jquery.imgareaselect.min.js'
+        '@IfrescoClientBundle/Resources/public/js/flowplayer/flowplayer.min.js'
+        '@IfrescoClientBundle/Resources/public/js/jquery.ajaxmanager.js'
+        '@IfrescoClientBundle/Resources/public/js/jquery.simplejson.js'
+        '@IfrescoClientBundle/Resources/public/js/swfobject/swfobject.js'
+        '@IfrescoClientBundle/Resources/public/js/ext-all-debug-w-comments.js'
+        
+        '@IfrescoClientBundle/Resources/public/js/zeroclipboard/ZeroClipboard.js'
+        
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/plupload/js/plupload.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/plupload/js/plupload.silverlight.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/plupload/js/plupload.flash.swfobject.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/plupload/js/plupload.browserplus.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/plupload/js/plupload.html4.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/plupload/js/plupload.html5.js'
+
+        
+        '@IfrescoClientBundle/Resources/public/js/ux/form/MultiSelect.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/form/ItemSelector.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/form/PropertySelector.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/form/Tags.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/form/DateTime.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/form/MetaForm.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/form/MultipleEmail.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/form/FieldMoney.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/window/*'
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/Basic.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/Button.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/statusbar/ValidationStatus.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/statusbar/StatusBar.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/upload/plugin/Window.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/gridprinter/Printer.js'
+        
+        
+        '@IfrescoClientBundle/Resources/public/js/ux/portal/Portlet.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/portal/PortalColumn.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/portal/PortalDropZone.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/portal/GridPortlet.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/portal/PortalPanel.js'
+        
+        '@IfrescoClientBundle/Resources/public/js/ux/boxselect/BoxSelect.js'
+        
+        '@IfrescoClientBundle/Resources/public/js/ux/container/*.js'
+        '@IfrescoClientBundle/Resources/public/js/ux/grid/feature/*.js'
+        
+        
+        '@IfrescoClientBundle/Resources/public/js/app/helper/*'
+        '@IfrescoClientBundle/Resources/public/js/app/interface/*'
+        '@IfrescoClientBundle/Resources/public/js/app/model/*'
+        '@IfrescoClientBundle/Resources/public/js/app/store/*'
+        '@IfrescoClientBundle/Resources/public/js/app/grid/column/*'
+        '@IfrescoClientBundle/Resources/public/js/app/grid/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/dashlet/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/button/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/template/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/form/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/window/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/menu/Menu.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/menu/TrashCan.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/menu/*'
+        '@IfrescoClientBundle/Resources/public/js/app/listener/*'
+
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/settings/*'
+        
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/Vtypes.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/MetadataForm.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/ValuedMetadataForm.js'
+        
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/AdvancedSearchTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/PreviewTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/VersionsTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/MetadataTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/ParentMetadataTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/CommentsTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/Dashboard.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/ContentTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/DocumentTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/GoogleEditorTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/SiteTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/AdminTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/EditMetadataTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/Export.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/Import.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/QuickSearch.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/ClickSearch.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/ExportJobs.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/UserManagement.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/GroupManagement.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/TrashCanTab.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/CurrencyFields.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/window/SendMail.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/grid/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/panel/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/panel/lookup/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/component/Lookups.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/tree/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/North.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/West.js'
+        '@IfrescoClientBundle/Resources/public/js/app/view/Center.js'
+        '@IfrescoClientBundle/Resources/public/js/app/controller/*'
+        '@IfrescoClientBundle/Resources/public/js/app/view/Viewport.js'
+        
+        '@IfrescoClientBundle/Resources/public/js/app/util/*'
+        
+        '@IfrescoClientBundle/Resources/public/js/app/Application.js'
+        
+        %}
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+
+        {% for Bundle in PluginBundles %} {# TODO: doesnt work , need to create an assetic list and cache it on load or plugin add 
+        	{% if Bundle.hasCss == true %}
+		        <link rel="stylesheet" href="{{ asset('@' ~ Bundle.name ~ '/Resources/public/css/*') }}" />
+        	{% endif %}
+#}
+			{% if Bundle.hasCss == true %}
+				{% for cssFile in Bundle.cssFiles %}
+		        	<link rel="stylesheet" href="{{ asset('bundles/'~Bundle.assetName~'/css/'~cssFile.filename) }}" />
+		        {% endfor %}
+        	{% endif %}
+        	
+        	{% if Bundle.hasJavascripts == true %}
+		        <script type="text/javascript" src="{{ asset('bundles/'~Bundle.assetName~'/js/app/'~Bundle.pluginName~'.js') }}"></script>
+        	{% endif %}
+        	
+        {% endfor %}
+        
+        
+        <script type="text/javascript">
+        (function() {
+            Ext.Loader.setConfig({
+                enabled : true,
+                paths   : {
+                	{% for Bundle in PluginBundles %}
+                	'{{ Bundle.ns }}': '{{ asset('bundles/'~Bundle.assetName~'/js/app/') }}'{% if loop.last == false %},{% endif %}
+                    {% endfor %}
+                } 
+            });
+        })();
+            {% autoescape false %}
+                var ifrescoSettings = {{ ifresco_settings }};
+                var rootInfo = {{ rootInfo }};
+            {% endautoescape %}
+
+            Ifresco.helper.Translations.translations = ifrescoSettings.translations;
+            Ifresco.helper.Settings.settings = ifrescoSettings.settings;
+            Ifresco.helper.Settings.isAdmin = ifrescoSettings.isAdmin;
+            Ifresco.Environment = "{{ app.environment }}";
+
+            {#TODO: need to think how to make it with bundle or anything else#}
+            var ifrescoVersion = "{{ ifrescoVersion }}"; 
+            var zipArchiveExistsGen = {{ zipArchiveExistsGen }};
+            var logoUrl = "{{ asset('bundles/ifrescoclient/images/logo94x50.png') }}";
+            var adminTabsImg = "{{ asset('bundles/ifrescoclient/images/icon/tabs.png') }}";
+            var uploadDropBoxImg = "{{ asset('bundles/ifrescoclient/images/icon/dropbox.png') }}";
+            var adminColumnsImg = "{{ asset('bundles/ifrescoclient/images/icon/columns.png') }}";
+            var zeroClipboardMoviePath = "{{ asset('bundles/ifrescoclient/js/zeroclipboard/ZeroClipboard.swf') }}"
+            var printerCss = "{{ asset('bundles/ifrescoclient/css/extjs/ux/gridprinter/print.css') }}";
+
+            Ext.onReady(function () {
+                //Ext.tip.QuickTipManager.init();
+            });
+        </script>
+        {% if Dropbox is not empty %}
+        <script type="text/javascript" src="https://www.dropbox.com/static/api/1/dropbox.js" id="dropboxjs" data-app-key="{{ Dropbox }}"></script>
+        {% endif %}
+    </head>
+    <body>
+        {#{% block content %}#}
+        {#{% endblock %}#}
+    </body>
+</html>

@@ -1,0 +1,22 @@
+Ifresco\ClientBundle\Entity\SavedSearch:
+    type: entity
+    table: saved_searches
+    repositoryClass: Ifresco\ClientBundle\Repository\SavedSearchRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 255
+        is_privacy:
+            type: boolean
+        user:
+            type: string
+            length: 255
+        template:
+            type: integer
+            length: 11
+        data:
+            type: text

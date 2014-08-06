@@ -1,0 +1,11 @@
+ifresco_client_admin_plugins_get:
+    pattern: /get
+    defaults: { _controller: IfrescoClientBundle:Plugin:getPlugins }
+    options:
+        expose: true
+        
+ifresco_client_admin_plugins_save:
+    pattern: /save/status
+    defaults: { _controller: IfrescoClientBundle:Plugin:savePuginStatus }
+    options:
+        expose: true

@@ -1,0 +1,16 @@
+<script type="text/javascript">
+
+var contentTab = Ext.ComponentQuery.query("ifrescoContentTab[ifrescoId={{ ifrescoId }}]");
+if (contentTab.length == 0)
+	contentTab = Ext.ComponentQuery.query("ifrescoSiteTab[ifrescoId={{ ifrescoId }}]");
+if (contentTab.length == 0)
+	contentTab = Ext.ComponentQuery.query("ifrescoDocumentTab[ifrescoId={{ ifrescoId }}]");
+contentTab = contentTab[0];
+var ifrescoViewPanel = contentTab.down("ifrescoViewPreviewTab > panel");
+ifrescoViewPanel.removeAll();
+ifrescoViewPanel.add({
+    xtype: 'ifrescoViewPanelImageViewer',
+    layout: 'fit',
+    image: '{{ file }}'
+});
+</script>

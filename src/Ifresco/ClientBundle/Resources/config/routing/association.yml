@@ -1,0 +1,11 @@
+ifresco_client_association_autocomplete_content_data_get:
+    pattern:  /autocomplete/data/content
+    defaults: { _controller: IfrescoClientBundle:Association:getAutoCompleteContentData }
+    options:
+        expose: true
+
+ifresco_client_association_autocomplete_user_data_get:
+    pattern:  /autocomplete/data/user
+    defaults: { _controller: IfrescoClientBundle:Association:getAutoCompleteUserData }
+    options:
+        expose: true

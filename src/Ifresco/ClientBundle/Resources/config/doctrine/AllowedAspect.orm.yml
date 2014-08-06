@@ -1,0 +1,12 @@
+Ifresco\ClientBundle\Entity\AllowedAspect:
+    type: entity
+    table: allowed_aspects
+    repositoryClass: Ifresco\ClientBundle\Repository\AllowedAspectRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 180

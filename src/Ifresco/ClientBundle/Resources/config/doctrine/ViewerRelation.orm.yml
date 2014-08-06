@@ -1,0 +1,23 @@
+Ifresco\ClientBundle\Entity\ViewerRelation:
+    type: entity
+    table: viewer_relations
+    repositoryClass: Ifresco\ClientBundle\Repository\ViewerRelationRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        node_id:
+            type: string
+            length: 255
+        viewer_node:
+            type: string
+            length: 255
+        viewer_url:
+            type: string
+            length: 255
+        viewer_content:
+            type: text
+        md5_sum:
+            type: string
+            length: 255

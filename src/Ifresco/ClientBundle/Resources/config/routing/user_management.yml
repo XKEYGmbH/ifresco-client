@@ -1,0 +1,23 @@
+ifresco_client_user_management_persons:
+    pattern: /persons
+    defaults: { _controller: IfrescoClientBundle:UserManagement:getPersons }
+    options:
+        expose: true
+        
+ifresco_client_user_management_update_person:
+    pattern: /update/person
+    defaults: { _controller: IfrescoClientBundle:UserManagement:updatePerson }
+    options:
+        expose: true
+        
+ifresco_client_user_management_groups:
+    pattern: /groups
+    defaults: { _controller: IfrescoClientBundle:UserManagement:getGroups }
+    options:
+        expose: true
+        
+ifresco_client_user_management_user_groups:
+    pattern: /user/groups
+    defaults: { _controller: IfrescoClientBundle:UserManagement:getUserGroups }
+    options:
+        expose: true

@@ -1,0 +1,27 @@
+Ifresco\ClientBundle\Entity\Lookup:
+    type: entity
+    table: lookups
+    repositoryClass: Ifresco\ClientBundle\Repository\LookupRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        field:
+            type: string
+            length: 255
+        type:
+            type: string
+            length: 20
+        field_data:
+            type: string
+        is_single:
+            type: boolean
+        use_cache:
+            type: boolean
+            default: false
+        params:
+            type: text
+            nullable: true
+        apply_to:
+            type: boolean

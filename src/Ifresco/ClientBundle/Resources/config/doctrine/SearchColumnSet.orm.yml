@@ -1,0 +1,18 @@
+Ifresco\ClientBundle\Entity\SearchColumnSet:
+    type: entity
+    table: search_column_sets
+    repositoryClass: Ifresco\ClientBundle\Repository\SearchColumnSetRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        is_default_set:
+            type: boolean
+        name:
+            type: string
+        hideInMenu:
+            type: boolean
+            default: false
+        json_fields:
+            type: text

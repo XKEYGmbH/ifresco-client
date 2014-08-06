@@ -1,0 +1,112 @@
+#homeContainer {
+    width:100%;
+    text-align:left;
+    background-color:#006AB3;      
+}
+
+    #innerContainer { 
+        width:500px;  
+        float:left;       
+    }
+        
+        #topHeader {   
+            float:left;
+            width:853px;    
+            height:129px;  
+            background:#006AB3;
+                            
+        }
+        
+            #logoArea {
+                float:left;
+                width:262px;
+                height:129px;                
+            }
+
+            
+        #contentContainer {
+            float:left;
+            width:100%;   
+
+            padding:24px;
+        }
+        
+            #contentContainerBox {
+                 background-color:#FFFFFF;
+                 border:1px solid #5aa6d7;
+                 width:400px;
+
+                 padding:10px;
+            }
+
+                #content {
+                    padding:5px;  
+                }
+                
+                    #content h1, #content h2, #content h3, #content h4 {
+                        padding:0;
+                        margin:0;
+                        color:#45a1d5; 
+                        font-size:18px; 
+                        width:260px;
+                        font-weight:normal;
+                        letter-spacing:1px;  
+                        padding-right:8px;   
+                        margin-top:4px; 
+
+                        text-decoration:underline;       
+                    }
+                    
+                    #content .green {
+                        color:#58ab31;
+                    }
+                    
+                    #content .orange {
+                        color:#e5b10f;
+                    }
+                    
+                    #content p {
+                        padding:0;
+                        margin:0; 
+                        padding-top:6px;   
+                        margin-bottom:10px;   
+                        color:#6f6f6f;
+                        font-size:13px;
+                        line-height:15pt;
+                    }
+                    
+                    #content a {
+                        color:#45a1d5; 
+                        text-decoration:underline; 
+                    }
+                    
+                    #content a:hover {
+                        color:#45a1d5; 
+                        text-decoration:none; 
+                    }
+
+                    
+                    #socialBtns {
+                        height:40px;
+                        text-align:center;
+                    }
+                    
+                    #socialBtns img {
+                        border:none;
+                    }
+                    
+                    #socialBtns a {
+                        border:2px solid #ddd;
+                        background-color:#fafafa;
+                        width:52px;
+                        padding:10px;
+                        display:block;
+                        float:right;
+                        margin-right:20px;
+
+                    }
+                    
+                    #socialBtns a:hover {
+                        border:2px solid #45a1d5;
+
+                    }

@@ -1,0 +1,5 @@
+ifresco_client_shared_get:
+    pattern:  /get
+    defaults: { _controller: IfrescoClientBundle:Shared:getSharedFiles }
+    options:
+        expose: true

@@ -1,0 +1,167 @@
+ifresco_client_datagrid:
+    resource: "@IfrescoClientBundle/Resources/config/routing/datagrid.yml"
+    prefix:   /
+
+ifresco_client:
+    resource: "@IfrescoClientBundle/Resources/config/routing/node_actions.yml"
+    prefix:   /nodeactions
+
+ifresco_client_metadata:
+    resource: "@IfrescoClientBundle/Resources/config/routing/metadata.yml"
+    prefix:   /metadata
+
+ifresco_client_admin:
+    resource: "@IfrescoClientBundle/Resources/config/routing/admin.yml"
+    prefix:   /admin
+
+ifresco_client_search:
+    resource: "@IfrescoClientBundle/Resources/config/routing/search.yml"
+    prefix:   /search
+    
+ifresco_client_tags:
+    resource: "@IfrescoClientBundle/Resources/config/routing/tags.yml"
+    prefix:   /tags
+    
+ifresco_client_categories:
+    resource: "@IfrescoClientBundle/Resources/config/routing/categories.yml"
+    prefix:   /categories
+ 
+ifresco_client_association:
+    resource: "@IfrescoClientBundle/Resources/config/routing/association.yml"
+    prefix:   /association
+
+ifresco_client_upload:
+    resource: "@IfrescoClientBundle/Resources/config/routing/upload.yml"
+    prefix:   /upload
+
+ifresco_client_folder_actions:
+    resource: "@IfrescoClientBundle/Resources/config/routing/folder_actions.yml"
+    prefix:   /folderactions
+
+ifresco_client_user:
+    resource: "@IfrescoClientBundle/Resources/config/routing/user.yml"
+    prefix:   /user
+    
+ifresco_client_viewer:
+    resource: "@IfrescoClientBundle/Resources/config/routing/viewer.yml"
+    prefix:   /viewer
+
+ifresco_client_scan:
+    resource: "@IfrescoClientBundle/Resources/config/routing/scan.yml"
+    prefix:   /scan
+
+ifresco_client_sites:
+    resource: "@IfrescoClientBundle/Resources/config/routing/sites.yml"
+    prefix:   /sites
+    
+ifresco_client_shared:
+    resource: "@IfrescoClientBundle/Resources/config/routing/shared.yml"
+    prefix:   /shared/files
+    
+ifresco_client_version:
+    resource: "@IfrescoClientBundle/Resources/config/routing/version.yml"
+    prefix:   /version
+    
+ifresco_client_comments:
+    resource: "@IfrescoClientBundle/Resources/config/routing/comments.yml"
+    prefix:   /comments
+    
+ifresco_client_dashboard:
+    resource: "@IfrescoClientBundle/Resources/config/routing/dashboard.yml"
+    prefix:   /dashboard
+    
+ifresco_client_google_docs:
+    resource: "@IfrescoClientBundle/Resources/config/routing/google_docs.yml"
+    prefix:   /googledocs
+    
+ifresco_client_user_management:
+    resource: "@IfrescoClientBundle/Resources/config/routing/user_management.yml"
+    prefix:   /manage
+
+ifresco_client_rest_service:
+    resource: "@IfrescoClientBundle/Resources/config/routing/rest_service.yml"
+    prefix:   /RESTService
+    
+
+ifresco_client_home_page:
+    pattern:  /home
+    defaults: { _controller: IfrescoClientBundle:Index:home }
+    options:
+        expose: true
+
+ifresco_client_get_ifresco_settings:
+    pattern:  /get/settings
+    defaults: { _controller: IfrescoClientBundle:Index:getIfrescoSettings }
+    options:
+        expose: true
+
+ifresco_client_index:
+    pattern:  /
+    defaults: { _controller: IfrescoClientBundle:Index:index }
+    options:
+        expose: true
+
+ifresco_client_check_auth:
+    pattern:  /checkauth
+    defaults: { _controller: IfrescoClientBundle:Index:checkAuth }
+    options:
+        expose: true
+
+ifresco_client_login:
+    pattern:  /login
+    defaults: { _controller: IfrescoClientBundle:Login:index }
+    options:
+        expose: true
+
+ifresco_client_logout:
+    pattern:  /logout
+    defaults: { _controller: ifrescoClientBundle:Login:index }
+    options:
+        expose: true
+
+ifresco_client_install:
+    pattern:  /install
+    defaults: { _controller: IfrescoClientBundle:Install:index }
+
+ifresco_client_install_dictionary:
+    pattern:  /install/to/data/dictonary
+    defaults: { _controller: IfrescoClientBundle:Install:installScriptsToDictionary }
+
+ifresco_client_get_settings:
+    pattern:  /settings
+    defaults: { _controller: IfrescoClientBundle:Index:getSettings }
+
+ifresco_client_shared_settings_get:
+    pattern: /settings/shared
+    defaults: { _controller: IfrescoClientBundle:Index:getShareSettings }
+    options:
+        expose: true
+
+ifresco_client_get_tree_folders:
+    pattern: /tree/folders/get
+    defaults: {_controller: IfrescoClientBundle:TreeFolder:getTree }
+    options:
+        expose: true
+       
+ifresco_client_get_tree_categories_soap:
+    pattern: /tree/categories/soap/get
+    defaults: {_controller: IfrescoClientBundle:TreeCategories:getTreeSoap }
+    options:
+        expose: true
+
+ifresco_client_get_tree_categories:
+    pattern: /tree/categories/get
+    defaults: {_controller: IfrescoClientBundle:TreeCategories:getTree }
+    options:
+        expose: true
+        
+ifresco_client_tree_search_folder:
+    pattern: /tree/search/folder
+    defaults: {_controller: IfrescoClientBundle:TreeFolder:searchFolder }
+    options:
+        expose: true
+
+
+    
+
+    

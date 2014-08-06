@@ -1,0 +1,18 @@
+Ifresco\ClientBundle\Entity\AlfrescoFavorite:
+    type: entity
+    table: alfresco_favorites
+    repositoryClass: Ifresco\ClientBundle\Repository\AlfrescoFavoriteRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        node_name:
+            type: string
+        node_id:
+            type: string
+        node_type:
+            type: string
+            length: 50
+        user_key:
+            type: string

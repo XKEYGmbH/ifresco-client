@@ -1,0 +1,17 @@
+ifresco_client_category_add:
+    pattern: /add/category
+    defaults: { _controller: IfrescoClientBundle:TreeCategories:addCategory }
+    options:
+        expose: true
+
+ifresco_client_category_remove:
+    pattern: /remove/category
+    defaults: { _controller: IfrescoClientBundle:TreeCategories:removeCategory }
+    options:
+        expose: true
+
+ifresco_client_category_edit:
+    pattern: /edit/category
+    defaults: { _controller: IfrescoClientBundle:TreeCategories:editCategory }
+    options:
+        expose: true

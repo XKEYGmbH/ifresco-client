@@ -1,0 +1,30 @@
+Ifresco\ClientBundle\Entity\DataSource:
+    type: entity
+    table: data_sources
+    repositoryClass: Ifresco\ClientBundle\Repository\DataSourceRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 255
+        type:
+            type: string
+            length: 20
+        host:
+            type: string
+            length: 255
+        username:
+            type: string
+            length: 255
+        database_name:
+            type: string
+            length: 255
+        password:
+            type: string
+            length: 255
+        port:
+            type: string
+            length: 20

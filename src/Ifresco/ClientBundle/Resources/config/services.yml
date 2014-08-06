@@ -1,0 +1,53 @@
+parameters:
+#    ifresco_client.example.class: Ifresco\ClientBundle\Example
+    ifresco.client.version: "3.0.0"
+    translator.class:       Ifresco\ClientBundle\Component\Translation\Translator
+    ifresco_client_dashlets.settings.class: Ifresco\ClientBundle\Component\Alfresco\Helpers\Settings
+    ifresco_client_dashlets.ysJQueryRevolutions.class: Ifresco\ClientBundle\Component\Alfresco\Helpers\ysJQueryRevolutions
+    ifresco_client_dashlets.ysJQueryUILayout.class: Ifresco\ClientBundle\Component\Alfresco\Helpers\ysJQueryUILayout
+    ifresco_client.renderer.class: Ifresco\ClientBundle\Component\Alfresco\Lib\Renderer
+    ifresco_client_grid.results.class: Ifresco\ClientBundle\Controller\DataGridController
+    ifresco_client.router.class: Ifresco\ClientBundle\Routing\AdvancedLoader
+    ifresco_client.metadatacontroller.class: Ifresco\ClientBundle\Controller\MetadataController
+    ifresco_client.datagridcontroller.class: Ifresco\ClientBundle\Controller\DataGridController
+    ifresco_client.restservicecontroller.class: Ifresco\ClientBundle\Controller\RESTServiceController
+services:
+#    ifresco_client.example:
+#        class: %ifresco_client.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+services:
+    ifresco_client_grid.results:
+        class: %ifresco_client_grid.results.class%
+        scope: request
+        arguments: ["@request"]
+    ifresco_client_dashlets.settings:
+        class: %ifresco_client_dashlets.settings.class%
+        tags:
+            -  { name: templating.helper, alias: settings}
+    #ifresco_client.renderer:
+    #    class: %ifresco_client.renderer.class%
+    #    arguments: [@doctrine, @translator, @service_container]
+    ifresco_client_dashlets.ysJQueryRevolutions:
+        class: %ifresco_client_dashlets.ysJQueryRevolutions.class%
+        tags:
+            -  { name: templating.helper, alias: ysjqueryrevolutions}
+
+    ifresco_client_dashlets.ysJQueryUILayout:
+        class: %ifresco_client_dashlets.ysJQueryUILayout.class%
+        tags:
+            -  { name: templating.helper, alias: ysjqueryuilayout}
+    cache:
+        class: Doctrine\Common\Cache\PhpFileCache
+        arguments: [%kernel.cache_dir%]
+    ifresco_client.routing_loader:
+        class: %ifresco_client.router.class%
+        arguments: ['%kernel.root_dir%']
+        tags:
+            - { name: routing.loader }
+    ifresco_client.metadatacontroller: # FOR PLUGINS
+        class: %ifresco_client.metadatacontroller.class%
+    ifresco_client.datagridcontroller: # FOR PLUGINS
+        class: %ifresco_client.datagridcontroller.class%
+    ifresco_client.restservicecontroller: # FOR PLUGINS
+        class: %ifresco_client.restservicecontroller.class%

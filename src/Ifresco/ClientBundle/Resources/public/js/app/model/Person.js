@@ -1,0 +1,33 @@
+Ext.define('Ifresco.model.Person', {
+    extend: 'Ext.data.Model',
+    fields: [
+        {name: 'url', type: 'string'},
+        {name: 'userName', type: 'string'},
+        {name: 'enabled', type: 'boolean', defaultValue: true},
+        {name: 'firstName', type: 'string'},
+        {name: 'lastName', type: 'string'},
+        {name: 'jobtitle', type: 'string'},
+        {name: 'organization', type: 'string'},
+        {name: 'organizationId', type: 'string'},
+        {name: 'location',  type: 'string'},
+        {name: 'telephone', type: 'string'},
+        {name: 'mobile', type: 'string'},
+        {name: 'email', type: 'string'},
+        {name: 'companyaddress1', type: 'string'},
+        {name: 'companyaddress2', type: 'string'},
+        {name: 'companyaddress3', type: 'string'},
+        {name: 'companypostcode', type: 'string'},
+        {name: 'companytelephone', type: 'string'},
+        {name: 'companyfax', type: 'string'},
+        {name: 'companyemail', type: 'string'},
+        {name: 'skype', type: 'string'},
+        {name: 'instantmsg', type: 'string'},
+        {name: 'userStatus', type: 'string'},
+        {name: 'userStatusTime', type: 'string'},
+        {name: 'googleusername', type: 'string'},
+        {name: 'quota', type: 'integer'},
+        {name: 'sizeCurrent', type: 'integer'},
+        {name: 'emailFeedDisabled', type: 'boolean', defaultValue: false},
+        {name: 'persondescription', type: 'string'}
+    ]
+});

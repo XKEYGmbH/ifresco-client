@@ -1,0 +1,14 @@
+Ifresco\ClientBundle\Entity\Setting:
+    type: entity
+    table: settings
+    repositoryClass: Ifresco\ClientBundle\Repository\SettingRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        key_string:
+            type: string
+            length: 255
+        value_string:
+            type: text

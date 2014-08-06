@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>Login</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        {% stylesheets
+            '@IfrescoClientBundle/Resources/public/css/login.css'
+        %}
+            <link href="{{ asset_url }}" rel="stylesheet" />
+        {% endstylesheets %}
+    </head>
+    <body>
+        <div align="center">
+            <div id="loginContainer">
+                <div id="loginBox">
+                    <div class="loginTop">
+                        <div>
+                            {% image '@IfrescoClientBundle/Resources/public/images/logo200x106.png' %}
+                                <img src="{{ asset_url }}" height="106" width="200">
+                            {% endimage %}
+                        </div>
+                    </div>
+                    <div class="loginContent">
+                        <form action="{{ path('ifresco_client_login') }}" method="POST">
+                            <ul>
+                                {{ form_widget(form) }}
+                                <li>
+                                    <label for="lang">{% trans %}Language{% endtrans %}</label>
+                                        <select name="lang" id="lang">
+                                            {% for language in Languages %}
+                                            <option value="{{ language.short }}"
+                                            {% if language.short == LanguageDefault
+                                            %} selected {% endif %}>{{ language.long }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </li>
+                                <li>
+                                    <button type="submit" class="submit">{% trans %}Login{% endtrans %}</button>
+                                </li>
+                            </ul>
+                        </form>
+                        <div class="copyright">
+                            &copy; 2013 <a href="http://www.xkey.at" target="_blank">X.KEY GmbH</a>. All rights reserved.<br></br><em><a href="http://www.ifresco.at" target="_blank">ifresco client</a> version {{ ifrescoVersion }}</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

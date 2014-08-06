@@ -1,0 +1,139 @@
+<?php
+
+namespace Ifresco\ClientBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * SearchColumnSet
+ */
+class SearchColumnSet
+{
+    /**
+     * @var integer
+     */
+    private $id;
+
+    /**
+     * @var boolean
+     */
+    private $is_default_set;
+
+    /**
+     * @var string
+     */
+    private $name;
+
+    /**
+     * @var string
+     */
+    private $json_fields;
+
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set is_default_set
+     *
+     * @param boolean $isDefaultSet
+     * @return SearchColumnSet
+     */
+    public function setIsDefaultSet($isDefaultSet)
+    {
+        $this->is_default_set = $isDefaultSet;
+    
+        return $this;
+    }
+
+    /**
+     * Get is_default_set
+     *
+     * @return boolean 
+     */
+    public function getIsDefaultSet()
+    {
+        return $this->is_default_set;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     * @return SearchColumnSet
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string 
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set json_fields
+     *
+     * @param string $jsonFields
+     * @return SearchColumnSet
+     */
+    public function setJsonFields($jsonFields)
+    {
+        $this->json_fields = $jsonFields;
+    
+        return $this;
+    }
+
+    /**
+     * Get json_fields
+     *
+     * @return string 
+     */
+    public function getJsonFields()
+    {
+        return $this->json_fields;
+    }
+    /**
+     * @var boolean
+     */
+    private $hideInMenu;
+
+
+    /**
+     * Set hideInMenu
+     *
+     * @param boolean $hideInMenu
+     * @return SearchColumnSet
+     */
+    public function setHideInMenu($hideInMenu)
+    {
+        $this->hideInMenu = $hideInMenu;
+
+        return $this;
+    }
+
+    /**
+     * Get hideInMenu
+     *
+     * @return boolean 
+     */
+    public function getHideInMenu()
+    {
+        return $this->hideInMenu;
+    }
+}

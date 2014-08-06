@@ -1,0 +1,1623 @@
+<?xml version="1.0"?>
+    <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1" approved="yes">
+                    <source>Navigation</source>
+                    <target state="translated">Навигация</target>
+                  </trans-unit>
+                  <trans-unit id="2" approved="yes">
+                    <source>Folders</source>
+                    <target state="translated">Папки</target>
+                  </trans-unit>
+                  <trans-unit id="3" approved="yes">
+                    <source>Categories</source>
+                    <target state="translated">Категории</target>
+                  </trans-unit>
+                  <trans-unit id="4" approved="yes">
+                    <source>Favorites</source>
+                    <target state="translated">Избранное</target>
+                  </trans-unit>
+                  <trans-unit id="5" approved="yes">
+                    <source>Tags</source>
+                    <target state="translated">Теги</target>
+                  </trans-unit>
+                  <trans-unit id="6" approved="yes">
+                    <source>Refresh</source>
+                    <target state="translated">Обновить</target>
+                  </trans-unit>
+                  <trans-unit id="7" approved="yes">
+                    <source>Administration</source>
+                    <target state="translated">Администрирование</target>
+                  </trans-unit>
+                  <trans-unit id="8" approved="yes">
+                    <source>Loading</source>
+                    <target state="translated">Загрузка</target>
+                  </trans-unit>
+                  <trans-unit id="9" approved="yes">
+                    <source>Category:</source>
+                    <target state="translated">Категория:</target>
+                  </trans-unit>
+                  <trans-unit id="10" approved="yes">
+                    <source>Loading Documents...</source>
+                    <target state="translated">Загрузка документа...</target>
+                  </trans-unit>
+                  <trans-unit id="11" approved="yes">
+                    <source>Clipboard</source>
+                    <target state="translated">Буфер обмена</target>
+                  </trans-unit>
+                  <trans-unit id="12" approved="yes">
+                    <source>Clear clipboard</source>
+                    <target state="translated">Очистить буфер обмена</target>
+                  </trans-unit>
+                  <trans-unit id="13" approved="yes">
+                    <source>Advanced Search</source>
+                    <target state="translated">Расширенный поиск</target>
+                  </trans-unit>
+                  <trans-unit id="14" approved="yes">
+                    <source>Documents</source>
+                    <target state="translated">Документы</target>
+                  </trans-unit>
+                  <trans-unit id="15" approved="yes">
+                    <source>Search</source>
+                    <target state="translated">Поиск</target>
+                  </trans-unit>
+                  <trans-unit id="16" approved="yes">
+                    <source>Horizontal Split</source>
+                    <target state="translated">Горизонтальный разделитель</target>
+                  </trans-unit>
+                  <trans-unit id="17" approved="yes">
+                    <source>Vertical Split</source>
+                    <target state="translated">Вертикальный разделитель</target>
+                  </trans-unit>
+                  <trans-unit id="18" approved="yes">
+                    <source>Logout</source>
+                    <target state="translated">Выход</target>
+                  </trans-unit>
+                  <trans-unit id="19" approved="yes">
+                    <source>Reload</source>
+                    <target state="translated">Перегрузить</target>
+                  </trans-unit>
+                  <trans-unit id="20" approved="yes">
+                    <source>Open in new tab</source>
+                    <target state="translated">Открыть в новой вкладке</target>
+                  </trans-unit>
+                  <trans-unit id="21" approved="yes">
+                    <source>Company Home</source>
+                    <target state="translated">Каталог документов</target>
+                  </trans-unit>
+                  <trans-unit id="22" approved="yes">
+                    <source>Add to favorites</source>
+                    <target state="translated">Добавить в Избранное</target>
+                  </trans-unit>
+                  <trans-unit id="23">
+                    <source>Browse items in sub-categories?</source>
+                    <target state="needs-review-translation">Отобразить элементы в суб-категориях?</target>
+                  </trans-unit>
+                  <trans-unit id="24" approved="yes">
+                    <source>Expand All</source>
+                    <target state="translated">Развернуть все</target>
+                  </trans-unit>
+                  <trans-unit id="25" approved="yes">
+                    <source>Collapse All</source>
+                    <target state="translated">Свернуть все</target>
+                  </trans-unit>
+                  <trans-unit id="26" approved="yes">
+                    <source>Add a subcategory</source>
+                    <target state="translated">Добавить субкатегорию</target>
+                  </trans-unit>
+                  <trans-unit id="27" approved="yes">
+                    <source>Rename this category</source>
+                    <target state="translated">Переименовать категорию</target>
+                  </trans-unit>
+                  <trans-unit id="28" approved="yes">
+                    <source>Delete this category</source>
+                    <target state="translated">Удалить категорию</target>
+                  </trans-unit>
+                  <trans-unit id="29" approved="yes">
+                    <source>Rename</source>
+                    <target state="translated">Переименовывать</target>
+                  </trans-unit>
+                  <trans-unit id="30" approved="yes">
+                    <source>to</source>
+                    <target state="translated">в</target>
+                  </trans-unit>
+                  <trans-unit id="31" approved="yes">
+                    <source>Add category</source>
+                    <target state="translated">Добавить категорию</target>
+                  </trans-unit>
+                  <trans-unit id="32" approved="yes">
+                    <source>Remove of favorites</source>
+                    <target state="translated">Удалить из Избранного</target>
+                  </trans-unit>
+                  <trans-unit id="33" approved="yes">
+                    <source>See all documents tagged with</source>
+                    <target state="translated">Просмотр всех отмеченных документов</target>
+                  </trans-unit>
+                  <trans-unit id="34" approved="yes">
+                    <source>Yes</source>
+                    <target state="translated">Да</target>
+                  </trans-unit>
+                  <trans-unit id="35" approved="yes">
+                    <source>No</source>
+                    <target state="translated">Нет</target>
+                  </trans-unit>
+                  <trans-unit id="36" approved="yes">
+                    <source>Preview</source>
+                    <target state="translated">Просмотр</target>
+                  </trans-unit>
+                  <trans-unit id="37" approved="yes">
+                    <source>Preview of the Node -&gt; Renderer</source>
+                    <target state="translated">Предварительный просмотр</target>
+                  </trans-unit>
+                  <trans-unit id="38" approved="yes">
+                    <source>Versions</source>
+                    <target state="translated">Версии</target>
+                  </trans-unit>
+                  <trans-unit id="39" approved="yes">
+                    <source>Version Control of the Node</source>
+                    <target state="translated">Контроль версий для узла</target>
+                  </trans-unit>
+                  <trans-unit id="40" approved="yes">
+                    <source>Metadata</source>
+                    <target state="translated">Реквизиты</target>
+                  </trans-unit>
+                  <trans-unit id="41" approved="yes">
+                    <source>Display Metadata of the Node</source>
+                    <target state="translated">Показать реквизиты узла</target>
+                  </trans-unit>
+                  <trans-unit id="42" approved="yes">
+                    <source>SMTP Host</source>
+                    <target state="translated">SMTP Host</target>
+                  </trans-unit>
+                  <trans-unit id="43" approved="yes">
+                    <source>SMTP Port</source>
+                    <target state="translated">SMTP Port</target>
+                  </trans-unit>
+                  <trans-unit id="44" approved="yes">
+                    <source>SMTP Authentication</source>
+                    <target state="translated">Аутентификация SMTP</target>
+                  </trans-unit>
+                  <trans-unit id="45" approved="yes">
+                    <source>SMTP Username</source>
+                    <target state="translated">Имя пользователя SMTP:</target>
+                  </trans-unit>
+                  <trans-unit id="46" approved="yes">
+                    <source>SMTP Password</source>
+                    <target state="translated">Пароль SMTP</target>
+                  </trans-unit>
+                  <trans-unit id="47" approved="yes">
+                    <source>From Email</source>
+                    <target state="translated">Почта</target>
+                  </trans-unit>
+                  <trans-unit id="48" approved="yes">
+                    <source>From Name</source>
+                    <target state="translated">Имя</target>
+                  </trans-unit>
+                  <trans-unit id="49" approved="yes">
+                    <source>Edit template</source>
+                    <target state="translated">Изменить шаблон</target>
+                  </trans-unit>
+                  <trans-unit id="50" approved="yes">
+                    <source>Delete template</source>
+                    <target state="translated">Удалить шаблон</target>
+                  </trans-unit>
+                  <trans-unit id="51" approved="yes">
+                    <source>Mark as default template</source>
+                    <target state="translated">Отметить шаблон по умолчанию</target>
+                  </trans-unit>
+                  <trans-unit id="52" approved="yes">
+                    <source>Edit ColumnSet</source>
+                    <target state="translated">Изменить настройку колонки</target>
+                  </trans-unit>
+                  <trans-unit id="53" approved="yes">
+                    <source>Delete ColumnSet</source>
+                    <target state="translated">Удалить настройку колонки</target>
+                  </trans-unit>
+                  <trans-unit id="54" approved="yes">
+                    <source>Mark as default ColumnSet</source>
+                    <target state="translated">Отметить настройку столбца по умолчанию</target>
+                  </trans-unit>
+                  <trans-unit id="55" approved="yes">
+                    <source>Successfully saved the aspect list!</source>
+                    <target state="translated">Список аспектов успешно сохранен</target>
+                  </trans-unit>
+                  <trans-unit id="56" approved="yes">
+                    <source>An error occured at saving procedure!</source>
+                    <target state="translated">Произошла ошибка при сохранении процедуры</target>
+                  </trans-unit>
+                  <trans-unit id="57" approved="yes">
+                    <source>Save aspects</source>
+                    <target state="translated">Сохранить аспекты</target>
+                  </trans-unit>
+                  <trans-unit id="58" approved="yes">
+                    <source>Loading...</source>
+                    <target state="translated">Загрузка...</target>
+                  </trans-unit>
+                  <trans-unit id="59" approved="yes">
+                    <source>Select an aspect...</source>
+                    <target state="translated">Выбрать аспект</target>
+                  </trans-unit>
+                  <trans-unit id="60" approved="yes">
+                    <source>Save</source>
+                    <target state="translated">Сохранить</target>
+                  </trans-unit>
+                  <trans-unit id="61" approved="yes">
+                    <source>Choose Aspects:</source>
+                    <target state="translated">Выбрать аспекты:</target>
+                  </trans-unit>
+                  <trans-unit id="62" approved="yes">
+                    <source>Delete all &amp; load Default-List!</source>
+                    <target state="translated">Удалить все и загрузить лист по умолчанию</target>
+                  </trans-unit>
+                  <trans-unit id="63" approved="yes">
+                    <source>Successfully saved the Email settings!</source>
+                    <target state="translated">Настройки почты успешно сохранены</target>
+                  </trans-unit>
+                  <trans-unit id="64" approved="yes">
+                    <source>Email Settings</source>
+                    <target state="translated">Настройки электронной почты</target>
+                  </trans-unit>
+                  <trans-unit id="65" approved="yes">
+                    <source>Content Model</source>
+                    <target state="translated">Модель карточки документа</target>
+                  </trans-unit>
+                  <trans-unit id="66" approved="yes">
+                    <source>Columns</source>
+                    <target state="translated">Колоник</target>
+                  </trans-unit>
+                  <trans-unit id="67" approved="yes">
+                    <source>General Settings</source>
+                    <target state="translated">Главные настройки</target>
+                  </trans-unit>
+                  <trans-unit id="68" approved="yes">
+                    <source>About</source>
+                    <target state="translated">О программе</target>
+                  </trans-unit>
+                  <trans-unit id="69" approved="yes">
+                    <source>Select a content type...</source>
+                    <target state="translated">Выберите тип документа</target>
+                  </trans-unit>
+                  <trans-unit id="70" approved="yes">
+                    <source>Next</source>
+                    <target state="translated">Следующий</target>
+                  </trans-unit>
+                  <trans-unit id="71" approved="yes">
+                    <source>Close</source>
+                    <target state="translated">Закрыть</target>
+                  </trans-unit>
+                  <trans-unit id="72" approved="yes">
+                    <source>Add</source>
+                    <target state="translated">Добавить</target>
+                  </trans-unit>
+                  <trans-unit id="73" approved="yes">
+                    <source>Select a property...</source>
+                    <target state="translated">Выбрать атрибут</target>
+                  </trans-unit>
+                  <trans-unit id="74" approved="yes">
+                    <source>Hide on default</source>
+                    <target state="translated">Скрыть по умолчанию</target>
+                  </trans-unit>
+                  <trans-unit id="75" approved="yes">
+                    <source>Templates</source>
+                    <target state="translated">Шаблоны</target>
+                  </trans-unit>
+                  <trans-unit id="76" approved="yes">
+                    <source>Create a Template</source>
+                    <target state="translated">Создать шаблон</target>
+                  </trans-unit>
+                  <trans-unit id="77" approved="yes">
+                    <source>Lookups</source>
+                    <target state="translated">Поиски</target>
+                  </trans-unit>
+                  <trans-unit id="78" approved="yes">
+                    <source>Namespace Mapping</source>
+                    <target state="translated">Синхронизация с папками</target>
+                  </trans-unit>
+                  <trans-unit id="79" approved="yes">
+                    <source>Column Sets</source>
+                    <target state="translated">Настройка колонок</target>
+                  </trans-unit>
+                  <trans-unit id="80" approved="yes">
+                    <source>Add a Column Set</source>
+                    <target state="translated">Добавить настройку коллонок</target>
+                  </trans-unit>
+                  <trans-unit id="81" approved="yes">
+                    <source>System</source>
+                    <target state="translated">Система</target>
+                  </trans-unit>
+                  <trans-unit id="82" approved="yes">
+                    <source>Email</source>
+                    <target state="translated">Почта</target>
+                  </trans-unit>
+                  <trans-unit id="83" approved="yes">
+                    <source>Aspects</source>
+                    <target state="translated">Аспект</target>
+                  </trans-unit>
+                  <trans-unit id="84" approved="yes">
+                    <source>Content Types</source>
+                    <target state="translated">Тип документа</target>
+                  </trans-unit>
+                  <trans-unit id="85" approved="yes">
+                    <source>Quick Search</source>
+                    <target state="translated">Быстрый поиск</target>
+                  </trans-unit>
+                  <trans-unit id="86" approved="yes">
+                    <source>Online Editing</source>
+                    <target state="translated">Редактирование он-лайн</target>
+                  </trans-unit>
+                  <trans-unit id="87" approved="yes">
+                    <source>Select a content type</source>
+                    <target state="translated">Выбрать тип документа</target>
+                  </trans-unit>
+                  <trans-unit id="88" approved="yes">
+                    <source>Select a property</source>
+                    <target state="translated">Выбрать атрибут</target>
+                  </trans-unit>
+                  <trans-unit id="89" approved="yes">
+                    <source>At least one category is required!</source>
+                    <target state="translated">Требуется как минимум одна категория!</target>
+                  </trans-unit>
+                  <trans-unit id="90" approved="yes">
+                    <source>Successfully saved the lookups!</source>
+                    <target state="translated">Поиск успешно сохранен!</target>
+                  </trans-unit>
+                  <trans-unit id="91" approved="yes">
+                    <source>Error</source>
+                    <target state="translated">Ошибка</target>
+                  </trans-unit>
+                  <trans-unit id="92" approved="yes">
+                    <source>Select a field:</source>
+                    <target state="translated">Выбрать атрибут: </target>
+                  </trans-unit>
+                  <trans-unit id="93" approved="yes">
+                    <source>Select a category:</source>
+                    <target state="translated">Выбрать категорию:</target>
+                  </trans-unit>
+                  <trans-unit id="94" approved="yes">
+                    <source>Multiselect</source>
+                    <target state="translated">Групповое выделение</target>
+                  </trans-unit>
+                  <trans-unit id="95" approved="yes">
+                    <source>Singleselect</source>
+                    <target state="translated">Одиночное выделение</target>
+                  </trans-unit>
+                  <trans-unit id="96" approved="yes">
+                    <source>Single select only!</source>
+                    <target state="translated">Только одиночное выделение</target>
+                  </trans-unit>
+                  <trans-unit id="97" approved="yes">
+                    <source>Create a new lookup field</source>
+                    <target state="translated">Создать новый атрибут поиска</target>
+                  </trans-unit>
+                  <trans-unit id="98" approved="yes">
+                    <source>Update</source>
+                    <target state="translated">Обновить</target>
+                  </trans-unit>
+                  <trans-unit id="99" approved="yes">
+                    <source>Loading Namespaces...</source>
+                    <target state="translated">Загрузка папки...</target>
+                  </trans-unit>
+                  <trans-unit id="100" approved="yes">
+                    <source>Add a Namespace</source>
+                    <target state="translated">Добавить папку</target>
+                  </trans-unit>
+                  <trans-unit id="101" approved="yes">
+                    <source>Delete the selected Namespace</source>
+                    <target state="translated">Удалить выделенную папку</target>
+                  </trans-unit>
+                  <trans-unit id="102" approved="yes">
+                    <source>Namespace</source>
+                    <target state="translated">Папка</target>
+                  </trans-unit>
+                  <trans-unit id="103" approved="yes">
+                    <source>Prefix</source>
+                    <target state="translated">Префикс</target>
+                  </trans-unit>
+                  <trans-unit id="104" approved="yes">
+                    <source>No Namespaces to display.</source>
+                    <target state="translated">Нет папок для отображения</target>
+                  </trans-unit>
+                  <trans-unit id="105" approved="yes">
+                    <source>Delete a Namespacemap?</source>
+                    <target state="translated">Удалить карту папок?</target>
+                  </trans-unit>
+                  <trans-unit id="106" approved="yes">
+                    <source>Do you really want to delete the template:</source>
+                    <target state="translated">Хотите удалить шаблон:</target>
+                  </trans-unit>
+                  <trans-unit id="107" approved="yes">
+                    <source>Successfully deleted a Namespacemap!</source>
+                    <target state="translated">Папка успешно удалена!</target>
+                  </trans-unit>
+                  <trans-unit id="108" approved="yes">
+                    <source>Your Namespacemap was delete successfully!</source>
+                    <target state="translated">Ваша папка была успешно удалена!</target>
+                  </trans-unit>
+                  <trans-unit id="109" approved="yes">
+                    <source>Delete a Namespacemap - Error occured</source>
+                    <target state="translated">Ошибка удаления папки</target>
+                  </trans-unit>
+                  <trans-unit id="110" approved="yes">
+                    <source>The Namespacemap could not be deleted %1% Reason: %2%</source>
+                    <target state="translated">Папка не может быть удалена</target>
+                  </trans-unit>
+                  <trans-unit id="111" approved="yes">
+                    <source>Successfully saved the Online Editing settings!</source>
+                    <target state="translated">Настройки он-лайн редактирования успешно сохранены!</target>
+                  </trans-unit>
+                  <trans-unit id="112" approved="yes">
+                    <source>Online Editing:</source>
+                    <target state="translated">Редактирование он-лайн</target>
+                  </trans-unit>
+                  <trans-unit id="113" approved="yes">
+                    <source>Not active</source>
+                    <target state="translated">Не активен</target>
+                  </trans-unit>
+                  <trans-unit id="114">
+                    <source>Successfully saved the Quick Search Settings!</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="115" approved="yes">
+                    <source>Save Quick Search Settings</source>
+                    <target state="translated">Сохранить настройки быстрого поиска</target>
+                  </trans-unit>
+                  <trans-unit id="116" approved="yes">
+                    <source>Add a property</source>
+                    <target state="translated">Добавить атрибут</target>
+                  </trans-unit>
+                  <trans-unit id="117" approved="yes">
+                    <source>To delete items - drop them here</source>
+                    <target state="translated">Для удаления элементов - перетащите их сюда</target>
+                  </trans-unit>
+                  <trans-unit id="118" approved="yes">
+                    <source>Successfully saved the columnset!</source>
+                    <target state="translated">Настройка колонок успешно сохранена! </target>
+                  </trans-unit>
+                  <trans-unit id="119" approved="yes">
+                    <source>An error occured at saving procedure!An error occured at saving procedure!</source>
+                    <target state="translated">Произошла ошибка при сохранении процедуры!</target>
+                  </trans-unit>
+                  <trans-unit id="120" approved="yes">
+                    <source>Save Columnset</source>
+                    <target state="translated">Сохранить настройку колонки</target>
+                  </trans-unit>
+                  <trans-unit id="121" approved="yes">
+                    <source>Name:</source>
+                    <target state="translated">Имя:</target>
+                  </trans-unit>
+                  <trans-unit id="122" approved="yes">
+                    <source>To delete items - drop it here</source>
+                    <target state="translated">Для удаления элементов - перетащите их сюда</target>
+                  </trans-unit>
+                  <trans-unit id="123" approved="yes">
+                    <source>Loading Templates...</source>
+                    <target state="translated">Загрузка шаблонов...</target>
+                  </trans-unit>
+                  <trans-unit id="124" approved="yes">
+                    <source>Name</source>
+                    <target state="translated">Имя</target>
+                  </trans-unit>
+                  <trans-unit id="125" approved="yes">
+                    <source>Default</source>
+                    <target state="translated">По умолчанию</target>
+                  </trans-unit>
+                  <trans-unit id="126" approved="yes">
+                    <source>Action</source>
+                    <target state="translated">Действие</target>
+                  </trans-unit>
+                  <trans-unit id="127" approved="yes">
+                    <source>No ColumnSets to display.</source>
+                    <target state="translated">Не отображать настройки колонки</target>
+                  </trans-unit>
+                  <trans-unit id="128" approved="yes">
+                    <source>Mark default ColumnSet - Error occured!</source>
+                    <target state="translated">Отметка колонки по умолчанию- ошибка процедуры!</target>
+                  </trans-unit>
+                  <trans-unit id="129" approved="yes">
+                    <source>The ColumnSet could not be marked as default ColumnSet %1% Reason: %2%</source>
+                    <target state="translated">Настройка колонки не может быть отмечена по умолчанию %1% Reason: %2%</target>
+                  </trans-unit>
+                  <trans-unit id="130" approved="yes">
+                    <source>Delete ColumnSet?</source>
+                    <target state="translated">Удалить настройку колонки?</target>
+                  </trans-unit>
+                  <trans-unit id="131" approved="yes">
+                    <source>Do you really want to delete the ColumnSet:</source>
+                    <target state="translated">Хотите удалить настройку колонки:</target>
+                  </trans-unit>
+                  <trans-unit id="132" approved="yes">
+                    <source>Successfully deleted a ColumnSet!</source>
+                    <target state="translated">Свойство колонки успешно удалено! </target>
+                  </trans-unit>
+                  <trans-unit id="133" approved="yes">
+                    <source>Your ColumnSet is deleted successfully!</source>
+                    <target state="translated">Свойство колонки успешно удалено!</target>
+                  </trans-unit>
+                  <trans-unit id="134" approved="yes">
+                    <source>Delete ColumnSet - Error occured!</source>
+                    <target state="translated">Удаление свойства колонки - ошибка процедуры!</target>
+                  </trans-unit>
+                  <trans-unit id="135" approved="yes">
+                    <source>The ColumnSet could not be deleted %1% Reason: %2%</source>
+                    <target state="translated">Свойство колонки не может быть удалено %1% Reason: %2%</target>
+                  </trans-unit>
+                  <trans-unit id="136" approved="yes">
+                    <source>Successfully saved the search template!</source>
+                    <target state="translated">Шаблон поиска успешно удален!</target>
+                  </trans-unit>
+                  <trans-unit id="137" approved="yes">
+                    <source>Save Search Template</source>
+                    <target state="translated">Сохранить шаблон поиска</target>
+                  </trans-unit>
+                  <trans-unit id="138" approved="yes">
+                    <source>Save title</source>
+                    <target state="translated">Сохранить описание</target>
+                  </trans-unit>
+                  <trans-unit id="139" approved="yes">
+                    <source>Column Set:</source>
+                    <target state="translated">Набор колонок:</target>
+                  </trans-unit>
+                  <trans-unit id="140" approved="yes">
+                    <source>None</source>
+                    <target state="translated">Нет</target>
+                  </trans-unit>
+                  <trans-unit id="141" approved="yes">
+                    <source>Multi Columns:</source>
+                    <target state="translated">Множественные колонки:</target>
+                  </trans-unit>
+                  <trans-unit id="142" approved="yes">
+                    <source>Add a tab</source>
+                    <target state="translated">Добавить закладку</target>
+                  </trans-unit>
+                  <trans-unit id="143" approved="yes">
+                    <source>Add Doctype Properties:</source>
+                    <target state="translated">Добавить атрибут для типа документа:</target>
+                  </trans-unit>
+                  <trans-unit id="144" approved="yes">
+                    <source>Multi Column</source>
+                    <target state="translated">Множественные колонки</target>
+                  </trans-unit>
+                  <trans-unit id="145" approved="yes">
+                    <source>No templates to display.</source>
+                    <target state="translated">Нет шаблонов для отображения.</target>
+                  </trans-unit>
+                  <trans-unit id="146" approved="yes">
+                    <source>Mark default template - Error occured!</source>
+                    <target state="translated">Отметка шаблона по умолчанию- ошибка процедуры!</target>
+                  </trans-unit>
+                  <trans-unit id="147" approved="yes">
+                    <source>The Template could not be marked as default Template %1% Reason: %2%</source>
+                    <target state="translated">Настройка шаблона не может быть отмечена по умолчанию %1% Reason: %2%</target>
+                  </trans-unit>
+                  <trans-unit id="148" approved="yes">
+                    <source>Delete template?</source>
+                    <target state="translated">Удалить шаблон?</target>
+                  </trans-unit>
+                  <trans-unit id="149" approved="yes">
+                    <source>Successfully delete a template!</source>
+                    <target state="translated">Шаблон успешно удален!</target>
+                  </trans-unit>
+                  <trans-unit id="150" approved="yes">
+                    <source>Your template was deleted successfully!</source>
+                    <target state="translated">Ваш шаблон был успешно удален!</target>
+                  </trans-unit>
+                  <trans-unit id="151" approved="yes">
+                    <source>Delete template - Error occured!</source>
+                    <target state="translated">Удаление шаблона - ошибка процедуры!</target>
+                  </trans-unit>
+                  <trans-unit id="152" approved="yes">
+                    <source>The Template could not be deleted %1% Reason: %2%</source>
+                    <target state="translated">Шаблон не может быть удален %1% Reason: %2%</target>
+                  </trans-unit>
+                  <trans-unit id="153" approved="yes">
+                    <source>Successfully saved the system settings!</source>
+                    <target state="translated">Настройки системы успешно сохранены!</target>
+                  </trans-unit>
+                  <trans-unit id="154" approved="yes">
+                    <source>Icon Support</source>
+                    <target state="translated">Поддержка иконок</target>
+                  </trans-unit>
+                  <trans-unit id="155" approved="yes">
+                    <source>Disable Renderers:</source>
+                    <target state="translated">Отключить подготовку отчетов:</target>
+                  </trans-unit>
+                  <trans-unit id="156" approved="yes">
+                    <source>Default Tab of Node:</source>
+                    <target state="translated">Закладка по умолчанию для узла:</target>
+                  </trans-unit>
+                  <trans-unit id="157" approved="yes">
+                    <source>Date format &amp; time format:</source>
+                    <target state="translated">Формат даты  и формат времени: </target>
+                  </trans-unit>
+                  <trans-unit id="158" approved="yes">
+                    <source>Day</source>
+                    <target state="translated">День</target>
+                  </trans-unit>
+                  <trans-unit id="159" approved="yes">
+                    <source>Day of the month, 2 digits with leading zeros</source>
+                    <target state="translated">День месяца, 2 цифры</target>
+                  </trans-unit>
+                  <trans-unit id="160" approved="yes">
+                    <source>A textual representation of a day, three letters</source>
+                    <target state="translated">Текстовое представление дня, три символа</target>
+                  </trans-unit>
+                  <trans-unit id="161" approved="yes">
+                    <source>Day of the month without leading zeros</source>
+                    <target state="translated">День месяца без нулей</target>
+                  </trans-unit>
+                  <trans-unit id="162" approved="yes">
+                    <source>lowercase 'L'</source>
+                    <target state="translated">Строчная 'L'</target>
+                  </trans-unit>
+                  <trans-unit id="163" approved="yes">
+                    <source>A full textual representation of the day of the week</source>
+                    <target state="translated">Полнотекстовое представление дня недели</target>
+                  </trans-unit>
+                  <trans-unit id="164" approved="yes">
+                    <source>ISO-8601 numeric representation of the day of the week</source>
+                    <target state="translated">ISO-8601 числовое представление дня недели </target>
+                  </trans-unit>
+                  <trans-unit id="165" approved="yes">
+                    <source>English ordinal suffix for the day of the month, 2 characters</source>
+                    <target state="translated">Английский суфикс дня месяца, 2 символа</target>
+                  </trans-unit>
+                  <trans-unit id="166" approved="yes">
+                    <source>Numeric representation of the day of the week</source>
+                    <target state="translated">Числовое представление дня недели</target>
+                  </trans-unit>
+                  <trans-unit id="167" approved="yes">
+                    <source>The day of the year (starting from 0)</source>
+                    <target state="translated">День в году (начало с 0)</target>
+                  </trans-unit>
+                  <trans-unit id="168" approved="yes">
+                    <source>Week</source>
+                    <target state="translated">Неделя</target>
+                  </trans-unit>
+                  <trans-unit id="169" approved="yes">
+                    <source>ISO-8601 week number of year, weeks starting on Monday</source>
+                    <target state="translated">IS0-8601 номер недели в году, неделя начинается с понедельника</target>
+                  </trans-unit>
+                  <trans-unit id="170" approved="yes">
+                    <source>Month</source>
+                    <target state="translated">месяц</target>
+                  </trans-unit>
+                  <trans-unit id="171" approved="yes">
+                    <source>A full textual representation of a month, such as January or March</source>
+                    <target state="translated">Полнотекстовое представление месяца, как Январь или Март</target>
+                  </trans-unit>
+                  <trans-unit id="172" approved="yes">
+                    <source>Numeric representation of a month, with leading zeros</source>
+                    <target state="translated">Числовое представление месяца с нулями</target>
+                  </trans-unit>
+                  <trans-unit id="173" approved="yes">
+                    <source>A short textual representation of a month, three letters</source>
+                    <target state="translated">Короткое текстовое представление месяца, три буквы</target>
+                  </trans-unit>
+                  <trans-unit id="174" approved="yes">
+                    <source>Numeric representation of a month, without leading zeros</source>
+                    <target state="translated">Числовое представление месяца без нулей</target>
+                  </trans-unit>
+                  <trans-unit id="175" approved="yes">
+                    <source>Number of days in the given month</source>
+                    <target state="translated">Количество дней в текущем месяце </target>
+                  </trans-unit>
+                  <trans-unit id="176" approved="yes">
+                    <source>Year</source>
+                    <target state="translated">Год</target>
+                  </trans-unit>
+                  <trans-unit id="177" approved="yes">
+                    <source>Whether it's a leap year</source>
+                    <target state="translated">Год высокосный</target>
+                  </trans-unit>
+                  <trans-unit id="179" approved="yes">
+                    <source>A full numeric representation of a year, 4 digits</source>
+                    <target state="translated">Полное числовое представление года, 4 цифры</target>
+                  </trans-unit>
+                  <trans-unit id="180" approved="yes">
+                    <source>A two digit representation of a year</source>
+                    <target state="translated">Представление года, 2 цифры</target>
+                  </trans-unit>
+                  <trans-unit id="181" approved="yes">
+                    <source>Time</source>
+                    <target state="translated">Время</target>
+                  </trans-unit>
+                  <trans-unit id="182" approved="yes">
+                    <source>Lowercase Ante meridiem and Post meridiem</source>
+                    <target state="translated">Строчное обозначение до полудня и после полудня</target>
+                  </trans-unit>
+                  <trans-unit id="183" approved="yes">
+                    <source>Uppercase Ante meridiem and Post meridiem</source>
+                    <target state="translated">Прописное обозначение до полудня и после полудня</target>
+                  </trans-unit>
+                  <trans-unit id="184" approved="yes">
+                    <source>Swatch Internet time</source>
+                    <target state="translated">Показывать время Интернета</target>
+                  </trans-unit>
+                  <trans-unit id="185" approved="yes">
+                    <source>12-hour format of an hour without leading zeros</source>
+                    <target state="translated">12-часовой формат представление часа</target>
+                  </trans-unit>
+                  <trans-unit id="186" approved="yes">
+                    <source>24-hour format of an hour without leading zeros</source>
+                    <target state="translated">24-часовой формат представление часа</target>
+                  </trans-unit>
+                  <trans-unit id="187" approved="yes">
+                    <source>12-hour format of an hour with leading zeros</source>
+                    <target state="translated">12-часовой формат представление часа с минутами</target>
+                  </trans-unit>
+                  <trans-unit id="188" approved="yes">
+                    <source>24-hour format of an hour with leading zeros</source>
+                    <target state="translated">24-часовой формат представление часа с минутами</target>
+                  </trans-unit>
+                  <trans-unit id="189" approved="yes">
+                    <source>Minutes with leading zeros</source>
+                    <target state="translated">Минуты с секундами</target>
+                  </trans-unit>
+                  <trans-unit id="190" approved="yes">
+                    <source>Seconds, with leading zeros</source>
+                    <target state="translated">Секунды, с нулями</target>
+                  </trans-unit>
+                  <trans-unit id="191" approved="yes">
+                    <source>Microseconds</source>
+                    <target state="translated">Милисекунды</target>
+                  </trans-unit>
+                  <trans-unit id="192" approved="yes">
+                    <source>Full Date/Time</source>
+                    <target state="translated">Полные Дата/Время</target>
+                  </trans-unit>
+                  <trans-unit id="193" approved="yes">
+                    <source>ISO 8601 date</source>
+                    <target state="translated">ISO 8601 date</target>
+                  </trans-unit>
+                  <trans-unit id="194" approved="yes">
+                    <source>RFC 2822 formatted date</source>
+                    <target state="translated">RFC 2822 формат даты</target>
+                  </trans-unit>
+                  <trans-unit id="195" approved="yes">
+                    <source>Seconds since the Unix Epoch (January 1 1970 00:00:00 GMT)</source>
+                    <target state="translated">Секунд прошедших с начала Unix Epoch (January 1 1970 00:00:00 GMT)  </target>
+                  </trans-unit>
+                  <trans-unit id="196" approved="yes">
+                    <source>Successfully saved the template!</source>
+                    <target state="translated">Шаблон успешно сохранен</target>
+                  </trans-unit>
+                  <trans-unit id="197" approved="yes">
+                    <source>Save Template</source>
+                    <target state="translated">Сохранить шаблон</target>
+                  </trans-unit>
+                  <trans-unit id="198" approved="yes">
+                    <source>Aspects managed as:</source>
+                    <target state="translated">Аспекты управляются как:</target>
+                  </trans-unit>
+                  <trans-unit id="199" approved="yes">
+                    <source>Unvisible</source>
+                    <target state="translated">Невидимый</target>
+                  </trans-unit>
+                  <trans-unit id="200" approved="yes">
+                    <source>Content Type</source>
+                    <target state="translated">Тип документа</target>
+                  </trans-unit>
+                  <trans-unit id="201" approved="yes">
+                    <source>Aspects show as</source>
+                    <target state="translated">Показывать аспекты как</target>
+                  </trans-unit>
+                  <trans-unit id="202" approved="yes">
+                    <source>Tabs</source>
+                    <target state="translated">Закладки</target>
+                  </trans-unit>
+                  <trans-unit id="203" approved="yes">
+                    <source>Your template was delete successfully!</source>
+                    <target state="translated">Ваш шаблон был успешно удален!</target>
+                  </trans-unit>
+                  <trans-unit id="204" approved="yes">
+                    <source>Successfully saved the types list!</source>
+                    <target state="translated">Успешно сохранен список типов!</target>
+                  </trans-unit>
+                  <trans-unit id="205" approved="yes">
+                    <source>Save content types</source>
+                    <target state="translated">Сохранить тип документа</target>
+                  </trans-unit>
+                  <trans-unit id="206" approved="yes">
+                    <source>Choose Content Type:</source>
+                    <target state="translated">Выбрать тип документа:</target>
+                  </trans-unit>
+                  <trans-unit id="207" approved="yes">
+                    <source>Delete all</source>
+                    <target state="translated">Удалить все</target>
+                  </trans-unit>
+                  <trans-unit id="208" approved="yes">
+                    <source>Username</source>
+                    <target state="translated">Имя пользователя</target>
+                  </trans-unit>
+                  <trans-unit id="209" approved="yes">
+                    <source>Password</source>
+                    <target state="translated">Пароль</target>
+                  </trans-unit>
+                  <trans-unit id="210" approved="yes">
+                    <source>Please provide your username.</source>
+                    <target state="translated">Введите ваше имя пользователя.</target>
+                  </trans-unit>
+                  <trans-unit id="211" approved="yes">
+                    <source>Please provide your password.</source>
+                    <target state="translated">Введите ваш пароль</target>
+                  </trans-unit>
+                  <trans-unit id="212" approved="yes">
+                    <source>Invalid username or password</source>
+                    <target state="translated">Неверное имя пользователя или пароль</target>
+                  </trans-unit>
+                  <trans-unit id="213" approved="yes">
+                    <source>Login</source>
+                    <target state="translated">Вход</target>
+                  </trans-unit>
+                  <trans-unit id="214" approved="yes">
+                    <source>Language</source>
+                    <target state="translated">Язык</target>
+                  </trans-unit>
+                  <trans-unit id="215" approved="yes">
+                    <source>Person Relations</source>
+                    <target state="translated">Персональная информация</target>
+                  </trans-unit>
+                  <trans-unit id="216" approved="yes">
+                    <source>Document Relations</source>
+                    <target state="translated">Связи между документами</target>
+                  </trans-unit>
+                  <trans-unit id="217" approved="yes">
+                    <source>This document has no relations.</source>
+                    <target state="translated">Этот документ не имеет связей</target>
+                  </trans-unit>
+                  <trans-unit id="218" approved="yes">
+                    <source>Relations</source>
+                    <target state="translated">Связи</target>
+                  </trans-unit>
+                  <trans-unit id="219" approved="yes">
+                    <source>Successfully pasted!</source>
+                    <target state="translated">Копирование успешно завершено!</target>
+                  </trans-unit>
+                  <trans-unit id="220" approved="yes">
+                    <source>Pasting was not successful!</source>
+                    <target state="translated">Копирование не удалось!</target>
+                  </trans-unit>
+                  <trans-unit id="221" approved="yes">
+                    <source>of</source>
+                    <target state="translated">из</target>
+                  </trans-unit>
+                  <trans-unit id="222" approved="yes">
+                    <source>node(s) pasted to the destination folder!</source>
+                    <target state="translated">узел скопирован в назначенную папке! </target>
+                  </trans-unit>
+                  <trans-unit id="223" approved="yes">
+                    <source>Never used ifresco Client before? Check out the Tutorials on %link%</source>
+                    <target state="translated">Никогда не использовали ifresco? Проверьте Учебные материалы на %link%</target>
+                  </trans-unit>
+                  <trans-unit id="224" approved="yes">
+                    <source>This document has no version history.</source>
+                    <target state="translated">Этот документ не версий.</target>
+                  </trans-unit>
+                  <trans-unit id="225" approved="yes">
+                    <source>Version</source>
+                    <target state="translated">Версия</target>
+                  </trans-unit>
+                  <trans-unit id="226" approved="yes">
+                    <source>Note</source>
+                    <target state="translated">Примечание</target>
+                  </trans-unit>
+                  <trans-unit id="227" approved="yes">
+                    <source>Date</source>
+                    <target state="translated">Дата</target>
+                  </trans-unit>
+                  <trans-unit id="228" approved="yes">
+                    <source>Author</source>
+                    <target state="translated">Автор</target>
+                  </trans-unit>
+                  <trans-unit id="229" approved="yes">
+                    <source>Actions</source>
+                    <target state="translated">Действия </target>
+                  </trans-unit>
+                  <trans-unit id="230" approved="yes">
+                    <source>Download</source>
+                    <target state="translated">Скачать</target>
+                  </trans-unit>
+                  <trans-unit id="231" approved="yes">
+                    <source>Edit Metadata</source>
+                    <target state="translated">Изменить реквизиты</target>
+                  </trans-unit>
+                  <trans-unit id="232" approved="yes">
+                    <source>Checkout</source>
+                    <target state="translated">Блокировать изменения (Checkout)</target>
+                  </trans-unit>
+                  <trans-unit id="233" approved="yes">
+                    <source>Comments</source>
+                    <target state="translated">Комментарии</target>
+                  </trans-unit>
+                  <trans-unit id="234" approved="yes">
+                    <source>Document checked out successfully.</source>
+                    <target state="translated">Документ проверен успешно.</target>
+                  </trans-unit>
+                  <trans-unit id="235" approved="yes">
+                    <source>Checkin</source>
+                    <target state="translated">Разблокировать изменения (Checkin)</target>
+                  </trans-unit>
+                  <trans-unit id="236" approved="yes">
+                    <source>Document checked in successfully.</source>
+                    <target state="translated">Документ разблокирован успешно.</target>
+                  </trans-unit>
+                  <trans-unit id="237" approved="yes">
+                    <source>Edit Metadata:</source>
+                    <target state="translated">Изменить реквизиты:</target>
+                  </trans-unit>
+                  <trans-unit id="238" approved="yes">
+                    <source>Select a columnset to change the columns...</source>
+                    <target state="translated">Выбрать набор колонок для изменения колонок... </target>
+                  </trans-unit>
+                  <trans-unit id="239" approved="yes">
+                    <source>Too many results</source>
+                    <target state="translated">Много результатов</target>
+                  </trans-unit>
+                  <trans-unit id="240" approved="yes">
+                    <source>The result list was too big. Please add more arguments to get a good result.</source>
+                    <target state="translated">Список результатов был слишком большим. Пожалуйста добавьте больше критериев для повышения качества результатов поиска. </target>
+                  </trans-unit>
+                  <trans-unit id="241" approved="yes">
+                    <source>Search again</source>
+                    <target state="translated">Искать снова</target>
+                  </trans-unit>
+                  <trans-unit id="242" approved="yes">
+                    <source>Cancel Search</source>
+                    <target state="translated">Отменить поиск</target>
+                  </trans-unit>
+                  <trans-unit id="243" approved="yes">
+                    <source>No items to display.</source>
+                    <target state="translated">Нет элементов для отображения.</target>
+                  </trans-unit>
+                  <trans-unit id="244" approved="yes">
+                    <source>Open Folder in Alfresco</source>
+                    <target state="translated">Открыть папку в Alfresco</target>
+                  </trans-unit>
+                  <trans-unit id="245" approved="yes">
+                    <source>Upload File(s)</source>
+                    <target state="translated">Загрузить файлы</target>
+                  </trans-unit>
+                  <trans-unit id="246" approved="yes">
+                    <source>Create Space</source>
+                    <target state="translated">Создать папку</target>
+                  </trans-unit>
+                  <trans-unit id="247" approved="yes">
+                    <source>Success</source>
+                    <target state="translated">Успешно</target>
+                  </trans-unit>
+                  <trans-unit id="248" approved="yes">
+                    <source>Export CSV</source>
+                    <target state="translated">Экспорт в CSV </target>
+                  </trans-unit>
+                  <trans-unit id="249" approved="yes">
+                    <source>Paste clipboard (copy)</source>
+                    <target state="translated">Копировать в буфер обмена</target>
+                  </trans-unit>
+                  <trans-unit id="250" approved="yes">
+                    <source>Paste clipboard (cut)</source>
+                    <target state="translated">Вырезать в буфера обмена</target>
+                  </trans-unit>
+                  <trans-unit id="251" approved="yes">
+                    <source>Revert to this Version</source>
+                    <target state="translated">Вернуть на эту версию</target>
+                  </trans-unit>
+                  <trans-unit id="252" approved="yes">
+                    <source>Revert to Version</source>
+                    <target state="translated">Вернуться к версии </target>
+                  </trans-unit>
+                  <trans-unit id="253" approved="yes">
+                    <source>Are you sure you want to revert to Version:</source>
+                    <target state="translated">Действительно хотите вернуть версию:</target>
+                  </trans-unit>
+                  <trans-unit id="254" approved="yes">
+                    <source>New Version</source>
+                    <target state="translated">Новая версия</target>
+                  </trans-unit>
+                  <trans-unit id="255" approved="yes">
+                    <source>Upload new Version</source>
+                    <target state="translated">Загрузить новую версию</target>
+                  </trans-unit>
+                  <trans-unit id="256" approved="yes">
+                    <source>Detailed Version Info</source>
+                    <target state="translated">Подробная информация о версии</target>
+                  </trans-unit>
+                  <trans-unit id="257" approved="yes">
+                    <source>Manage Aspects</source>
+                    <target state="translated">Управление аспектами</target>
+                  </trans-unit>
+                  <trans-unit id="258" approved="yes">
+                    <source>Specify Type</source>
+                    <target state="translated">Определение типа</target>
+                  </trans-unit>
+                  <trans-unit id="259" approved="yes">
+                    <source>Checkout to Zoho Writer</source>
+                    <target state="translated">Блокировать для Zoho Writer</target>
+                  </trans-unit>
+                  <trans-unit id="260" approved="yes">
+                    <source>Cancel Checkout</source>
+                    <target state="translated">Отменить блокировку</target>
+                  </trans-unit>
+                  <trans-unit id="261" approved="yes">
+                    <source>Edit in Zoho Writer</source>
+                    <target state="translated">Изменить в Zoho Writer</target>
+                  </trans-unit>
+                  <trans-unit id="262" approved="yes">
+                    <source>Checkout in Zoho Writer</source>
+                    <target state="translated">Блокировать в Zoho Writer</target>
+                  </trans-unit>
+                  <trans-unit id="263" approved="yes">
+                    <source>Edit in Zoho Sheet</source>
+                    <target state="translated">Изменить в Zoho Sheet</target>
+                  </trans-unit>
+                  <trans-unit id="264" approved="yes">
+                    <source>Checkout in Zoho Sheet</source>
+                    <target state="translated">Блокировать в Zoho Sheet</target>
+                  </trans-unit>
+                  <trans-unit id="265" approved="yes">
+                    <source>DocumentGrid</source>
+                    <target state="translated">Сетка документа</target>
+                  </trans-unit>
+                  <trans-unit id="266" approved="yes">
+                    <source>Add to clipboard</source>
+                    <target state="translated">Добавить к буфер обмена</target>
+                  </trans-unit>
+                  <trans-unit id="267" approved="yes">
+                    <source>Delete</source>
+                    <target state="translated">Удалить</target>
+                  </trans-unit>
+                  <trans-unit id="268" approved="yes">
+                    <source>Remove from clipboard</source>
+                    <target state="translated">Удалить из буфера обмена</target>
+                  </trans-unit>
+                  <trans-unit id="269" approved="yes">
+                    <source>Send as Email</source>
+                    <target state="translated">Отправить по почте</target>
+                  </trans-unit>
+                  <trans-unit id="270" approved="yes">
+                    <source>PDF Merge</source>
+                    <target state="translated">Сравнение PDF</target>
+                  </trans-unit>
+                  <trans-unit id="271" approved="yes">
+                    <source>Preview in new tab</source>
+                    <target state="translated">Просмотр на новой закладке</target>
+                  </trans-unit>
+                  <trans-unit id="272" approved="yes">
+                    <source>Specify type</source>
+                    <target state="translated">Определение типа</target>
+                  </trans-unit>
+                  <trans-unit id="273" approved="yes">
+                    <source>Manage aspects</source>
+                    <target state="translated">Управление аспектами</target>
+                  </trans-unit>
+                  <trans-unit id="274" approved="yes">
+                    <source>Quick add aspect</source>
+                    <target state="translated">Быстрое добавление аспекта</target>
+                  </trans-unit>
+                  <trans-unit id="275" approved="yes">
+                    <source>Taggable</source>
+                    <target state="translated">Отмеченный</target>
+                  </trans-unit>
+                  <trans-unit id="276" approved="yes">
+                    <source>Versionable</source>
+                    <target state="translated">Версионный</target>
+                  </trans-unit>
+                  <trans-unit id="277" approved="yes">
+                    <source>Classifiable</source>
+                    <target state="translated">Классифицируемый</target>
+                  </trans-unit>
+                  <trans-unit id="278" approved="yes">
+                    <source>View Details in Alfresco</source>
+                    <target state="translated">Просмотр деталей в Alfresco</target>
+                  </trans-unit>
+                  <trans-unit id="279" approved="yes">
+                    <source>Loading Results...</source>
+                    <target state="translated">Загрузка результатов...</target>
+                  </trans-unit>
+                  <trans-unit id="280" approved="yes">
+                    <source>Successfully pasted</source>
+                    <target state="translated">Вставлено успешно</target>
+                  </trans-unit>
+                  <trans-unit id="281" approved="yes">
+                    <source>node(s)</source>
+                    <target state="translated">узел (ы)</target>
+                  </trans-unit>
+                  <trans-unit id="282" approved="yes">
+                    <source>node(s) pasted to the destination folder</source>
+                    <target state="translated">узел(ы) скопирован в назначенную папку</target>
+                  </trans-unit>
+                  <trans-unit id="283" approved="yes">
+                    <source>Pasting documents</source>
+                    <target state="translated">Вставить документы</target>
+                  </trans-unit>
+                  <trans-unit id="284" approved="yes">
+                    <source>An unknown problem occured at the check out process.</source>
+                    <target state="translated">Неизвестная проблема возникла в процедуре check out процесса.</target>
+                  </trans-unit>
+                  <trans-unit id="285" approved="yes">
+                    <source>An unknown problem occured at the check in process.</source>
+                    <target state="translated">Неизвестная проблема возникла в процедуре check in процесса.</target>
+                  </trans-unit>
+                  <trans-unit id="286" approved="yes">
+                    <source>Successfully canceled.</source>
+                    <target state="translated">Успешно отменено.</target>
+                  </trans-unit>
+                  <trans-unit id="287" approved="yes">
+                    <source>Open in new Window</source>
+                    <target state="translated">Открыть в новом окне</target>
+                  </trans-unit>
+                  <trans-unit id="288" approved="yes">
+                    <source>Upload to Zoho Failed!</source>
+                    <target state="translated">Загрузка в Zoho не удалась!</target>
+                  </trans-unit>
+                  <trans-unit id="289" approved="yes">
+                    <source>Checkout to Zoho</source>
+                    <target state="translated">Блокировать в Zoho</target>
+                  </trans-unit>
+                  <trans-unit id="290" approved="yes">
+                    <source>Add Aspect</source>
+                    <target state="translated">Добавить аспект</target>
+                  </trans-unit>
+                  <trans-unit id="291" approved="yes">
+                    <source>Date:</source>
+                    <target state="translated">Дата:</target>
+                  </trans-unit>
+                  <trans-unit id="292" approved="yes">
+                    <source>Author:</source>
+                    <target state="translated">Автор:</target>
+                  </trans-unit>
+                  <trans-unit id="293" approved="yes">
+                    <source>Note:</source>
+                    <target state="translated">Примечание:</target>
+                  </trans-unit>
+                  <trans-unit id="294" approved="yes">
+                    <source>Detailed Version Information</source>
+                    <target state="translated">Подробная информация о версии</target>
+                  </trans-unit>
+                  <trans-unit id="295" approved="yes">
+                    <source>Upload a new Version</source>
+                    <target state="translated">Загрузить новую версию</target>
+                  </trans-unit>
+                  <trans-unit id="296" approved="yes">
+                    <source>Save &amp; Upload</source>
+                    <target state="translated">Сохранить и Загрузить</target>
+                  </trans-unit>
+                  <trans-unit id="297" approved="yes">
+                    <source>Create a new Version</source>
+                    <target state="translated">Создать новую версию</target>
+                  </trans-unit>
+                  <trans-unit id="298" approved="yes">
+                    <source>Revert Version</source>
+                    <target state="translated">Вернуться к версии</target>
+                  </trans-unit>
+                  <trans-unit id="299" approved="yes">
+                    <source>Successfully reverted to the Version:</source>
+                    <target state="translated">Успешно вернулись к версии: </target>
+                  </trans-unit>
+                  <trans-unit id="300" approved="yes">
+                    <source>Something went wrong at the revert process</source>
+                    <target state="translated">Произошла ошибка в обратном процессе</target>
+                  </trans-unit>
+                  <trans-unit id="301" approved="yes">
+                    <source>Specify content type error!</source>
+                    <target state="translated">Описание типа документа с ошибкой!</target>
+                  </trans-unit>
+                  <trans-unit id="302" approved="yes">
+                    <source>An error occured please try it later again.</source>
+                    <target state="translated">Произошла ошибка, пожалуйста попробуйте позже.</target>
+                  </trans-unit>
+                  <trans-unit id="303" approved="yes">
+                    <source>Delete?</source>
+                    <target state="translated">Удалить?</target>
+                  </trans-unit>
+                  <trans-unit id="304" approved="yes">
+                    <source>Do you really want to delete:</source>
+                    <target state="translated">Вы действительно хотите удалить:</target>
+                  </trans-unit>
+                  <trans-unit id="305" approved="yes">
+                    <source>Deleting</source>
+                    <target state="translated">Удаление</target>
+                  </trans-unit>
+                  <trans-unit id="306" approved="yes">
+                    <source>To</source>
+                    <target state="translated">Кому</target>
+                  </trans-unit>
+                  <trans-unit id="307" approved="yes">
+                    <source>Cc</source>
+                    <target state="translated">Копия</target>
+                  </trans-unit>
+                  <trans-unit id="308" approved="yes">
+                    <source>Bcc</source>
+                    <target state="translated">Скрытая копия</target>
+                  </trans-unit>
+                  <trans-unit id="309" approved="yes">
+                    <source>Subject</source>
+                    <target state="translated">Тема:</target>
+                  </trans-unit>
+                  <trans-unit id="310" approved="yes">
+                    <source>Attachments</source>
+                    <target state="translated">Вложения</target>
+                  </trans-unit>
+                  <trans-unit id="311" approved="yes">
+                    <source>Send Attachment(s) via Email</source>
+                    <target state="translated">Отправить вложения с письмом</target>
+                  </trans-unit>
+                  <trans-unit id="312" approved="yes">
+                    <source>Send</source>
+                    <target state="translated">Отправить</target>
+                  </trans-unit>
+                  <trans-unit id="313" approved="yes">
+                    <source>Sending Email</source>
+                    <target state="translated">Отправка эл.почты</target>
+                  </trans-unit>
+                  <trans-unit id="314" approved="yes">
+                    <source>We could send your email successfully!</source>
+                    <target state="translated">Ваша почта отправлена успешно!</target>
+                  </trans-unit>
+                  <trans-unit id="315" approved="yes">
+                    <source>Cancel</source>
+                    <target state="translated">Отмена</target>
+                  </trans-unit>
+                  <trans-unit id="316" approved="yes">
+                    <source>Successfully created the Space %1%</source>
+                    <target state="translated">Успешно создана папка %1%</target>
+                  </trans-unit>
+                  <trans-unit id="317" approved="yes">
+                    <source>you</source>
+                    <target state="translated">Вы</target>
+                  </trans-unit>
+                  <trans-unit id="318" approved="yes">
+                    <source>Change categories</source>
+                    <target state="translated">Изменить категорию</target>
+                  </trans-unit>
+                  <trans-unit id="319" approved="yes">
+                    <source>Available Aspects:</source>
+                    <target state="translated">Доступные аспекты:</target>
+                  </trans-unit>
+                  <trans-unit id="320" approved="yes">
+                    <source>Used Aspects:</source>
+                    <target state="translated">Используемые аспекты:</target>
+                  </trans-unit>
+                  <trans-unit id="321" approved="yes">
+                    <source>Saving...</source>
+                    <target state="translated">Сохранение...</target>
+                  </trans-unit>
+                  <trans-unit id="322" approved="yes">
+                    <source>This document is locked by %1% !</source>
+                    <target state="translated">Этот документ заблокирован в %1% !</target>
+                  </trans-unit>
+                  <trans-unit id="323" approved="yes">
+                    <source>Get Working Copy</source>
+                    <target state="translated">Получить рабочую копию</target>
+                  </trans-unit>
+                  <trans-unit id="324" approved="yes">
+                    <source>This document is locked for the offline editing by %1% !</source>
+                    <target state="translated">Этот документ заблокирован в режиме офф-лайн в %1% !</target>
+                  </trans-unit>
+                  <trans-unit id="325" approved="yes">
+                    <source>Get Original Document</source>
+                    <target state="translated">Получить исходный документ</target>
+                  </trans-unit>
+                  <trans-unit id="326" approved="yes">
+                    <source>ifresco - send files</source>
+                    <target state="translated">ifresco - отправить файлы</target>
+                  </trans-unit>
+                  <trans-unit id="327" approved="yes">
+                    <source>Template:</source>
+                    <target state="translated">Шаблон:</target>
+                  </trans-unit>
+                  <trans-unit id="328" approved="yes">
+                    <source>Search:</source>
+                    <target state="translated">Поиск:</target>
+                  </trans-unit>
+                  <trans-unit id="329" approved="yes">
+                    <source>Show me results for</source>
+                    <target state="translated">Показать результаты для</target>
+                  </trans-unit>
+                  <trans-unit id="330" approved="yes">
+                    <source>All Items</source>
+                    <target state="translated">Все элементы</target>
+                  </trans-unit>
+                  <trans-unit id="331" approved="yes">
+                    <source>File names and contents</source>
+                    <target state="translated">Имя файла и документа</target>
+                  </trans-unit>
+                  <trans-unit id="332" approved="yes">
+                    <source>File names only</source>
+                    <target state="translated">Имя файла только</target>
+                  </trans-unit>
+                  <trans-unit id="333" approved="yes">
+                    <source>Space names only</source>
+                    <target state="translated">Имя папки только</target>
+                  </trans-unit>
+                  <trans-unit id="334" approved="yes">
+                    <source>Look in</source>
+                    <target state="translated">Искать в:</target>
+                  </trans-unit>
+                  <trans-unit id="335" approved="yes">
+                    <source>Location</source>
+                    <target state="translated">Местонахождение</target>
+                  </trans-unit>
+                  <trans-unit id="336" approved="yes">
+                    <source>All Spaces</source>
+                    <target state="translated">Все папки</target>
+                  </trans-unit>
+                  <trans-unit id="337" approved="yes">
+                    <source>Specify Space</source>
+                    <target state="translated">Описание папки</target>
+                  </trans-unit>
+                  <trans-unit id="338" approved="yes">
+                    <source>Auto. check Sub-Folders</source>
+                    <target state="translated">Автоматическая проверка вложенных папок</target>
+                  </trans-unit>
+                  <trans-unit id="339" approved="yes">
+                    <source>Uncheck all</source>
+                    <target state="translated">Снять всё</target>
+                  </trans-unit>
+                  <trans-unit id="340" approved="yes">
+                    <source>All Categories</source>
+                    <target state="translated">Все категории</target>
+                  </trans-unit>
+                  <trans-unit id="341" approved="yes">
+                    <source>Specify Categories</source>
+                    <target state="translated">Описание категорий</target>
+                  </trans-unit>
+                  <trans-unit id="342" approved="yes">
+                    <source>Auto. check Sub-Categories</source>
+                    <target state="translated">Автоматическая проверка суб-категорий</target>
+                  </trans-unit>
+                  <trans-unit id="343" approved="yes">
+                    <source>Select a template to change the fields...</source>
+                    <target state="translated">Выбрать шаблон для изменения полей...</target>
+                  </trans-unit>
+                  <trans-unit id="344" approved="yes">
+                    <source>Search Template:</source>
+                    <target state="translated">Шаблон поиска:</target>
+                  </trans-unit>
+                  <trans-unit id="345" approved="yes">
+                    <source>Search Result</source>
+                    <target state="translated">Результаты поиска</target>
+                  </trans-unit>
+                  <trans-unit id="346" approved="yes">
+                    <source>Image files</source>
+                    <target state="translated">Графические Файлы</target>
+                  </trans-unit>
+                  <trans-unit id="347" approved="yes">
+                    <source>Office files</source>
+                    <target state="translated">Office файлы</target>
+                  </trans-unit>
+                  <trans-unit id="348" approved="yes">
+                    <source>PDF files</source>
+                    <target state="translated">PDF файлы</target>
+                  </trans-unit>
+                  <trans-unit id="349" approved="yes">
+                    <source>Text files</source>
+                    <target state="translated">Текст файлы</target>
+                  </trans-unit>
+                  <trans-unit id="350" approved="yes">
+                    <source>Zip files</source>
+                    <target state="translated">Zip файлы</target>
+                  </trans-unit>
+                  <trans-unit id="351" approved="yes">
+                    <source>Video files</source>
+                    <target state="translated">Video файлы</target>
+                  </trans-unit>
+                  <trans-unit id="352" approved="yes">
+                    <source>Misc files</source>
+                    <target state="translated">Misc файлы</target>
+                  </trans-unit>
+                  <trans-unit id="353" approved="yes">
+                    <source>You browser doesn't have Flash, Silverlight, Gears, BrowserPlus or HTML5 support.</source>
+                    <target state="translated">Ваш браузер не имеет Flash, Silverlight, Gears, BrowserPlus или не поддерживает  HTML5.</target>
+                  </trans-unit>
+                  <trans-unit id="354" approved="yes">
+                    <source>Size:</source>
+                    <target state="translated">Размер: </target>
+                  </trans-unit>
+                  <trans-unit id="355" approved="yes">
+                    <source>Drag and Drop a file here %1%</source>
+                    <target state="translated">Перетащите файл сюда %1%</target>
+                  </trans-unit>
+                  <trans-unit id="356" approved="yes">
+                    <source>Version:</source>
+                    <target state="translated">Версия:</target>
+                  </trans-unit>
+                  <trans-unit id="357" approved="yes">
+                    <source>Minor Change</source>
+                    <target state="translated">Незначительные изменения</target>
+                  </trans-unit>
+                  <trans-unit id="358" approved="yes">
+                    <source>Major Change</source>
+                    <target state="translated">Существенные изменения</target>
+                  </trans-unit>
+                  <trans-unit id="359" approved="yes">
+                    <source>Select a new file</source>
+                    <target state="translated">Выбрать новый файл</target>
+                  </trans-unit>
+                  <trans-unit id="360" approved="yes">
+                    <source>Not supported mimetype!</source>
+                    <target state="translated">Не поддерживается mimetype!</target>
+                  </trans-unit>
+                  <trans-unit id="361" approved="yes">
+                    <source>An unknown error occured!</source>
+                    <target state="translated">Неизвестная ошибка!</target>
+                  </trans-unit>
+                  <trans-unit id="362" approved="yes">
+                    <source>Successfully saved to ifresco</source>
+                    <target state="translated">Успешно сохранено в ifresco</target>
+                  </trans-unit>
+                  <trans-unit id="363" approved="yes">
+                    <source>ERROR! Not allowed!</source>
+                    <target state="translated">Ошибка! Не разрешено!</target>
+                  </trans-unit>
+                  <trans-unit id="364">
+                    <source>Content</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="365">
+                    <source>Category Cache:</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="366">
+                    <source>ISO-8601 year number. This has the same value as Y, except that if the ISO week number (W) belongs to the previous or next year, that year is used instead. </source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="367">
+                    <source>From date</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="368">
+                    <source>To date</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="369">
+                    <source>Loading Jobs...</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="370">
+                    <source>Type</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="371">
+                    <source>Status</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="372">
+                    <source>No running jobs.</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="373">
+                    <source>Successfully cleared the finished jobs</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="374">
+                    <source>An error occured at clearing procedure!</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="375">
+                    <source>Clear finished jobs</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="376">
+                    <source>Clear finished Jobs</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="377">
+                    <source>Send via Email</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="378">
+                    <source>Successfully saved the Quick export Settings!</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="379">
+                    <source>Save Quick export Settings</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="380">
+                    <source>Exporting...</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="381">
+                    <source>Export</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="382">
+                    <source>Jobs</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="383">
+                    <source>Current jobs</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="384">
+                    <source>Report a bug</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="385">
+                    <source>Node Cache:</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="386">
+                    <source>Path</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="387">
+                    <source>Clear all Jobs</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="388">
+                    <source>OCR</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="389">
+                    <source>OCR Enabled:</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="390">
+                    <source>Enabled</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="391">
+                    <source>Disabled</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="392">
+                    <source>AutoOCR Endpoint:</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="393">
+                    <source>Available Pages</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="394">
+                    <source>AutoOCR Profile:</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="395">
+                    <source>Set an Endpoint first!</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="396">
+                    <source>Enable OCR on Upload:</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="397">
+                    <source>OCR behavior:</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="398">
+                    <source>OCRed file as new version</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="399">
+                    <source>Overwrite file with OCRed content</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="400">
+                    <source>Get AutoOCR:</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="402">
+                    <source>Get AutoOCR PDF or AutoOCR PDF/A here</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="403">
+                    <source>OCR Files</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="404">
+                    <source>OCR File</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="405">
+                    <source>Send files to OCR Engine...</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="406">
+                    <source>http://shop.xkey.at/en/Scan-and-OCR-Tools</source>
+                    <target/>
+                  </trans-unit>
+        </body>
+    </file>
+</xliff>

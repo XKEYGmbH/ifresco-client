@@ -1,0 +1,461 @@
+ifresco_client_admin_templates_list:
+    pattern: /templates/list
+    defaults: { _controller: IfrescoClientBundle:Admin:templatesList }
+    options:
+        expose: true
+
+ifresco_client_admin_templates_delete:
+    pattern: /templates/delete
+    defaults: { _controller: IfrescoClientBundle:Admin:deleteTemplates }
+    options:
+        expose: true
+
+ifresco_client_admin_templates_content_types:
+    pattern:  /templates/content/types
+    defaults: { _controller: IfrescoClientBundle:Admin:getTemplateContentTypes }
+    options:
+        expose: true
+
+ifresco_client_admin_templates_designer:
+    pattern:  /templates/designer
+    defaults: { _controller: IfrescoClientBundle:Admin:getTemplateDesigner }
+    options:
+        expose: true
+
+ifresco_client_admin_template_properties:
+    pattern:  /templates/properties
+    defaults: { _controller: IfrescoClientBundle:Admin:getTemplateProperties }
+    options:
+        expose: true
+
+ifresco_client_admin_template_properties_save:
+    pattern:  /templates/properties/save
+    defaults: { _controller: IfrescoClientBundle:Admin:addTemplateProperties }
+    methods: [POST]
+    options:
+        expose: true
+
+ifresco_client_admin_data_sources:
+    pattern:  /datasources
+    defaults: { _controller: IfrescoClientBundle:Admin:getDataSources }
+    options:
+        expose: true
+
+ifresco_client_admin_data_sources_delete:
+    pattern:  /datasources/delete/{id}
+    defaults: { _controller: IfrescoClientBundle:Admin:deleteDataSource }
+    options:
+        expose: true
+
+ifresco_client_admin_data_sources_save:
+    pattern:  /datasources/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveDataSource }
+    options:
+        expose: true
+
+ifresco_client_admin_data_sources_test:
+    pattern:  /datasources/test
+    defaults: { _controller: IfrescoClientBundle:Admin:testDataSource }
+    options:
+        expose: true
+
+ifresco_client_admin_data_sources_tables_get:
+    pattern:  /datasources/tables
+    defaults: { _controller: IfrescoClientBundle:Admin:getDataSourceTables }
+    options:
+        expose: true
+
+ifresco_client_admin_data_sources_columns_get:
+    pattern:  /datasources/columns
+    defaults: { _controller: IfrescoClientBundle:Admin:getDataSourceColumns }
+    options:
+        expose: true
+
+ifresco_client_admin_lookups_get:
+    pattern:  /lookups
+    defaults: { _controller: IfrescoClientBundle:Admin:getLookups }
+    options:
+        expose: true
+
+ifresco_client_admin_lookups_save:
+    pattern:  /lookups/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveLookups }
+    options:
+        expose: true
+
+ifresco_client_admin_categories_tree_get:
+    pattern:  /categories/tree
+    defaults: { _controller: IfrescoClientBundle:Admin:getCategoriesTree }
+    options:
+        expose: true
+
+ifresco_client_admin_system_settings_get:
+    pattern:  /settings/system
+    defaults: { _controller: IfrescoClientBundle:Admin:getSystemSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_system_settings_save:
+    pattern:  /settings/system/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveSystemSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_email_settings_get:
+    pattern:  /settings/email
+    defaults: { _controller: IfrescoClientBundle:Admin:getEmailSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_email_settings_save:
+    pattern:  /settings/email/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveEmailSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_settings_export:
+    pattern:  /settings/export
+    defaults: { _controller: IfrescoClientBundle:Admin:exportSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_settings_import:
+    pattern:  /settings/import
+    defaults: { _controller: IfrescoClientBundle:Admin:importSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_namespace_mapping_get:
+    pattern:  /settings/namespace/mapping
+    defaults: { _controller: IfrescoClientBundle:Admin:getNamespaceMappingSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_namespace_mapping_save:
+    pattern:  /settings/namespace/mapping/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveNamespaceMappingSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_namespace_mapping_delete:
+    pattern:  /settings/namespace/mapping/delete
+    defaults: { _controller: IfrescoClientBundle:Admin:deleteNamespaceMappingSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_filter_properties_get:
+    pattern:  /settings/filter/properties
+    defaults: { _controller: IfrescoClientBundle:Admin:getFilterPropertiesSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_filter_properties_save:
+    pattern:  /settings/filter/properties/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveFilterPropertiesSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_online_editing_get:
+    pattern:  /settings/online/editing
+    defaults: { _controller: IfrescoClientBundle:Admin:getOnlineEditingSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_online_editing_save:
+    pattern:  /settings/online/editing/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveOnlineEditingSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_online_editing_get:
+    pattern:  /settings/online/editing
+    defaults: { _controller: IfrescoClientBundle:Admin:getOnlineEditingSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_online_editing_save:
+    pattern:  /settings/online/editing/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveOnlineEditingSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_check_tree_get:
+    pattern:  /settings/tree/check
+    defaults: { _controller: IfrescoClientBundle:Admin:getTreeCheckSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_tree_root_folder_get:
+    pattern:  /settings/tree/root/folder
+    defaults: { _controller: IfrescoClientBundle:Admin:getTreeRootFolder }
+    options:
+        expose: true
+
+ifresco_client_admin_dropbox_get:
+    pattern:  /settings/dropbox
+    defaults: { _controller: IfrescoClientBundle:Admin:getDropboxSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_interface_get:
+    pattern:  /interface
+    defaults: { _controller: IfrescoClientBundle:Admin:getInterface }
+    options:
+        expose: true
+
+ifresco_client_admin_upload_logo:
+    pattern:  /upload/logo
+    defaults: { _controller: IfrescoClientBundle:Admin:uploadLogo }
+    options:
+        expose: true
+
+ifresco_client_admin_aspect_list_get:
+    pattern:  /aspect/list
+    defaults: { _controller: IfrescoClientBundle:Admin:getAspectList }
+    options:
+        expose: true
+
+ifresco_client_admin_aspect_list_save:
+    pattern:  /aspect/list/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveAspectList }
+    options:
+        expose: true
+
+ifresco_client_admin_type_list_get:
+    pattern:  /type/list
+    defaults: { _controller: IfrescoClientBundle:Admin:getTypeList }
+    options:
+        expose: true
+
+ifresco_client_admin_type_list_save:
+    pattern:  /type/list/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveTypeList }
+    options:
+        expose: true
+
+ifresco_client_admin_upload_allowed_types:
+    pattern:  /upload/allowed/types
+    defaults: { _controller: IfrescoClientBundle:Admin:uploadAllowedTypes }
+    options:
+        expose: true
+
+ifresco_client_admin_current_jobs_get:
+    pattern:  /jobs/current
+    defaults: { _controller: IfrescoClientBundle:Admin:getCurrentJobs }
+    options:
+        expose: true
+
+ifresco_client_admin_current_jobs_clear:
+    pattern:  /jobs/current/clear
+    defaults: { _controller: IfrescoClientBundle:Admin:clearCurrentJobs }
+    options:
+        expose: true
+
+ifresco_client_admin_current_jobs_download:
+    pattern:  /jobs/current/download/{id}
+    defaults: { _controller: IfrescoClientBundle:Admin:downloadCurrentJob }
+    options:
+        expose: true
+
+ifresco_client_admin_export_jobs_get:
+    pattern:  /jobs/export
+    defaults: { _controller: IfrescoClientBundle:Admin:getExportJobs }
+    options:
+        expose: true
+
+ifresco_client_admin_export_jobs_save:
+    pattern:  /jobs/export/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveExportJobs }
+    options:
+        expose: true
+
+ifresco_client_admin_column_set_get:
+    pattern:  /column/set
+    defaults: { _controller: IfrescoClientBundle:Admin:getColumnSet }
+    options:
+        expose: true
+
+ifresco_client_admin_column_set_edit:
+    pattern:  /column/set/edit/{id}
+    defaults: { _controller: IfrescoClientBundle:Admin:editColumnSet }
+    options:
+        expose: true
+
+ifresco_client_admin_column_set_save:
+    pattern:  /column/set/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveColumnSet }
+    options:
+        expose: true
+
+ifresco_client_admin_column_set_delete:
+    pattern:  /column/set/delete
+    defaults: { _controller: IfrescoClientBundle:Admin:deleteColumnSet }
+    options:
+        expose: true
+
+ifresco_client_admin_column_set_mark_as_default:
+    pattern:  /column/set/mark/default
+    defaults: { _controller: IfrescoClientBundle:Admin:markColumnSetAsDefault }
+    options:
+        expose: true
+
+ifresco_client_admin_click_search_get:
+    pattern:  /search/click
+    defaults: { _controller: IfrescoClientBundle:Admin:getClickSearch }
+    options:
+        expose: true
+
+ifresco_client_admin_click_search_save:
+    pattern:  /search/click/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveClickSearch }
+    options:
+        expose: true
+
+ifresco_client_admin_quick_search_get:
+    pattern:  /search/quick
+    defaults: { _controller: IfrescoClientBundle:Admin:getQuickSearch }
+    options:
+        expose: true
+
+ifresco_client_admin_quick_search_save:
+    pattern:  /search/quick/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveQuickSearch }
+    options:
+        expose: true
+
+ifresco_client_admin_search_templates_get:
+    pattern:  /search/templates
+    defaults: { _controller: IfrescoClientBundle:Admin:getSearchTemplates }
+    options:
+        expose: true
+
+ifresco_client_admin_search_templates_delete:
+    pattern:  /search/templates/delete
+    defaults: { _controller: IfrescoClientBundle:Admin:deleteSearchTemplates }
+    options:
+        expose: true
+
+ifresco_client_admin_search_template_get:
+    pattern:  /search/template/edit/{id}
+    defaults: { _controller: IfrescoClientBundle:Admin:getSearchTemplate }
+    options:
+        expose: true
+
+ifresco_client_admin_search_template_save:
+    pattern:  /search/template/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveSearchTemplate }
+    options:
+        expose: true
+
+ifresco_client_admin_template_metadata_get:
+    pattern:  /template/metadata
+    defaults: { _controller: IfrescoClientBundle:Admin:getTemplateMetadata }
+    options:
+        expose: true
+
+ifresco_client_admin_template_mark_as_default:
+    pattern:  /template/mark/default
+    defaults: { _controller: IfrescoClientBundle:Admin:markTemplateAsDefault }
+    options:
+        expose: true
+
+ifresco_client_admin_query_fields_get:
+    pattern:  /query/fields
+    defaults: { _controller: IfrescoClientBundle:Admin:getQueryFields }
+    options:
+        expose: true
+        
+ifresco_client_admin_ocr_status:
+    pattern:  /ocr/status
+    defaults: { _controller: IfrescoClientBundle:Admin:ocrStatus }
+    options:
+        expose: true
+
+ifresco_client_admin_ocr_connection:
+    pattern:  /ocr/connection
+    defaults: { _controller: IfrescoClientBundle:Admin:ocrConnection }
+    options:
+        expose: true
+
+ifresco_client_admin_ocr_transformers:
+    pattern:  /ocr/transformers
+    defaults: { _controller: IfrescoClientBundle:Admin:ocrTransformers }
+    options:
+        expose: true
+        
+ifresco_client_admin_ocr_runtime_transformers:
+    pattern:  /ocr/runtime/transformers
+    defaults: { _controller: IfrescoClientBundle:Admin:ocrRuntimeTransformers }
+    options:
+        expose: true
+        
+ifresco_client_admin_ocr_transformer_mimetypes:
+    pattern:  /ocr/transformer/mimetypes
+    defaults: { _controller: IfrescoClientBundle:Admin:ocrTransformerMimetypes }
+    options:
+        expose: true
+
+ifresco_client_admin_ocr_transformer_settings:
+    pattern:  /ocr/transformer/settings
+    defaults: { _controller: IfrescoClientBundle:Admin:ocrTransformerSettings }
+    options:
+        expose: true
+
+ifresco_client_admin_test_ocrconnection:
+    pattern:  /ocr/test/connection
+    defaults: { _controller: IfrescoClientBundle:Admin:testOcrConnection }
+    options:
+        expose: true
+
+ifresco_client_admin_test_ocrapikey:
+    pattern:  /ocr/test/apikey
+    defaults: { _controller: IfrescoClientBundle:Admin:testOcrAPIKey }
+    options:
+        expose: true
+
+ifresco_client_admin_ocr_jobs:
+    pattern:  /ocr/jobs
+    defaults: { _controller: IfrescoClientBundle:Admin:ocrJobs }
+    options:
+        expose: true
+        
+ifresco_client_admin_ocr_settings_save:
+    pattern:  /ocr/settings/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveOcrSettings }
+    options:
+        expose: true
+        
+ifresco_client_admin_tag_manager:
+    pattern:  /tag/manager
+    defaults: { _controller: IfrescoClientBundle:Admin:tagManager }
+    options:
+        expose: true
+        
+ifresco_client_admin_tag_manager_edit:
+    pattern:  /tag/manager/edit
+    defaults: { _controller: IfrescoClientBundle:Admin:tagManagerEdit }
+    options:
+        expose: true        
+        
+ifresco_client_admin_tag_manager_delete:
+    pattern:  /tag/manager/delete
+    defaults: { _controller: IfrescoClientBundle:Admin:tagManagerDelete }
+    options:
+        expose: true 
+        
+ifresco_client_admin_currency_fields_get:
+    pattern:  /currency/fields
+    defaults: { _controller: IfrescoClientBundle:Admin:getCurrencyFields }
+    options:
+        expose: true 
+
+ifresco_client_admin_currency_fields_save:
+    pattern:  /currency/fields/save
+    defaults: { _controller: IfrescoClientBundle:Admin:saveCurrencyFields }
+    options:
+        expose: true
+
+        
+ifresco_client_admin_plugins:
+    resource: "@IfrescoClientBundle/Resources/config/routing/plugins.yml"
+    prefix:   /plugins

@@ -1,0 +1,5 @@
+{% if mimeType == 'text/html' %}
+<div id="HtmlRenderer" style="width:100%;height:100%;">{% autoescape false %}{{ content }}{% endautoescape %}</div>
+{% else %}
+<iframe id="HtmlRenderer" style="width:100%;height:100%;">{% autoescape false %}{{ content }}{% endautoescape %}</iframe>
+{% endif %}

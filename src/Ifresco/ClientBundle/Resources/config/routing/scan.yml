@@ -1,0 +1,23 @@
+ifresco_client_scan_initial_scan:
+    pattern:  /initial/scan
+    defaults: { _controller: IfrescoClientBundle:Scan:initialScan }
+    options:
+        expose: true
+
+ifresco_client_scan_get_scanner_profiles:
+    pattern:  /get/scanner/profiles
+    defaults: { _controller: IfrescoClientBundle:Scan:getScannerProfiles }
+    options:
+        expose: true
+
+ifresco_client_scan_get_scanned_image:
+    pattern:  /get/scanned/image
+    defaults: { _controller: IfrescoClientBundle:Scan:getScannedImage }
+    options:
+        expose: true
+
+ifresco_client_scan_save:
+    pattern:  /save
+    defaults: { _controller: IfrescoClientBundle:Scan:scanSave }
+    options:
+        expose: true

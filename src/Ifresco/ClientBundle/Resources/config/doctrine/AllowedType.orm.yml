@@ -1,0 +1,12 @@
+Ifresco\ClientBundle\Entity\AllowedType:
+    type: entity
+    table: allowed_types
+    repositoryClass: Ifresco\ClientBundle\Repository\AllowedTypeRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 180

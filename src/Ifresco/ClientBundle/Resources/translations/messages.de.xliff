@@ -1,0 +1,2457 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+		  <trans-unit id="2" approved="yes">
+			<source>Never used ifresco Client before? Check out the Tutorials on %link%</source>
+			<target state="translated">Verwenden Sie zum ersten Mal den ifresco Client? %link%</target>
+			
+		  </trans-unit>
+		  <trans-unit id="3" approved="yes">
+			<source>Successfully saved the aspect list!</source>
+			<target state="translated">Aspekt Liste wurde erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="4" approved="yes">
+			<source>An error occured at saving procedure!</source>
+			<target state="translated">Fehler beim Speicher Vorgang aufgetreten!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="5" approved="yes">
+			<source>Save aspects</source>
+			<target state="translated">Speichern Aspekte</target>
+			
+		  </trans-unit>
+		  <trans-unit id="6" approved="yes">
+			<source>Loading...</source>
+			<target state="translated">Wird geladen...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="7" approved="yes">
+			<source>Select an aspect...</source>
+			<target state="translated">Aspekt auswählen...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="8" approved="yes">
+			<source>Save</source>
+			<target state="translated">Speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="9" approved="yes">
+			<source>Choose Aspects:</source>
+			<target state="translated">Aspekte auswählen:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="10" approved="yes">
+			<source>Delete all &amp; load Default-List!</source>
+			<target state="translated">Alles löschen &amp; Standardliste laden!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="11" approved="yes">
+			<source>Successfully saved the Email settings!</source>
+			<target state="translated">E-Mail Konfiguration erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="12" approved="yes">
+			<source>Email Settings</source>
+			<target state="translated">E-Mail Konfiguration</target>
+			
+		  </trans-unit>
+		  <trans-unit id="13" approved="yes">
+			<source>Content Model</source>
+			<target state="translated">Content Modell</target>
+			
+		  </trans-unit>
+		  <trans-unit id="14" approved="yes">
+			<source>Advanced Search</source>
+			<target state="translated">Erweiterte Suche</target>
+			
+		  </trans-unit>
+		  <trans-unit id="15" approved="yes">
+			<source>Columns</source>
+			<target state="translated">Spalten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="16" approved="yes">
+			<source>General Settings</source>
+			<target state="translated">Allgemeine Einstellungen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="17" approved="yes">
+			<source>About</source>
+			<target state="translated">Info</target>
+			
+		  </trans-unit>
+		  <trans-unit id="18" approved="yes">
+			<source>Select a content type...</source>
+			<target state="translated">Content Typ auswählen...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="19" approved="yes">
+			<source>Next</source>
+			<target state="translated">Weiter</target>
+			
+		  </trans-unit>
+		  <trans-unit id="20" approved="yes">
+			<source>Close</source>
+			<target state="translated">Schliessen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="21" approved="yes">
+			<source>Add</source>
+			<target state="translated">Hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="22" approved="yes">
+			<source>Select a property...</source>
+			<target state="translated">Property auswählen...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="23" approved="yes">
+			<source>Hide on default</source>
+			<target state="translated">Unsichtbar - Standardeinstellung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="24" approved="yes">
+			<source>Templates</source>
+			<target state="translated">Vorlagen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="25" approved="yes">
+			<source>Create a Template</source>
+			<target state="translated">Vorlage erstellen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="26" approved="yes">
+			<source>Lookups</source>
+			<target state="translated">Lookups</target>
+			
+		  </trans-unit>
+		  <trans-unit id="27" approved="yes">
+			<source>Namespace Mapping</source>
+			<target state="translated">Namespace Mapping</target>
+			
+		  </trans-unit>
+		  <trans-unit id="28" approved="yes">
+			<source>Column Sets</source>
+			<target state="translated">Spalten Sets</target>
+			
+		  </trans-unit>
+		  <trans-unit id="29" approved="yes">
+			<source>Add a Column Set</source>
+			<target state="translated">Spalten Set hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="30" approved="yes">
+			<source>System</source>
+			<target state="translated">System</target>
+			
+		  </trans-unit>
+		  <trans-unit id="31" approved="yes">
+			<source>Email</source>
+			<target state="translated">Email</target>
+			
+		  </trans-unit>
+		  <trans-unit id="32" approved="yes">
+			<source>Aspects</source>
+			<target state="translated">Aspekte</target>
+			
+		  </trans-unit>
+		  <trans-unit id="33" approved="yes">
+			<source>Content Types</source>
+			<target state="translated">Content Typen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="34" approved="yes">
+			<source>Quick Search</source>
+			<target state="translated">Schnellsuche</target>
+			
+		  </trans-unit>
+		  <trans-unit id="35" approved="yes">
+			<source>Online Editing</source>
+			<target state="translated">Online-Bearbeitung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="36" approved="yes">
+			<source>Invalid username or password</source>
+			<target state="translated">Ungültiger Benutzername/Passwort</target>
+			
+		  </trans-unit>
+		  <trans-unit id="37" approved="yes">
+			<source>Login</source>
+			<target state="translated">Anmelden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="38" approved="yes">
+			<source>Relations</source>
+			<target state="translated">Beziehungen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="39" approved="yes">
+			<source>Available Aspects:</source>
+			<target state="translated">Verfügbare Aspekte:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="40" approved="yes">
+			<source>Used Aspects:</source>
+			<target state="translated">Verwendete Aspekte:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="41" approved="yes">
+			<source>Cancel</source>
+			<target state="translated">Beenden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="42" approved="yes">
+			<source>This document is locked by %1% !</source>
+			<target state="translated">Das Dokument ist gesperrt von %1% !</target>
+			
+		  </trans-unit>
+		  <trans-unit id="43" approved="yes">
+			<source>Get Working Copy</source>
+			<target state="translated">Arbeitskopie erstell</target>
+			
+		  </trans-unit>
+		  <trans-unit id="44" approved="yes">
+			<source>This document is locked for the offline editing by %1% !</source>
+			<target state="translated">Das Dokument ist für die offline Bearbeitung von %1% gesperrt !</target>
+			
+		  </trans-unit>
+		  <trans-unit id="45" approved="yes">
+			<source>Get Original Document</source>
+			<target state="translated">Original Dokument laden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="46" approved="yes">
+			<source>Template:</source>
+			<target state="translated">Vorlage:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="47" approved="yes">
+			<source>Search:</source>
+			<target state="translated">Suchen:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="48" approved="yes">
+			<source>Show me results for</source>
+			<target state="translated">Ergebnisse zeigen für</target>
+			
+		  </trans-unit>
+		  <trans-unit id="49" approved="yes">
+			<source>Look in</source>
+			<target state="translated">Suchen in</target>
+			
+		  </trans-unit>
+		  <trans-unit id="50" approved="yes">
+			<source>Location</source>
+			<target state="translated">Ort</target>
+			
+		  </trans-unit>
+		  <trans-unit id="51" approved="yes">
+			<source>All Spaces</source>
+			<target state="translated">Alle Ordner</target>
+			
+		  </trans-unit>
+		  <trans-unit id="52" approved="yes">
+			<source>Specify Space</source>
+			<target state="translated">Ordner festlegen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="53" approved="yes">
+			<source>Company Home</source>
+			<target state="translated">Repository</target>
+			
+		  </trans-unit>
+		  <trans-unit id="54" approved="yes">
+			<source>Categories</source>
+			<target state="translated">Kategorien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="55" approved="yes">
+			<source>All Categories</source>
+			<target state="translated">Alle Kategorien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="56" approved="yes">
+			<source>Specify Categories</source>
+			<target state="translated">Kategorien auswählen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="57" approved="yes">
+			<source>Tags</source>
+			<target state="translated">Tags</target>
+			
+		  </trans-unit>
+		  <trans-unit id="58" approved="yes">
+			<source>Select a template to change the fields...</source>
+			<target state="translated">Vorlage auswählen um die Felder zu wechseln...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="59" approved="yes">
+			<source>Search Template:</source>
+			<target state="translated">Suchvorlage:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="60" approved="yes">
+			<source>Search</source>
+			<target state="translated">Suchen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="61" approved="yes">
+			<source>Search Result</source>
+			<target state="translated">Suchergebnis</target>
+			
+		  </trans-unit>
+		  <trans-unit id="62" approved="yes">
+			<source>Loading Results...</source>
+			<target state="translated">Ergebnisse werden gelesen...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="63" approved="yes">
+			<source>Image files</source>
+			<target state="translated">Bild Dateien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="64" approved="yes">
+			<source>Office files</source>
+			<target state="translated">Office Dateien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="65" approved="yes">
+			<source>PDF files</source>
+			<target state="translated">PDF Dateien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="66" approved="yes">
+			<source>Text files</source>
+			<target state="translated">Text Dateien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="67" approved="yes">
+			<source>Zip files</source>
+			<target state="translated">Zip Dateien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="68" approved="yes">
+			<source>Video files</source>
+			<target state="translated">Video Dateien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="69" approved="yes">
+			<source>Misc files</source>
+			<target state="translated">Sonstige Dateien</target>
+			
+		  </trans-unit>
+		  <trans-unit id="70" approved="yes">
+			<source>You browser doesn't have Flash</source>
+			<target state="translated"> Silverlight</target>
+			
+		  </trans-unit>
+		  <trans-unit id="71" approved="yes">
+			<source>Size:</source>
+			<target state="translated">Größe:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="72" approved="yes">
+			<source>Drag and Drop a file here %1%</source>
+			<target state="translated">Datei per Drag and Drop ziehen %1%</target>
+			
+		  </trans-unit>
+		  <trans-unit id="73" approved="yes">
+			<source>Saving...</source>
+			<target state="translated">Speichern...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="74" approved="yes">
+			<source>Note:</source>
+			<target state="translated">Anmerkung:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="75" approved="yes">
+			<source>Version:</source>
+			<target state="translated">Version:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="76" approved="yes">
+			<source>Minor Change</source>
+			<target state="translated">Sub-Version</target>
+			
+		  </trans-unit>
+		  <trans-unit id="77" approved="yes">
+			<source>Major Change</source>
+			<target state="translated">Haupt-Version</target>
+			
+		  </trans-unit>
+		  <trans-unit id="78" approved="yes">
+			<source>Select a new file</source>
+			<target state="translated">Neue Datei auswählen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="79" approved="yes">
+			<source>At least one category is required!</source>
+			<target state="translated">Mindestens eine Kategorie erforderlich!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="80" approved="yes">
+			<source>Successfully saved the lookups!</source>
+			<target state="translated">Lookups wurden erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="81" approved="yes">
+			<source>Error</source>
+			<target state="translated">Fehler</target>
+			
+		  </trans-unit>
+		  <trans-unit id="82" approved="yes">
+			<source>Select a field:</source>
+			<target state="translated">Feld auswählen:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="83" approved="yes">
+			<source>Select a category:</source>
+			<target state="translated">Kategorie auswählen:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="84" approved="yes">
+			<source>Multiselect</source>
+			<target state="translated">Mehrfachselektion</target>
+			
+		  </trans-unit>
+		  <trans-unit id="85" approved="yes">
+			<source>Singleselect</source>
+			<target state="translated">Einfachselektion</target>
+			
+		  </trans-unit>
+		  <trans-unit id="86" approved="yes">
+			<source>Single select only!</source>
+			<target state="translated">Nur Einfachauswahl möglich!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="87" approved="yes">
+			<source>Create a new lookup field</source>
+			<target state="translated">Neues Lookup Feld anlegen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="88" approved="yes">
+			<source>Preview</source>
+			<target state="translated">Vorschau</target>
+			
+		  </trans-unit>
+		  <trans-unit id="89" approved="yes">
+			<source>Preview of the Node -&gt; Renderer</source>
+			<target state="translated">Renderer für Dokumenten Voransicht</target>
+			
+		  </trans-unit>
+		  <trans-unit id="90" approved="yes">
+			<source>Versions</source>
+			<target state="translated">Versionen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="91" approved="yes">
+			<source>Version Control of the Node</source>
+			<target state="translated">Versionskontrolle</target>
+			
+		  </trans-unit>
+		  <trans-unit id="92" approved="yes">
+			<source>Update</source>
+			<target state="translated">Aktualisieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="93" approved="yes">
+			<source>Loading Namespaces...</source>
+			<target state="translated">Lade Namespaces...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="94" approved="yes">
+			<source>Add a Namespace</source>
+			<target state="translated">Namespace hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="95" approved="yes">
+			<source>Delete the selected Namespace</source>
+			<target state="translated">Ausgewählten Namespace löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="96" approved="yes">
+			<source>Namespace</source>
+			<target state="translated">Namespace</target>
+			
+		  </trans-unit>
+		  <trans-unit id="97" approved="yes">
+			<source>Prefix</source>
+			<target state="translated">Präfix</target>
+			
+		  </trans-unit>
+		  <trans-unit id="98" approved="yes">
+			<source>No Namespaces to display.</source>
+			<target state="translated">Keine Namespaces zur Anzeige verfügbar.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="99" approved="yes">
+			<source>Delete a Namespacemap?</source>
+			<target state="translated">Namespace Zuordnung löschen?</target>
+			
+		  </trans-unit>
+		  <trans-unit id="100" approved="yes">
+			<source>Do you really want to delete the template:</source>
+			<target state="translated">Soll die Vorlage wirklich gelöscht werden:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="101" approved="yes">
+			<source>Successfully deleted a Namespacemap!</source>
+			<target state="translated">Namespace Zuordnung erfolgreich gelöscht!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="102" approved="yes">
+			<source>Your Namespacemap was delete successfully!</source>
+			<target state="translated">Ihre Namespace Zuordnung wurde erfolgreich gelöscht!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="103" approved="yes">
+			<source>Delete a Namespacemap - Error occured</source>
+			<target state="translated">Namepace Zuordnung löschen - Fehler aufgetreten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="104" approved="yes">
+			<source>The Namespacemap could not be deleted %1% Reason: %2%</source>
+			<target state="translated">Namespace Zuordnung konnte nicht gelöscht werden %1% Grund: %2%</target>
+			
+		  </trans-unit>
+		  <trans-unit id="105" approved="yes">
+			<source>Successfully saved the Online Editing settings!</source>
+			<target state="translated">Online Bearbeitungs-Einstellungen wurden erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="106" approved="yes">
+			<source>Online Editing:</source>
+			<target state="translated">Online-Bearbeitung:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="107" approved="yes">
+			<source>Not active</source>
+			<target state="translated">Nicht aktiv</target>
+			
+		  </trans-unit>
+		  <trans-unit id="108" approved="yes">
+			<source>Successfully saved the Quick Search Settings!</source>
+			<target state="translated">Einstellungen für die Schnell-Suche wurden erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="109" approved="yes">
+			<source>Save Quick Search Settings</source>
+			<target state="translated">Schnell-Such Einstellungen speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="110" approved="yes">
+			<source>Add a property</source>
+			<target state="translated">Property hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="111" approved="yes">
+			<source>To delete items - drop them here</source>
+			<target state="translated">Eintrag löschen - hier her ziehen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="112" approved="yes">
+			<source>Successfully saved the columnset!</source>
+			<target state="translated">Spalten-Set Konfiguration erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="113" approved="yes">
+			<source>An error occured at saving procedure!An error occured at saving procedure!</source>
+			<target state="translated">Fehler beim Speichern aufgetreten!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="114" approved="yes">
+			<source>Save Columnset</source>
+			<target state="translated">Spalten-Set Konfiguration Speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="115" approved="yes">
+			<source>Name:</source>
+			<target state="translated">Name:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="116" approved="yes">
+			<source>To delete items - drop it here</source>
+			<target state="translated">Einträge löschen - hier her ziehen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="117" approved="yes">
+			<source>Loading Templates...</source>
+			<target state="translated">Vorlagen Laden...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="118" approved="yes">
+			<source>Name</source>
+			<target state="translated">Name</target>
+			
+		  </trans-unit>
+		  <trans-unit id="119" approved="yes">
+			<source>Default</source>
+			<target state="translated">Standard</target>
+			
+		  </trans-unit>
+		  <trans-unit id="120" approved="yes">
+			<source>Action</source>
+			<target state="translated">Aktion</target>
+			
+		  </trans-unit>
+		  <trans-unit id="121" approved="yes">
+			<source>No ColumnSets to display.</source>
+			<target state="translated">Keine Spalten-Sets zur Anzeige vorhanden.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="122" approved="yes">
+			<source>Mark default ColumnSet - Error occured!</source>
+			<target state="translated">Standard Spalten-Set auswählen - Fehler aufgetreten!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="123" approved="yes">
+			<source>The ColumnSet could not be marked as default ColumnSet %1% Reason: %2%</source>
+			<target state="translated">Spalten-Set konnte nicht als Standard definiert werden %1% Grund: %2%</target>
+			
+		  </trans-unit>
+		  <trans-unit id="124" approved="yes">
+			<source>Delete ColumnSet?</source>
+			<target state="translated">Spalten-Set Löschen?</target>
+			
+		  </trans-unit>
+		  <trans-unit id="125" approved="yes">
+			<source>Do you really want to delete the ColumnSet:</source>
+			<target state="translated">Soll das Spalten-Set wirklich gelöscht werden:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="126" approved="yes">
+			<source>Successfully deleted a ColumnSet!</source>
+			<target state="translated">Spalten-Set erfolgreich gelöscht!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="127" approved="yes">
+			<source>Your ColumnSet is deleted successfully!</source>
+			<target state="translated">Ihr Spalten-Set wurde erfolgreich gelöscht!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="128" approved="yes">
+			<source>Delete ColumnSet - Error occured!</source>
+			<target state="translated">Löschen Spalten-Set - Fehler aufgetreten!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="129" approved="yes">
+			<source>The ColumnSet could not be deleted %1% Reason: %2%</source>
+			<target state="translated">Das Spalten-Set konnte nicht gelöscht werden %1% Grund: %2%</target>
+			
+		  </trans-unit>
+		  <trans-unit id="130" approved="yes">
+			<source>Successfully saved the search template!</source>
+			<target state="translated">Such Vorlage wurde erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="131" approved="yes">
+			<source>Save Search Template</source>
+			<target state="translated">Such-Vorlage Speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="132" approved="yes">
+			<source>Save title</source>
+			<target state="translated">Titel Speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="133" approved="yes">
+			<source>Column Set:</source>
+			<target state="translated">Spalten-Set:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="134" approved="yes">
+			<source>None</source>
+			<target state="translated">Keine</target>
+			
+		  </trans-unit>
+		  <trans-unit id="135" approved="yes">
+			<source>Multi Columns:</source>
+			<target state="translated">Mehrfach Spalten:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="136" approved="yes">
+			<source>Add a tab</source>
+			<target state="translated">Tab hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="137" approved="yes">
+			<source>Add Doctype Properties:</source>
+			<target state="translated">Dokumenten-Typ Eigenschaften hinzufügen:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="138" approved="yes">
+			<source>Multi Column</source>
+			<target state="translated">Mehrfach Spalten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="139" approved="yes">
+			<source>No templates to display.</source>
+			<target state="translated">Keine Vorlagen zur Anzeige vorhanden.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="140" approved="yes">
+			<source>Mark default template - Error occured!</source>
+			<target state="translated">Standard Vorlage auswählen - Fehler aufgetreten!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="141" approved="yes">
+			<source>The Template could not be marked as default Template %1% Reason: %2%</source>
+			<target state="translated">Die Vorlage konnte nicht als Standard ausgewählt werden %1% Grund: %2%</target>
+			
+		  </trans-unit>
+		  <trans-unit id="142" approved="yes">
+			<source>Delete template?</source>
+			<target state="translated">Vorlage löschen?</target>
+			
+		  </trans-unit>
+		  <trans-unit id="143" approved="yes">
+			<source>Successfully delete a template!</source>
+			<target state="translated">Vorlage würde erfolgreich gelöscht!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="144" approved="yes">
+			<source>Your template was deleted successfully!</source>
+			<target state="translated">Ihre Vorlage wurde erfolgreich gelöscht!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="145" approved="yes">
+			<source>Delete template - Error occured!</source>
+			<target state="translated">Vorlage löschen - Fehler aufgetreten!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="146" approved="yes">
+			<source>The Template could not be deleted %1% Reason: %2%</source>
+			<target state="translated">Die Vorlage konnte nicht gelöscht werden %1% Grund: %2%</target>
+			
+		  </trans-unit>
+		  <trans-unit id="147" approved="yes">
+			<source>Successfully saved the system settings!</source>
+			<target state="translated">System Einstellungen wurden erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="148" approved="yes">
+			<source>Icon Support</source>
+			<target state="translated">Unterstützung von Miniaturen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="149" approved="yes">
+			<source>Disable Renderers:</source>
+			<target state="translated">Renderer deaktivieren:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="150" approved="yes">
+			<source>Default Tab of Node:</source>
+			<target state="translated">Standard Tab für Knoten:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="151" approved="yes">
+			<source>Successfully saved the template!</source>
+			<target state="translated">Vorlage erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="152" approved="yes">
+			<source>Save Template</source>
+			<target state="translated">Vorlage speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="153" approved="yes">
+			<source>Aspects managed as:</source>
+			<target state="translated">Aspekte verwalten als:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="154" approved="yes">
+			<source>Unvisible</source>
+			<target state="translated">Unsichtbar</target>
+			
+		  </trans-unit>
+		  <trans-unit id="155" approved="yes">
+			<source>Content Type</source>
+			<target state="translated">Content Typ</target>
+			
+		  </trans-unit>
+		  <trans-unit id="156" approved="yes">
+			<source>Aspects show as</source>
+			<target state="translated">Aspekt anzeigen als</target>
+			
+		  </trans-unit>
+		  <trans-unit id="157" approved="yes">
+			<source>Tabs</source>
+			<target state="translated">Tabs</target>
+			
+		  </trans-unit>
+		  <trans-unit id="158" approved="yes">
+			<source>Your template was delete successfully!</source>
+			<target state="translated">Vorlage wurde erfolgreich gelöscht!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="159" approved="yes">
+			<source>Choose Content Type:</source>
+			<target state="translated">Content Typ auswählen:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="160" approved="yes">
+			<source>Delete all</source>
+			<target state="translated">Alle löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="161" approved="yes">
+			<source>Metadata</source>
+			<target state="translated">Profil</target>
+			
+		  </trans-unit>
+		  <trans-unit id="162" approved="yes">
+			<source>Display Metadata of the Node</source>
+			<target state="translated">Metadaten für Knoten anzeigen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="163" approved="yes">
+			<source>From Email</source>
+			<target state="translated">E-Mail - Von</target>
+			
+		  </trans-unit>
+		  <trans-unit id="164" approved="yes">
+			<source>SMTP Host</source>
+			<target state="translated">SMTP Host</target>
+			
+		  </trans-unit>
+		  <trans-unit id="165" approved="yes">
+			<source>SMTP Port</source>
+			<target state="translated">SMZP Port</target>
+			
+		  </trans-unit>
+		  <trans-unit id="166" approved="yes">
+			<source>SMTP Authentication</source>
+			<target state="translated">SMTP-Authentifikation</target>
+			
+		  </trans-unit>
+		  <trans-unit id="167" approved="yes">
+			<source>SMTP Username</source>
+			<target state="translated">SMTP Benutzer</target>
+			
+		  </trans-unit>
+		  <trans-unit id="168" approved="yes">
+			<source>SMTP Password</source>
+			<target state="translated">SMTP Passwort</target>
+			
+		  </trans-unit>
+		  <trans-unit id="169" approved="yes">
+			<source>From Name</source>
+			<target state="translated">Von Name</target>
+			
+		  </trans-unit>
+		  <trans-unit id="170" approved="yes">
+			<source>Edit template</source>
+			<target state="translated">Vorlage bearbeiten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="171" approved="yes">
+			<source>Delete template</source>
+			<target state="translated">Vorlage löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="172" approved="yes">
+			<source>Mark as default template</source>
+			<target state="translated">Als Standard Vorlage markieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="173" approved="yes">
+			<source>Edit ColumnSet</source>
+			<target state="translated">Spalten-Set bearbeiten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="174" approved="yes">
+			<source>Delete ColumnSet</source>
+			<target state="translated">Spalten-Set Löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="175" approved="yes">
+			<source>Mark as default ColumnSet</source>
+			<target state="translated">Spalten-Set als Standard markieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="176" approved="yes">
+			<source>Person Relations</source>
+			<target state="translated">Personen Beziehungen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="177" approved="yes">
+			<source>Document Relations</source>
+			<target state="translated">Dokumenten Beziehungen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="178" approved="yes">
+			<source>This document has no relations.</source>
+			<target state="translated">Dokument hat keine Relationen.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="179" approved="yes">
+			<source>This document has no version history.</source>
+			<target state="translated">Dokument hat keine Versions Historie.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="180" approved="yes">
+			<source>Version</source>
+			<target state="translated">Version</target>
+			
+		  </trans-unit>
+		  <trans-unit id="181" approved="yes">
+			<source>Note</source>
+			<target state="translated">Bemerkung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="182" approved="yes">
+			<source>Date</source>
+			<target state="translated">Datum</target>
+			
+		  </trans-unit>
+		  <trans-unit id="183" approved="yes">
+			<source>Author</source>
+			<target state="translated">Autor</target>
+			
+		  </trans-unit>
+		  <trans-unit id="184" approved="yes">
+			<source>Actions</source>
+			<target state="translated">Aktion</target>
+			
+		  </trans-unit>
+		  <trans-unit id="185" approved="yes">
+			<source>Download</source>
+			<target state="translated">Herunterladen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="186" approved="yes">
+			<source>Edit Metadata</source>
+			<target state="translated">Metadaten bearbeiten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="187" approved="yes">
+			<source>Checkout</source>
+			<target state="translated">Auschecken</target>
+			
+		  </trans-unit>
+		  <trans-unit id="188" approved="yes">
+			<source>Refresh</source>
+			<target state="translated">Neu laden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="189" approved="yes">
+			<source>Comments</source>
+			<target state="translated">Kommentare</target>
+			
+		  </trans-unit>
+		  <trans-unit id="190" approved="yes">
+			<source>Document checked out successfully.</source>
+			<target state="translated">Dokument erfolgreich ausgecheckt.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="191" approved="yes">
+			<source>Checkin</source>
+			<target state="translated">Einchecken</target>
+			
+		  </trans-unit>
+		  <trans-unit id="192" approved="yes">
+			<source>Document checked in successfully.</source>
+			<target state="translated">Dokument erfolgreich eingecheckt.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="193" approved="yes">
+			<source>Edit Metadata:</source>
+			<target state="translated">Metadaten bearbeiten:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="194" approved="yes">
+			<source>Loading</source>
+			<target state="translated">Lade</target>
+			
+		  </trans-unit>
+		  <trans-unit id="195" approved="yes">
+			<source>Select a columnset to change the columns...</source>
+			<target state="translated">Spalten-Set auswählen um die spalten zu ändern...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="196" approved="yes">
+			<source>Loading Documents...</source>
+			<target state="translated">Dokumente werden geladen...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="197" approved="yes">
+			<source>Create Space</source>
+			<target state="translated">Ordner anlegen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="198" approved="yes">
+			<source>Success</source>
+			<target state="translated">Erfolgreich</target>
+			
+		  </trans-unit>
+		  <trans-unit id="199" approved="yes">
+			<source>Revert to this Version</source>
+			<target state="translated">Zurück zu dieser Version</target>
+			
+		  </trans-unit>
+		  <trans-unit id="200" approved="yes">
+			<source>Revert to Version</source>
+			<target state="translated">Version zurücksetzen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="201" approved="yes">
+			<source>Are you sure you want to revert to Version:</source>
+			<target state="translated">Sind sie sicher auf diese Version zurückzusetzen:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="202" approved="yes">
+			<source>New Version</source>
+			<target state="translated">Neue Version</target>
+			
+		  </trans-unit>
+		  <trans-unit id="203" approved="yes">
+			<source>Upload new Version</source>
+			<target state="translated">Neue Version hinaufladen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="204" approved="yes">
+			<source>Detailed Version Info</source>
+			<target state="translated">Detaillierte Versions Info</target>
+			
+		  </trans-unit>
+		  <trans-unit id="205" approved="yes">
+			<source>Manage Aspects</source>
+			<target state="translated">Aspekte verwalten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="206" approved="yes">
+			<source>Specify Type</source>
+			<target state="translated">Typ festlegen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="207" approved="yes">
+			<source>Checkout to Zoho Writer</source>
+			<target state="translated">Auschecken - Zoho Writer</target>
+			
+		  </trans-unit>
+		  <trans-unit id="208" approved="yes">
+			<source>Cancel Checkout</source>
+			<target state="translated">Auschecken abbrechen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="209" approved="yes">
+			<source>Edit in Zoho Writer</source>
+			<target state="translated">Bearbeiten - Zoho Writer</target>
+			
+		  </trans-unit>
+		  <trans-unit id="210" approved="yes">
+			<source>Checkout in Zoho Writer</source>
+			<target state="translated">Auschecken - Zoho Writer</target>
+			
+		  </trans-unit>
+		  <trans-unit id="211" approved="yes">
+			<source>Edit in Zoho Sheet</source>
+			<target state="translated">Bearbeiten - Zoho Writer</target>
+			
+		  </trans-unit>
+		  <trans-unit id="212" approved="yes">
+			<source>Checkout in Zoho Sheet</source>
+			<target state="translated">Auschecken - Zoho Sheet</target>
+			
+		  </trans-unit>
+		  <trans-unit id="213" approved="yes">
+			<source>DocumentGrid</source>
+			<target state="translated">Dokumenten Tabelle</target>
+			
+		  </trans-unit>
+		  <trans-unit id="214" approved="yes">
+			<source>No items to display.</source>
+			<target state="translated">Keine Elemente anzuzeigen.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="215" approved="yes">
+			<source>Open Folder in Alfresco</source>
+			<target state="translated">Ordner in Alfresco öffnen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="216" approved="yes">
+			<source>Upload File(s)</source>
+			<target state="translated">Datei(en) hinaufladen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="217" approved="yes">
+			<source>Export CSV</source>
+			<target state="translated">Export CSV</target>
+			
+		  </trans-unit>
+		  <trans-unit id="218" approved="yes">
+			<source>Paste clipboard (copy)</source>
+			<target state="translated">Einfügen - Zwischenablage (Kopie)</target>
+			
+		  </trans-unit>
+		  <trans-unit id="219" approved="yes">
+			<source>Paste clipboard (cut)</source>
+			<target state="translated">Einfügen - Zwischenablage (Ausschneiden)</target>
+			
+		  </trans-unit>
+		  <trans-unit id="220" approved="yes">
+			<source>of</source>
+			<target state="translated">von</target>
+			
+		  </trans-unit>
+		  <trans-unit id="221" approved="yes">
+			<source>Add to clipboard</source>
+			<target state="translated">In Zwischenablage einfügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="222" approved="yes">
+			<source>Delete</source>
+			<target state="translated">Löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="223" approved="yes">
+			<source>Add to favorites</source>
+			<target state="translated">Zu Favoriten hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="224" approved="yes">
+			<source>Send as Email</source>
+			<target state="translated">Per E-Mail verschicken</target>
+			
+		  </trans-unit>
+		  <trans-unit id="225" approved="yes">
+			<source>Preview in new tab</source>
+			<target state="translated">Voransicht in neuem Tab</target>
+			
+		  </trans-unit>
+		  <trans-unit id="226" approved="yes">
+			<source>Specify type</source>
+			<target state="translated">Typ festlegen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="227" approved="yes">
+			<source>Manage aspects</source>
+			<target state="translated">Aspekte verwalten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="228" approved="yes">
+			<source>Quick add aspect</source>
+			<target state="translated">Aspekt - Schnellzugriff</target>
+			
+		  </trans-unit>
+		  <trans-unit id="229" approved="yes">
+			<source>Taggable</source>
+			<target state="translated">Tagging aktivieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="230" approved="yes">
+			<source>Versionable</source>
+			<target state="translated">Versionierung aktivieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="231" approved="yes">
+			<source>Classifiable</source>
+			<target state="translated">Klassifikation aktivieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="232" approved="yes">
+			<source>View Details in Alfresco</source>
+			<target state="translated">Details im Alfresco anzeigen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="233" approved="yes">
+			<source>Successfully pasted!</source>
+			<target state="translated">Erfolgreich eingefügt!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="234" approved="yes">
+			<source>Successfully pasted</source>
+			<target state="translated">Erfolgreich eingefügt</target>
+			
+		  </trans-unit>
+		  <trans-unit id="235" approved="yes">
+			<source>node(s)</source>
+			<target state="translated">Elemente</target>
+			
+		  </trans-unit>
+		  <trans-unit id="236" approved="yes">
+			<source>node(s) pasted to the destination folder</source>
+			<target state="translated">Elemente im Ziel-Ordner eingefügt</target>
+			
+		  </trans-unit>
+		  <trans-unit id="237" approved="yes">
+			<source>Pasting documents</source>
+			<target state="translated">Dokumente einfügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="238" approved="yes">
+			<source>An unknown problem occured at the check out process.</source>
+			<target state="translated">Unbekanntes Problem beim Check-Out aufgetreten.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="239" approved="yes">
+			<source>An unknown problem occured at the check in process.</source>
+			<target state="translated">Unbekanntes Problem beim Check-In aufgetreten.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="240" approved="yes">
+			<source>Successfully canceled.</source>
+			<target state="translated">Abbruch erfolgreich.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="241" approved="yes">
+			<source>Open in new Window</source>
+			<target state="translated">In neuem Fenster öffnen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="242" approved="yes">
+			<source>Upload to Zoho Failed!</source>
+			<target state="translated">Hochladen nach Zoho fehlgeschlagen!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="243" approved="yes">
+			<source>Checkout to Zoho</source>
+			<target state="translated">Auschecken nach Zoho</target>
+			
+		  </trans-unit>
+		  <trans-unit id="244" approved="yes">
+			<source>Add Aspect</source>
+			<target state="translated">Aspekt hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="245" approved="yes">
+			<source>Date:</source>
+			<target state="translated">Datum:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="246" approved="yes">
+			<source>Author:</source>
+			<target state="translated">Autor:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="247" approved="yes">
+			<source>Detailed Version Information</source>
+			<target state="translated">Detaillierte Versions Info</target>
+			
+		  </trans-unit>
+		  <trans-unit id="248" approved="yes">
+			<source>Upload a new Version</source>
+			<target state="translated">Neue Version hochladen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="249" approved="yes">
+			<source>Save &amp; Upload</source>
+			<target state="translated">Speichern &amp; Hochladen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="250" approved="yes">
+			<source>Create a new Version</source>
+			<target state="translated">Neue Version erstellen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="251" approved="yes">
+			<source>Revert Version</source>
+			<target state="translated">Version zurücksetzen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="252" approved="yes">
+			<source>Successfully reverted to the Version:</source>
+			<target state="translated">Erfolgreich auf Version zurückgesetzt:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="253" approved="yes">
+			<source>Something went wrong at the revert process</source>
+			<target state="translated">Fehler beim Rücksetz-Prozess aufgetreten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="254" approved="yes">
+			<source>Specify content type error!</source>
+			<target state="translated">Fehler beim Festlegen des Content-Typs!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="255" approved="yes">
+			<source>An error occured please try it later again.</source>
+			<target state="translated">Fehler aufgetreten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="256" approved="yes">
+			<source>Delete?</source>
+			<target state="translated">Löschen?</target>
+			
+		  </trans-unit>
+		  <trans-unit id="257" approved="yes">
+			<source>Do you really want to delete:</source>
+			<target state="translated">Soll folgendes wirklich gelöscht werden:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="258" approved="yes">
+			<source>Deleting</source>
+			<target state="translated">Löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="259" approved="yes">
+			<source>To</source>
+			<target state="translated">An</target>
+			
+		  </trans-unit>
+		  <trans-unit id="260" approved="yes">
+			<source>Cc</source>
+			<target state="translated">Cc</target>
+			
+		  </trans-unit>
+		  <trans-unit id="261" approved="yes">
+			<source>Bcc</source>
+			<target state="translated">Bcc</target>
+			
+		  </trans-unit>
+		  <trans-unit id="262" approved="yes">
+			<source>Subject</source>
+			<target state="translated">Betreff</target>
+			
+		  </trans-unit>
+		  <trans-unit id="263" approved="yes">
+			<source>Attachments</source>
+			<target state="translated">Anhänge</target>
+			
+		  </trans-unit>
+		  <trans-unit id="264" approved="yes">
+			<source>Send Attachment(s) via Email</source>
+			<target state="translated">Dokumente per Email versenden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="265" approved="yes">
+			<source>Send</source>
+			<target state="translated">Versenden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="266" approved="yes">
+			<source>Sending Email</source>
+			<target state="translated">E-Mail wird gesendet</target>
+			
+		  </trans-unit>
+		  <trans-unit id="267" approved="yes">
+			<source>We could send your email successfully!</source>
+			<target state="translated">E-Mail erfolgreich versandt!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="268" approved="yes">
+			<source>Successfully created the Space %1%</source>
+			<target state="translated">Ordner %1% erfolgreich erstellt</target>
+			
+		  </trans-unit>
+		  <trans-unit id="269" approved="yes">
+			<source>ifresco - send files</source>
+			<target state="translated">ifresco - Dateien senden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="270" approved="yes">
+			<source>Navigation</source>
+			<target state="translated">Navigation</target>
+			
+		  </trans-unit>
+		  <trans-unit id="271" approved="yes">
+			<source>Folders</source>
+			<target state="translated">Ordner</target>
+			
+		  </trans-unit>
+		  <trans-unit id="272" approved="yes">
+			<source>Favorites</source>
+			<target state="translated">Favoriten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="273" approved="yes">
+			<source>Administration</source>
+			<target state="translated">Administration</target>
+			
+		  </trans-unit>
+		  <trans-unit id="274" approved="yes">
+			<source>Category:</source>
+			<target state="translated">Kategorie:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="275" approved="yes">
+			<source>Clear clipboard</source>
+			<target state="translated">Zwischenablage löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="276" approved="yes">
+			<source>Documents</source>
+			<target state="translated">Dokumente</target>
+			
+		  </trans-unit>
+		  <trans-unit id="277" approved="yes">
+			<source>Horizontal Split</source>
+			<target state="translated">Horizontale Aufteilung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="278" approved="yes">
+			<source>Vertical Split</source>
+			<target state="translated">Vertikale Aufteilung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="279" approved="yes">
+			<source>Logout</source>
+			<target state="translated">Abmelden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="280" approved="yes">
+			<source>Reload</source>
+			<target state="translated">Aktualisieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="281" approved="yes">
+			<source>Open in new tab</source>
+			<target state="translated">In einem neuen Tab öffnen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="282" approved="yes">
+			<source>Browse items in sub-categories?</source>
+			<target state="translated">Browsen über Unter-Kategorien?</target>
+			
+		  </trans-unit>
+		  <trans-unit id="283" approved="yes">
+			<source>Expand All</source>
+			<target state="translated">Alle ausklappen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="284" approved="yes">
+			<source>Collapse All</source>
+			<target state="translated">Alle zusammenklappen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="285" approved="yes">
+			<source>Add a subcategory</source>
+			<target state="translated">Unterkategorie hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="286" approved="yes">
+			<source>Rename this category</source>
+			<target state="translated">Kategorie umbenennen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="287" approved="yes">
+			<source>Delete this category</source>
+			<target state="translated">Kategorie löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="288" approved="yes">
+			<source>Rename</source>
+			<target state="translated">Umbenennen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="289" approved="yes">
+			<source>to</source>
+			<target state="translated">zu</target>
+			
+		  </trans-unit>
+		  <trans-unit id="290" approved="yes">
+			<source>Add category</source>
+			<target state="translated">Kategorie hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="291" approved="yes">
+			<source>Remove of favorites</source>
+			<target state="translated">Aus Favoriten entfernen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="292" approved="yes">
+			<source>See all documents tagged with</source>
+			<target state="translated">Alle Dokumente mit diesem Tag anzeigen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="293" approved="yes">
+			<source>Not supported mimetype!</source>
+			<target state="translated">Nicht unterstützter MIME-Typ!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="294" approved="yes">
+			<source>An unknown error occured!</source>
+			<target state="translated">Unbekannter Fehler aufgetreten!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="295" approved="yes">
+			<source>Successfully saved to ifresco</source>
+			<target state="translated">Erfolgreich in ifresco gespeichert</target>
+			
+		  </trans-unit>
+		  <trans-unit id="296" approved="yes">
+			<source>ERROR! Not allowed!</source>
+			<target state="translated">FEHLER! Nicht erlaubt!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="297" approved="yes">
+			<source>Language</source>
+			<target state="translated">Sprache</target>
+			
+		  </trans-unit>
+		  <trans-unit id="298" approved="yes">
+			<source>Yes</source>
+			<target state="translated">Ja</target>
+			
+		  </trans-unit>
+		  <trans-unit id="299" approved="yes">
+			<source>No</source>
+			<target state="translated">Nein</target>
+			
+		  </trans-unit>
+		  <trans-unit id="300" approved="yes">
+			<source>Username</source>
+			<target state="translated">Benutzername</target>
+			
+		  </trans-unit>
+		  <trans-unit id="301" approved="yes">
+			<source>Password</source>
+			<target state="translated">Passwort</target>
+			
+		  </trans-unit>
+		  <trans-unit id="302" approved="yes">
+			<source>Please provide your username.</source>
+			<target state="translated">Bitte geben Sie Ihren Benutzernamen ein.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="303" approved="yes">
+			<source>Please provide your password.</source>
+			<target state="translated">Bitte geben Sie Ihr Passwort ein.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="304" approved="yes">
+			<source>you</source>
+			<target state="translated">Ihnen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="305" approved="yes">
+			<source>Clipboard</source>
+			<target state="translated">Zwischenablage</target>
+			
+		  </trans-unit>
+		  <trans-unit id="306" approved="yes">
+			<source>Remove from clipboard</source>
+			<target state="translated">Aus der Zwischenablage löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="307" approved="yes">
+			<source>PDF Merge</source>
+			<target state="translated">PDF Zusammenführen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="308" approved="yes">
+			<source>Select a content type</source>
+			<target state="translated">Content Typ auswählen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="309" approved="yes">
+			<source>Select a property</source>
+			<target state="translated">Property auswählen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="310" approved="yes">
+			<source>Successfully saved the types list!</source>
+			<target state="translated">Content Typen Liste wurde erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="311" approved="yes">
+			<source>Save content types</source>
+			<target state="translated">Content Typen Liste speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="312" approved="yes">
+			<source>All Items</source>
+			<target state="translated">Alle Elemente</target>
+			
+		  </trans-unit>
+		  <trans-unit id="313" approved="yes">
+			<source>File names and contents</source>
+			<target state="translated">Inhalt und Dateinamen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="314" approved="yes">
+			<source>File names only</source>
+			<target state="translated">Nur Dateinamen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="315" approved="yes">
+			<source>Space names only</source>
+			<target state="translated">Nur Ordner namen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="316" approved="yes">
+			<source>Pasting was not successful!</source>
+			<target state="translated">Einfügen war nicht erfolgreich!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="317" approved="yes">
+			<source>node(s) pasted to the destination folder!</source>
+			<target state="translated">Elemente im Ziel-Ordner eingefügt!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="318" approved="yes">
+			<source>Date format &amp; time format:</source>
+			<target state="translated">Datum- und Zeit Format:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="319" approved="yes">
+			<source>Day</source>
+			<target state="translated">Tag</target>
+			
+		  </trans-unit>
+		  <trans-unit id="320" approved="yes">
+			<source>Day of the month</source>
+			<target state="translated"> 2 digits with leading zeros</target>
+			
+		  </trans-unit>
+		  <trans-unit id="321" approved="yes">
+			<source>A textual representation of a day</source>
+			<target state="translated"> three letters</target>
+			
+		  </trans-unit>
+		  <trans-unit id="322" approved="yes">
+			<source>Day of the month without leading zeros</source>
+			<target state="translated">Tag des Monats ohne führende Nullen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="323" approved="yes">
+			<source>lowercase 'L'</source>
+			<target state="translated">kleines 'L'</target>
+			
+		  </trans-unit>
+		  <trans-unit id="324" approved="yes">
+			<source>A full textual representation of the day of the week</source>
+			<target state="translated">Ausgeschriebener Wochentags</target>
+			
+		  </trans-unit>
+		  <trans-unit id="325" approved="yes">
+			<source>ISO-8601 numeric representation of the day of the week</source>
+			<target state="translated">Numerische Repräsentation des Wochentages gemäß ISO-8601</target>
+			
+		  </trans-unit>
+		  <trans-unit id="326" approved="yes">
+			<source>English ordinal suffix for the day of the month</source>
+			<target state="translated"> 2 characters</target>
+			
+		  </trans-unit>
+		  <trans-unit id="327" approved="yes">
+			<source>Numeric representation of the day of the week</source>
+			<target state="translated">Numerischer Tag einer Woche</target>
+			
+		  </trans-unit>
+		  <trans-unit id="328" approved="yes">
+			<source>The day of the year (starting from 0)</source>
+			<target state="translated">Der Tag des Jahres (von 0 beginnend)</target>
+			
+		  </trans-unit>
+		  <trans-unit id="329" approved="yes">
+			<source>Week</source>
+			<target state="translated">Woche</target>
+			
+		  </trans-unit>
+		  <trans-unit id="330" approved="yes">
+			<source>ISO-8601 week number of year</source>
+			<target state="translated"> weeks starting on Monday</target>
+			
+		  </trans-unit>
+		  <trans-unit id="331" approved="yes">
+			<source>Month</source>
+			<target state="translated">Monat</target>
+			
+		  </trans-unit>
+		  <trans-unit id="332" approved="yes">
+			<source>A full textual representation of a month</source>
+			<target state="translated"> such as January or March</target>
+			
+		  </trans-unit>
+		  <trans-unit id="333" approved="yes">
+			<source>Numeric representation of a month</source>
+			<target state="translated"> with leading zeros</target>
+			
+		  </trans-unit>
+		  <trans-unit id="334" approved="yes">
+			<source>A short textual representation of a month</source>
+			<target state="translated"> three letters</target>
+			
+		  </trans-unit>
+		  <trans-unit id="335" approved="yes">
+			<source>Numeric representation of a month</source>
+			<target state="translated"> without leading zeros</target>
+			
+		  </trans-unit>
+		  <trans-unit id="336" approved="yes">
+			<source>Number of days in the given month</source>
+			<target state="translated">Anzahl der Tage des angegebenen Monats</target>
+			
+		  </trans-unit>
+		  <trans-unit id="337" approved="yes">
+			<source>Year</source>
+			<target state="translated">Jahr</target>
+			
+		  </trans-unit>
+		  <trans-unit id="338" approved="yes">
+			<source>Whether it's a leap year</source>
+			<target state="translated">Schaltjahr oder nicht</target>
+			
+		  </trans-unit>
+		  <trans-unit id="339" approved="yes">
+			<source>A full numeric representation of a year</source>
+			<target state="translated"> 4 digits</target>
+			
+		  </trans-unit>
+		  <trans-unit id="340" approved="yes">
+			<source>A two digit representation of a year</source>
+			<target state="translated">Jahreszahl</target>
+			
+		  </trans-unit>
+		  <trans-unit id="341" approved="yes">
+			<source>Time</source>
+			<target state="translated">Uhrzeit</target>
+			
+		  </trans-unit>
+		  <trans-unit id="342" approved="yes">
+			<source>Lowercase Ante meridiem and Post meridiem</source>
+			<target state="translated">Kleingeschrieben: Ante meridiem (Vormittag) und Post meridiem (Nachmittag)</target>
+			
+		  </trans-unit>
+		  <trans-unit id="343" approved="yes">
+			<source>Uppercase Ante meridiem and Post meridiem</source>
+			<target state="translated">Großgeschrieben: Ante meridiem (Vormittag) und Post meridiem (Nachmittag)</target>
+			
+		  </trans-unit>
+		  <trans-unit id="344" approved="yes">
+			<source>Swatch Internet time</source>
+			<target state="translated">Swatch-Internet-Zeit</target>
+			
+		  </trans-unit>
+		  <trans-unit id="345" approved="yes">
+			<source>12-hour format of an hour without leading zeros</source>
+			<target state="translated">Stunde im 12-Stunden-Format</target>
+			
+		  </trans-unit>
+		  <trans-unit id="346" approved="yes">
+			<source>24-hour format of an hour without leading zeros</source>
+			<target state="translated">Stunde im 24-Stunden-Format</target>
+			
+		  </trans-unit>
+		  <trans-unit id="347" approved="yes">
+			<source>12-hour format of an hour with leading zeros</source>
+			<target state="translated">Stunde im 12-Stunden-Format</target>
+			
+		  </trans-unit>
+		  <trans-unit id="348" approved="yes">
+			<source>24-hour format of an hour with leading zeros</source>
+			<target state="translated">Stunde im 24-Stunden-Format</target>
+			
+		  </trans-unit>
+		  <trans-unit id="349" approved="yes">
+			<source>Minutes with leading zeros</source>
+			<target state="translated">Minuten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="350" approved="yes">
+			<source>Seconds</source>
+			<target state="translated"> with leading zeros</target>
+			
+		  </trans-unit>
+		  <trans-unit id="351" approved="yes">
+			<source>Microseconds</source>
+			<target state="translated">Mikrosekunden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="352" approved="yes">
+			<source>Full Date/Time</source>
+			<target state="translated">Vollständige(s) Datum/Uhrzeit</target>
+			
+		  </trans-unit>
+		  <trans-unit id="353" approved="yes">
+			<source>ISO 8601 date</source>
+			<target state="translated">ISO 8601 Datum</target>
+			
+		  </trans-unit>
+		  <trans-unit id="354" approved="yes">
+			<source>RFC 2822 formatted date</source>
+			<target state="translated">Gemäß RFC 2822 formatiertes Datum</target>
+			
+		  </trans-unit>
+		  <trans-unit id="355" approved="yes">
+			<source>Seconds since the Unix Epoch (January 1 1970 00:00:00 GMT)</source>
+			<target state="translated">Sekunden seit Beginn der UNIX-Epoche</target>
+			
+		  </trans-unit>
+		  <trans-unit id="356" approved="yes">
+			<source>Content</source>
+			<target state="translated">Inhalt</target>
+			
+		  </trans-unit>
+		  <trans-unit id="357" approved="yes">
+			<source>Category Cache:</source>
+			<target state="translated">Kategorien Cache:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="358" approved="yes">
+			<source>Too many results</source>
+			<target state="translated">Zu viele Ergebn</target>
+			
+		  </trans-unit>
+		  <trans-unit id="359" approved="yes">
+			<source>The result list was too big. Please add more arguments to get a good result.</source>
+			<target state="translated">Die Ergebnisliste ist zu lange. Bitte verwenden Sie mehr Such-Kriterien.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="360" approved="yes">
+			<source>Search again</source>
+			<target state="translated">Erneut Suchen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="361" approved="yes">
+			<source>Cancel Search</source>
+			<target state="translated">Suche Abbrechen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="362" approved="yes">
+			<source>Change categories</source>
+			<target state="translated">Kategorien ändern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="363" approved="yes">
+			<source>From date</source>
+			<target state="translated">Von</target>
+			
+		  </trans-unit>
+		  <trans-unit id="364" approved="yes">
+			<source>To date</source>
+			<target state="translated">Bis</target>
+			
+		  </trans-unit>
+		  <trans-unit id="365" approved="yes">
+			<source>Auto. check Sub-Folders</source>
+			<target state="translated">Unter-Folder auto. selektieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="366" approved="yes">
+			<source>Uncheck all</source>
+			<target state="translated">Keine auswählen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="367" approved="yes">
+			<source>Auto. check Sub-Categories</source>
+			<target state="translated">Unter-Kategorien auto. selek</target>
+			
+		  </trans-unit>
+		  <trans-unit id="368" approved="yes">
+			<source>Successfully saved the Quick export Settings!</source>
+			<target state="translated">Einstellungen für die Exportierung wurden erfolgreich gespeichert!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="369" approved="yes">
+			<source>Save Quick export Settings</source>
+			<target state="translated">Einstellungen für das Exportieren speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="370" approved="yes">
+			<source>Jobs</source>
+			<target state="translated">Aufgaben</target>
+			
+		  </trans-unit>
+		  <trans-unit id="371" approved="yes">
+			<source>Export</source>
+			<target state="translated">Exportieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="372" approved="yes">
+			<source>Report a bug</source>
+			<target state="translated">Einen Fehler melden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="373" approved="yes">
+			<source>Node Cache:</source>
+			<target state="translated">Node Cache:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="374" approved="yes">
+			<source>ISO-8601 year number. This has the same value as Y</source>
+			<target state="translated"> except that if the ISO week number (W) belongs to the previous or next year</target>
+			
+		  </trans-unit>
+		  <trans-unit id="375" approved="yes">
+			<source>Path</source>
+			<target state="translated">Pfad</target>
+			
+		  </trans-unit>
+		  <trans-unit id="376" approved="yes">
+			<source>Loading Jobs...</source>
+			<target state="translated">Lade Aufgaben...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="377" approved="yes">
+			<source>Type</source>
+			<target state="translated">Typ</target>
+			
+		  </trans-unit>
+		  <trans-unit id="378" approved="yes">
+			<source>Status</source>
+			<target state="translated">Status</target>
+			
+		  </trans-unit>
+		  <trans-unit id="379" approved="yes">
+			<source>No running jobs.</source>
+			<target state="translated">Keine laufenden Aufgaben.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="380" approved="yes">
+			<source>Successfully cleared the finished jobs</source>
+			<target state="translated">Fertige Aufgaben wurden erfolgreich gelöscht</target>
+			
+		  </trans-unit>
+		  <trans-unit id="381" approved="yes">
+			<source>An error occured at clearing procedure!</source>
+			<target state="translated">Fehler beim Speicher Vorgang aufgetreten!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="382" approved="yes">
+			<source>Clear finished jobs</source>
+			<target state="translated">Fertige Aufgaben löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="383" approved="yes">
+			<source>Clear finished Jobs</source>
+			<target state="translated">Fertige Aufgaben löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="384" approved="yes">
+			<source>Send via Email</source>
+			<target state="translated">Per E-Mail verschicken</target>
+			
+		  </trans-unit>
+		  <trans-unit id="385" approved="yes">
+			<source>Exporting...</source>
+			<target state="translated">Exportieren ...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="386" approved="yes">
+			<source>Current jobs</source>
+			<target state="translated">Aufgaben</target>
+			
+		  </trans-unit>
+		  <trans-unit id="387" approved="yes">
+			<source>ISO-8601 year number. This has the same value as Y</source>
+			<target state="translated"> except that if the ISO week number (W) belongs to the previous or next year</target>
+			
+		  </trans-unit>
+		  <trans-unit id="388" approved="yes">
+			<source>ISO-8601 year number. This has the same value as Y</source>
+			<target state="translated"> except that if the ISO week number (W) belongs to the previous or next year</target>
+			
+		  </trans-unit>
+		  <trans-unit id="389" approved="yes">
+			<source>Clear all Jobs</source>
+			<target state="translated">Alle Jobs löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="390" approved="yes">
+			<source>OCR</source>
+			<target state="translated">OCR</target>
+			
+		  </trans-unit>
+		  <trans-unit id="391" approved="yes">
+			<source>OCR Enabled:</source>
+			<target state="translated">OCR Aktivieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="392" approved="yes">
+			<source>Enabled</source>
+			<target state="translated">Aktiviert</target>
+			
+		  </trans-unit>
+		  <trans-unit id="393" approved="yes">
+			<source>Disabled</source>
+			<target state="translated">Deaktiviert</target>
+			
+		  </trans-unit>
+		  <trans-unit id="394" approved="yes">
+			<source>AutoOCR Endpoint:</source>
+			<target state="translated">AutoOCR Endpoint:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="395" approved="yes">
+			<source>Available Pages</source>
+			<target state="translated">Verfügbare Seiten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="396" approved="yes">
+			<source>AutoOCR Profile:</source>
+			<target state="translated">AutoOCR Profile:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="397" approved="yes">
+			<source>Set an Endpoint first!</source>
+			<target state="translated">Setzen Sie bitte zuerst einen Endpoint.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="398" approved="yes">
+			<source>Enable OCR on Upload:</source>
+			<target state="translated">Aktiviere OCR beim Upload:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="399" approved="yes">
+			<source>OCR behavior:</source>
+			<target state="translated">OCR Verhalten:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="400" approved="yes">
+			<source>OCRed file as new version</source>
+			<target state="translated">OCRte Datei als neue Version</target>
+			
+		  </trans-unit>
+		  <trans-unit id="401" approved="yes">
+			<source>Overwrite file with OCRed content</source>
+			<target state="translated">Überschreibe Datei mit dem OCRten Inhalt</target>
+			
+		  </trans-unit>
+		  <trans-unit id="402" approved="yes">
+			<source>Get AutoOCR:</source>
+			<target state="translated">Mehr über AutoOCR:</target>
+			
+		  </trans-unit>
+		  <trans-unit id="403" approved="yes">
+			<source>Get AutoOCR PDF or AutoOCR PDF/A here</source>
+			<target state="translated">Hier klicken für mehr Information zu AutoOCR PDF oder AutoOCR PDF/A!</target>
+			
+		  </trans-unit>
+		  <trans-unit id="404" approved="yes">
+			<source>OCR Files</source>
+			<target state="translated">OCR Verarbeitung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="405" approved="yes">
+			<source>OCR File</source>
+			<target state="translated">OCR Verarbeitung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="406" approved="yes">
+			<source>Send files to OCR Engine...</source>
+			<target state="translated">Sende Dateien zu OCR Engine...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="407" approved="yes">
+			<source>http://shop.xkey.at/en/Scan-and-OCR-Tools</source>
+			<target state="translated">http://shop.xkey.at/de/Scan-und-OCR-Tools</target>
+			
+		  </trans-unit>
+		  <trans-unit id="408" approved="yes">
+			<source>ISO-8601 year number. This has the same value as Y</source>
+			<target state="translated"> except that if the ISO week number (W) belongs to the previous or next year</target>
+			
+		  </trans-unit>
+		  <trans-unit id="409" approved="yes">
+			<source>Clearing cache...</source>
+			<target state="translated">Leere Cache...</target>
+			
+		  </trans-unit>
+		  <trans-unit id="410" approved="yes">
+			<source>Sort default</source>
+			<target state="translated">Standard Sortierung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="411" approved="yes">
+			<source>Ascending</source>
+			<target state="translated">Aufsteigend</target>
+			
+		  </trans-unit>
+		  <trans-unit id="412" approved="yes">
+			<source>Clear Cache</source>
+			<target state="translated">Cache löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="413" approved="yes">
+			<source>ISO-8601 year number. This has the same value as Y</source>
+			<target state="translated"> except that if the ISO week number (W) belongs to the previous or next year</target>
+			
+		  </trans-unit>
+		  <trans-unit id="414" approved="yes">
+			<source>Export PDF</source>
+			<target state="translated">PDF exportieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="415" approved="yes">
+			<source>Generating PDF</source>
+			<target state="translated">PDF erstellen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="416" approved="yes">
+			<source>An error occured on the generating process! Please try it again later.</source>
+			<target state="translated">Ein Fehler ist bei diesem Prozess aufgetreten! Bitte versuchen Sie es erneut.</target>
+			
+		  </trans-unit>
+		  <trans-unit id="417" approved="yes">
+			<source>Reset fields</source>
+			<target state="translated">Lösche Eingabefelder</target>
+			
+		  </trans-unit>
+		  <trans-unit id="418" approved="yes">
+			<source>Parent Meta</source>
+			<target state="translated">Ordnerprofil</target>
+			
+		  </trans-unit>
+		  <trans-unit id="419" approved="yes">
+			<source>Send as Email link</source>
+			<target state="translated">Link als Email senden</target>
+			
+		  </trans-unit>
+		  <trans-unit id="420" approved="yes">
+			<source>Download ZIP</source>
+			<target state="translated">Als ZIP herunterladen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="421" approved="yes">
+			<source>Create HTML</source>
+			<target state="translated">HTML erstellen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="422" approved="yes">
+			<source>Print</source>
+			<target state="translated">Drucken</target>
+			
+		  </trans-unit>
+		  <trans-unit id="423" approved="yes">
+			<source>Content Model</source>
+			<target state="translated">Daten Modell</target>
+			
+		  </trans-unit>
+		  <trans-unit id="424" approved="yes">
+			<source>Create a new user lookup field</source>
+			<target state="translated">Neuen Benutzer Lookup anlegen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="425" approved="yes">
+			<source>Create a new data source lookup field</source>
+			<target state="translated">Neuen SQL-Tabellen Lookup anlegen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="426" approved="yes">
+			<source>Category Lookup</source>
+			<target state="translated">Kategorien Lookup</target>
+			
+		  </trans-unit>
+		  <trans-unit id="427" approved="yes">
+			<source>User Lookup</source>
+			<target state="translated">Benutzer Lookup</target>
+			
+		  </trans-unit>
+		  <trans-unit id="428" approved="yes">
+			<source>Data Source Lookup</source>
+			<target state="translated">SQL-Tabellen Lookup</target>
+			
+		  </trans-unit>
+		  <trans-unit id="429" approved="yes">
+			<source>Select Data Source</source>
+			<target state="translated">SQL Datenquelle auswählen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="430" approved="yes">
+			<source>select a source</source>
+			<target state="translated">Quelle auswählen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="431" approved="yes">
+			<source>Data Sources</source>
+			<target state="translated">Datenquellen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="432" approved="yes">
+			<source>Create a Data Sources</source>
+			<target state="translated">Datenquelle erstellen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="433" approved="yes">
+			<source>Source Name</source>
+			<target state="translated">Quell-Name</target>
+			
+		  </trans-unit>
+		  <trans-unit id="434" approved="yes">
+			<source>Source Type</source>
+			<target state="translated">Quell-Typ</target>
+			
+		  </trans-unit>
+		  <trans-unit id="435" approved="yes">
+			<source>Data Source Name</source>
+			<target state="translated">Name der Datenquelle</target>
+			
+		  </trans-unit>
+		  <trans-unit id="436" approved="yes">
+			<source>Source Type</source>
+			<target state="translated">Typ der Quelle</target>
+			
+		  </trans-unit>
+		  <trans-unit id="437" approved="yes">
+			<source>DataBase Name</source>
+			<target state="translated">Datenbankname</target>
+			
+		  </trans-unit>
+		  <trans-unit id="438" approved="yes">
+			<source>User Name</source>
+			<target state="translated">Benutzername</target>
+			
+		  </trans-unit>
+		  <trans-unit id="439" approved="yes">
+			<source>Password</source>
+			<target state="translated">Passwort</target>
+			
+		  </trans-unit>
+		  <trans-unit id="440" approved="yes">
+			<source>Test Connection</source>
+			<target state="translated">Verbindung testen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="441" approved="yes">
+			<source>Click Search</source>
+			<target state="translated">Click Search</target>
+			
+		  </trans-unit>
+		  <trans-unit id="442" approved="yes">
+			<source>Fulltext search on childs</source>
+			<target state="translated">Volltextsuche in gef. Ordnern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="443" approved="yes">
+			<source>Fulltext search on childs override properties</source>
+			<target state="translated">Metadaten kombiniert anzeigen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="444" approved="yes">
+			<source>Default Navigation element</source>
+			<target state="translated">Standard Navigationselement</target>
+			
+		  </trans-unit>
+		  <trans-unit id="445" approved="yes">
+			<source>Parent Node Meta Tab</source>
+			<target state="translated">Ordner-Metadaten-Tab</target>
+			
+		  </trans-unit>
+		  <trans-unit id="446" approved="yes">
+			<source>Parent Node Meta Level</source>
+			<target state="translated">Ordner-Metadaten-Level</target>
+			
+		  </trans-unit>
+		  <trans-unit id="447" approved="yes">
+			<source>Parent Meta Document Only</source>
+			<target state="translated">Ordner-Metadaten nur für Dokumente</target>
+			
+		  </trans-unit>
+		  <trans-unit id="448" approved="yes">
+			<source>Meta On Tree Folder</source>
+			<target state="translated">Metadaten aktualisieren - Auswahl Baum</target>
+			
+		  </trans-unit>
+		  <trans-unit id="449" approved="yes">
+			<source>Allowed prefixes</source>
+			<target state="translated">Ausgewählte Präfixe</target>
+			
+		  </trans-unit>
+		  <trans-unit id="450" approved="yes">
+			<source>Export folder nodes?</source>
+			<target state="translated">Ordner exportieren ?</target>
+			
+		  </trans-unit>
+		  <trans-unit id="451" approved="yes">
+			<source>Settings Export/Import</source>
+			<target state="translated">Einstellungen - Export/Import</target>
+			
+		  </trans-unit>
+		  <trans-unit id="452" approved="yes">
+			<source>All Admin Settings</source>
+			<target state="translated">Alle Admin Einstellungen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="453" approved="yes">
+			<source>All Templates &amp; Columnsets</source>
+			<target state="translated">Alle Templates &amp; Spaltensets</target>
+			
+		  </trans-unit>
+		  <trans-unit id="454" approved="yes">
+			<source>Columnsets</source>
+			<target state="translated">Spaltensets</target>
+			
+		  </trans-unit>
+		  <trans-unit id="455" approved="yes">
+			<source>Advanced Search Templates</source>
+			<target state="translated">Erweiterte Such-Templates</target>
+			
+		  </trans-unit>
+		  <trans-unit id="456" approved="yes">
+			<source>Content templates</source>
+			<target state="translated">Datenmodell-Templates</target>
+			
+		  </trans-unit>
+		  <trans-unit id="457" approved="yes">
+			<source>Content Model Templates</source>
+			<target state="translated">Datenmodell-Template</target>
+			
+		  </trans-unit>
+		  <trans-unit id="458" approved="yes">
+			<source>Content Model Lookups</source>
+			<target state="translated">Datenmodell Lookups</target>
+			
+		  </trans-unit>
+		  <trans-unit id="459" approved="yes">
+			<source>Search Templates</source>
+			<target state="translated">Such-Templates</target>
+			
+		  </trans-unit>
+		  <trans-unit id="460" approved="yes">
+			<source>Quick Search</source>
+			<target state="translated">Schnellsuche</target>
+			
+		  </trans-unit>
+		  <trans-unit id="461" approved="yes">
+			<source>Column Set</source>
+			<target state="translated">Spalten-Sets</target>
+			
+		  </trans-unit>
+		  <trans-unit id="462" approved="yes">
+			<source>System Settings</source>
+			<target state="translated">System Einstellungen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="463" approved="yes">
+			<source>OCR Settings</source>
+			<target state="translated">OCR Einstellungen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="464" approved="yes">
+			<source>Email Settings</source>
+			<target state="translated">Email Einstellungen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="465" approved="yes">
+			<source>Aspects</source>
+			<target state="translated">Aspekte</target>
+			
+		  </trans-unit>
+		  <trans-unit id="466" approved="yes">
+			<source>Content Types</source>
+			<target state="translated">Dokumenten-Typen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="467" approved="yes">
+			<source>Online Editing</source>
+			<target state="translated">Online Editieren</target>
+			
+		  </trans-unit>
+		  <trans-unit id="468" approved="yes">
+			<source>Data Sources</source>
+			<target state="translated">Datenquellen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="469" approved="yes">
+			<source>Past import here</source>
+			<target state="translated">Daten hier einfügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="470" approved="yes">
+			<source>Clear clipboard</source>
+			<target state="translated">Zwischenablage löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="471" approved="yes">
+			<source>Checkout</source>
+			<target state="translated">Auschecken</target>
+			
+		  </trans-unit>
+		  <trans-unit id="472" approved="yes">
+			<source>Last thumbnail modification data</source>
+			<target state="translated">Letzte Thumbnail Änderung </target>
+			
+		  </trans-unit>
+		  <trans-unit id="473" approved="yes">
+			<source>Creator</source>
+			<target state="translated">Erstellt von</target>
+			
+		  </trans-unit>
+		  <trans-unit id="474" approved="yes">
+			<source>Created</source>
+			<target state="translated">Erstellt am</target>
+			
+		  </trans-unit>
+		  <trans-unit id="475" approved="yes">
+			<source>Modified</source>
+			<target state="translated">Geändert am</target>
+			
+		  </trans-unit>
+		  <trans-unit id="476" approved="yes">
+			<source>Add files</source>
+			<target state="translated">Dateien hinzufügen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="477" approved="yes">
+			<source>Cancel</source>
+			<target state="translated">Abbrechen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="478" approved="yes">
+			<source>Remove all</source>
+			<target state="translated">Alle entfernen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="479" approved="yes">
+			<source>Ready</source>
+			<target state="translated">Bereit</target>
+			
+		  </trans-unit>
+		  <trans-unit id="480" approved="yes">
+			<source>Title; Description</source>
+			<target state="translated">Titel; Beschreibung</target>
+			
+		  </trans-unit>
+		  <trans-unit id="481" approved="yes">
+			<source>tiles</source>
+			<target state="translated">Miniaturen klein </target>
+			
+		  </trans-unit>
+		  <trans-unit id="482" approved="yes">
+			<source>Open in Alfresco</source>
+			<target state="translated">In Alfresco öffnen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="483" approved="yes">
+			<source>Please Wait</source>
+			<target state="translated">Bitte Warten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="484" approved="yes">
+			<source>Reset selection</source>
+			<target state="translated">Auswahl aufheben</target>
+			
+		  </trans-unit>
+		  <trans-unit id="485" approved="yes">
+			<source>Manage saved searches</source>
+			<target state="translated">Suchen verwalten</target>
+			
+		  </trans-unit>
+		  <trans-unit id="486" approved="yes">
+			<source>Delete selected</source>
+			<target state="translated">Ausgewählte löschen</target>
+			
+		  </trans-unit>
+		  <trans-unit id="487" approved="yes">
+			<source>Succesfully deleted the selected searches</source>
+			<target state="translated">Ausgewählte Suchen erfolgreich gelöscht</target>
+			
+		  </trans-unit>
+		  <trans-unit id="488" approved="yes">
+			<source>Please select at least one to delete</source>
+			<target state="translated">Bitte wählen Sie mindestens eine zu löschende Suche</target>
+			
+		  </trans-unit>
+		  <trans-unit id="489" approved="yes">
+			<source>Save Search</source>
+			<target state="translated">Suche speichern</target>
+			
+		  </trans-unit>
+		  <trans-unit id="490" approved="yes">
+			<source>Succesfully saved the search '%1%'</source>
+			<target state="translated">Die Suche '%1%' wurde erfolgreich gespeichert</target>
+			
+		  </trans-unit>
+		  <trans-unit id="491" approved="yes">
+			<source>Saved searches</source>
+			<target state="translated">Gespeicherte Suchen</target>
+			
+		  </trans-unit>
+    </body>
+  </file>
+</xliff>

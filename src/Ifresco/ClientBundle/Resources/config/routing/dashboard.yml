@@ -1,0 +1,11 @@
+ifresco_client_dashboard_my_sites:
+    pattern: /my/sites
+    defaults: { _controller: IfrescoClientBundle:Dashboard:getMySites }
+    options:
+        expose: true
+        
+ifresco_client_dashboard_my_documents:
+    pattern: /my/documents
+    defaults: { _controller: IfrescoClientBundle:Dashboard:getMyDocuments }
+    options:
+        expose: true

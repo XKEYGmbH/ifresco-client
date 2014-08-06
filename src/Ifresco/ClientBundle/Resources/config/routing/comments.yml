@@ -1,0 +1,23 @@
+ifresco_client_comments_get:
+    pattern: /get
+    defaults: { _controller: IfrescoClientBundle:Comments:getComments }
+    options:
+        expose: true
+        
+ifresco_client_comments_update:
+    pattern: /update
+    defaults: { _controller: IfrescoClientBundle:Comments:updateComment }
+    options:
+        expose: true
+
+ifresco_client_comments_remove:
+    pattern: /remove
+    defaults: { _controller: IfrescoClientBundle:Comments:removeComment }
+    options:
+        expose: true
+        
+ifresco_client_comments_new:
+    pattern: /new
+    defaults: { _controller: IfrescoClientBundle:Comments:addComment }
+    options:
+        expose: true

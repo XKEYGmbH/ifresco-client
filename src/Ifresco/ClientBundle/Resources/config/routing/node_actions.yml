@@ -1,0 +1,87 @@
+ifresco_client_node_actions_move_to:
+    pattern:  /move/to
+    defaults: { _controller: IfrescoClientBundle:NodeAction:moveTo }
+    options:
+        expose: true
+
+ifresco_client_node_actions_download:
+    pattern:  /download/{nodeId}
+    defaults: { _controller: IfrescoClientBundle:NodeAction:download }
+    options:
+        expose: true
+
+ifresco_client_node_actions_html_create:
+    pattern:  /html/create
+    defaults: { _controller: IfrescoClientBundle:NodeAction:createHtml }
+    options:
+        expose: true
+
+ifresco_client_node_actions_nodes_download:
+    pattern:  /nodes/download
+    defaults: { _controller: IfrescoClientBundle:NodeAction:downloadNodes }
+    options:
+        expose: true
+
+ifresco_client_node_actions_pdf_merge:
+    pattern:  /pdfmerge
+    defaults: { _controller: IfrescoClientBundle:NodeAction:PDFMerge }
+    options:
+        expose: true
+
+ifresco_client_node_actions_share_doc:
+    pattern:  /sharedoc
+    defaults: { _controller: IfrescoClientBundle:NodeAction:shareDoc }
+    options:
+        expose: true
+
+ifresco_client_node_actions_unshare_doc:
+    pattern:  /unsharedoc
+    defaults: { _controller: IfrescoClientBundle:NodeAction:unshareDoc }
+    options:
+        expose: true
+
+ifresco_client_node_actions_delete_node:
+    pattern:  /node/delete
+    defaults: { _controller: IfrescoClientBundle:NodeAction:deleteNode }
+    options:
+        expose: true
+
+ifresco_client_node_actions_delete_nodes:
+    pattern:  /deletenodes
+    defaults: { _controller: IfrescoClientBundle:NodeAction:deleteNodes }
+    options:
+        expose: true
+
+ifresco_client_node_actions_ocr_files:
+    pattern:  /ocrfiles
+    defaults: { _controller: IfrescoClientBundle:NodeAction:OCRFiles }
+    options:
+        expose: true
+
+ifresco_client_node_actions_mail_node:
+    pattern:  /mail/node
+    defaults: { _controller: IfrescoClientBundle:NodeAction:mailNode }
+    options:
+        expose: true
+
+ifresco_client_node_actions_image_preview:
+    pattern:  /imagepreview
+    defaults: { _controller: IfrescoClientBundle:Viewer:imagePreview }
+    options:
+        expose: true
+        
+ifresco_client_node_actions_list_transformers:
+    pattern:  /list/transformers
+    defaults: { _controller: IfrescoClientBundle:NodeAction:listAvailableTransformations }
+    options:
+        expose: true
+        
+ifresco_client_node_actions_do_transform:
+    pattern:  /do/transform
+    defaults: { _controller: IfrescoClientBundle:NodeAction:doNodeTransformation }
+    options:
+        expose: true
+
+#ifrescoClientNodeActionsBundle_sharePreview:
+#    pattern:  /nodeactions/sharePreview/{shareId}/{preview}
+#    defaults: { _controller: ifrescoClientNodeActionsBundle:Default:sharePreview, shareId = false, preview = webpreview }

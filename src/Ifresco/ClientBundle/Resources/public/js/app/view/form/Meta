@@ -1,0 +1,238 @@
+Ext.define('Ifresco.form.Meta', {
+    extend: 'Ext.ux.form.MetaForm',
+    alias: 'widget.ifrescoformmeta',
+    bodyCls: 'ifresco-form-meta',
+    border: 0,
+    frame:false,
+    autoScroll: true,
+    name:'meta-form',
+    id:'meta-form',
+    addData:'#additionalData',
+    ifrescoId: null,
+
+    initComponent: function() {
+        Ext.apply(this, {
+            url:Routing.generate('ifresco_client_metadata_node_get', {
+                nodeId: this.ifrescoId,
+                fieldTypeSeparator: 'true'
+            }),
+            tbar: [{
+                xtype: 'buttongroup',
+                items: [{
+                    text: Ifresco.helper.Translations.trans('Save'),
+                    iconCls: 'ifresco-icon-save ',
+                    handler:function() {
+                            this.submitMetaData();
+                    },
+                    scope: this
+                },{
+                    text: Ifresco.helper.Translations.trans('Cancel'),
+                    iconCls: 'ifresco-icon-cancel',
+                    handler:function() {
+                            this.up('panel[~cls=ifresco-metadata-tab]').close();
+                    },
+                    scope: this
+                }]
+            }]
+        });
+
+        this.callParent();
+    },
+
+    listeners: {
+        'metachange': function(form, meta){
+            this.bindRemove();
+        }
+    },
+
+    afterMetaChange: function(){
+        this.doCollapseExpand();
+
+        var items = this.getForm().getFields().items;
+        Ext.Array.each(items, function(record, index, recordsItSelf) {
+            var datasourcerel = record.datasourcerel || false;
+            if (datasourcerel) {
+                var relCol = datasourcerel.relatedcolumn || false;
+                relCol = record.id.match(/^\d+/)[0]+relCol.replace(':', '_');
+                var relField = this.getForm().findField(relCol);
+
+                if(relField != null) {
+                    record.on('beforequery', function(queryEvent, eOpts) {
+                        var relColumn = queryEvent.combo.datasourcerel.relatedcolumn || false;
+                        relColumn = queryEvent.combo.id.match(/^\d+/)[0]+relColumn.replace(':', '_');
+                        var relFieldEl = metaForm.getForm().findField(relColumn);
+                        var relValue = relFieldEl.getValue();
+                        var relLabel = relFieldEl.getFieldLabel();
+
+                        if(Ext.isEmpty(relValue)) {
+                            queryEvent.cancel = true;
+                            var toolTip = Ext.create('Ext.tip.ToolTip', {
+                                target: queryEvent.combo.id,
+                                title: queryEvent.combo.fieldLabel,
+                                html: 'Value for <b>' + relLabel + '</b> must be supplied first',
+                                autoHide : true,
+                                anchor: 'right',
+                                closeAction: 'destroy',
+                                width : 240,
+                                listeners: {
+                                    hide: function( t, eOpts ) {
+                                        t.close();
+                                    }
+                                }
+                            });
+
+                            toolTip.show()
+                        }
+                    });
+
+                    record.store.on('beforeload', function(store, operation, eOpts) {
+                        var relColumn = this.datasourcerel.relatedcolumn || false;
+                        relColumn = this.id.match(/^\d+/)[0]+relColumn.replace(':', '_');
+                        var relFieldEl = metaForm.getForm().findField(relColumn);
+                        var relValue = relFieldEl.getValue();
+
+                        relValue = typeof relValue == 'string' ? relValue : relValue.join(', ');
+
+                        operation.params.firstParam = relValue
+                    }, record);
+                }
+            }
+
+            if(record.xtype == 'combo' || record.xtype == 'superboxselect') {
+                record.on('select',function( combo, records, eOpts ) {
+                    var rec= records[0];
+                    var mapData = rec.raw.mapData || false;
+
+                    if(mapData) {
+                        var form = metaForm.getForm();
+
+                        for(var i in mapData) {
+                            var columnName = combo.id.match(/^\d+/)[0]+i;
+                            var el = form.findField(columnName);
+                            if(el) {
+                                el.setValue(mapData[i]);
+                            }
+                        }
+                    }
+                }, record);
+            }
+        }, this);
+    },
+
+    submitMetaData: function() {
+        var metaForm = this.getForm();
+
+        if(!metaForm.isValid()) {
+            var requiredFields = [];
+            metaForm.getFields().each(
+                function(r, i, t) {
+                    if(!r.isValid()) {
+                        requiredFields.push(r.fieldLabel)
+                    }
+                }
+            );
+
+            Ext.MessageBox.show({
+                title: Ifresco.helper.Translations.trans('Profile cannot be saved'),
+                msg: Ifresco.helper.Translations.trans('Following fields are required to be filled out before saving') +
+                    ":<br /><br /><b>" + requiredFields.join('<br />')+"</b>",
+                buttons: Ext.MessageBox.OK,
+                icon: Ext.MessageBox.INFO
+            });
+            return false;
+        }
+
+        var resultForm = metaForm.getValues(false, false, true, true);
+
+        $("#allMetaData :input").each(function() {
+            var inputType = $(this).attr("type");
+            inputType = inputType.toLowerCase();
+
+
+            if (inputType == "checkbox" || $(this).hasClass('x-form-checkbox')) {
+                var name = $(this).attr('name');
+                var checked = $(this).is(':checked');
+
+                resultForm[name] = checked;
+            } else {
+                if (inputType == "text") {
+                    var name = $(this).attr('name');
+                    var val = $(this).val();
+                    if (val != null && val.length > 0) {
+                        resultForm[name] = val;
+                    }
+                }
+            }
+        });
+
+        var jsonObj = [];
+        var name;
+        $("#meta-form #categoryDefaultContainer input[type=hidden]").each(function() {
+            name = $(this).attr('name');
+            jsonObj.push({id:this.value});
+        });
+        resultForm[name] = jsonObj;
+
+        $("#meta-form .tagit input[type=hidden]").each(function() {
+            name = $(this).attr('name');
+            resultForm[name] = this.value
+        });
+
+        var taggCMP = Ext.getCmp('cm_taggable');
+        if (taggCMP)
+            resultForm['item[tags][]'] = taggCMP.getValue();
+
+        $("#additionalData").find(":input[type=hidden]").each(function() {
+            var metaType = $(this).attr("metatype");
+            var realField = $(this).attr("realField");
+            var name = $(this).attr('name');
+            if(typeof metaType != 'undefined' && typeof realField != 'undefined' ) {
+                metaType = metaType.toLowerCase();
+
+                if (metaType == "category") {
+                    var jsonObj = [];
+                    var metaTreePanel = Ext.getCmp(realField);
+                    if (metaTreePanel) {
+                        var selNodes = metaTreePanel.getChecked();
+                        Ext.each(selNodes, function(node){
+                            var nodeId = node.attributes.nodeId;
+                            jsonObj.push({id:nodeId});
+                        });
+                        resultForm[name] = jsonObj;
+                    }
+                }
+            }
+        });
+
+        var resultFormJSON = $.toJSON(resultForm);
+
+        $("#allMetaData").mask("<?php echo $view['translator']->trans('Saving...'); ?>",300);
+        resultFormJSON = $.base64Encode(resultFormJSON);
+
+        $.post("<?php echo $view['router']->generate('ifrescoClientMetadataBundle_savemetadata'); ?>", "nodeId=<?php echo $nodeId; ?>&data="+resultFormJSON, function(data) {
+            if (data.success == "true") {
+
+            }
+            $("#allMetaData").unmask();
+
+        }, "json");
+    },
+
+    bindRemove: function() {
+        $(".removeBtn").unbind('click');
+        $(".removeBtn").bind("click", function( event ) {
+            $(this).parent().parent().slideUp();
+            $(this).parent().parent().remove();
+            var nodeid = $(this).parent().parent().children(".categoriesValues").val();
+            if ($.inArray(nodeid,added) > 0) {
+                added.remove(nodeid);
+                var $this = $(".categoryWindowObj[data-noderef="+nodeid+"]");
+                if ($this.length > 0) {
+                    $this.slideUp();
+                    $this.remove();
+                }
+            }
+            return false;
+        });
+    }
+});

@@ -1,0 +1,18 @@
+Ifresco\ClientBundle\Entity\ContentModelTemplate:
+    type: entity
+    table: content_model_templates
+    repositoryClass: Ifresco\ClientBundle\Repository\ContentModelTemplateRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        class:
+            type: string
+            length: 255
+        is_multicolumn:
+            type: boolean
+        aspect_view:
+            type: text
+        json_data:
+            type: text

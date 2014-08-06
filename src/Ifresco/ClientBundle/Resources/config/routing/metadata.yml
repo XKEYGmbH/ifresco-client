@@ -1,0 +1,71 @@
+ifresco_client_metadata_view:
+    pattern:  /view
+    defaults: { _controller: IfrescoClientBundle:Metadata:getViewData }
+    options:
+        expose: true
+
+ifresco_client_metadata_node_get:
+    pattern:  /node/{nodeId}/{fieldTypeSeparator}
+    defaults: { _controller: IfrescoClientBundle:Metadata:getNodeMetaData }
+    options:
+        expose: true
+
+ifresco_client_metadata_save:
+    pattern:  /save
+    defaults: { _controller: IfrescoClientBundle:Metadata:saveMetaData }
+    options:
+        expose: true
+
+ifresco_client_metadata_aspects_save:
+    pattern:  /aspects/save
+    defaults: { _controller: IfrescoClientBundle:Metadata:saveAspects }
+    options:
+        expose: true
+
+ifresco_client_metadata_aspects_get:
+    pattern:  /aspects/{nodeId}
+    defaults: { _controller: IfrescoClientBundle:Metadata:getAspects }
+    options:
+        expose: true
+
+ifresco_client_metadata_checkout:
+    pattern:  /checkout/{nodeId}
+    defaults: { _controller: IfrescoClientBundle:Metadata:checkout }
+    options:
+        expose: true
+
+ifresco_client_metadata_checkin:
+    pattern:  /checkin
+    defaults: { _controller: IfrescoClientBundle:Metadata:checkin }
+    options:
+        expose: true
+
+ifresco_client_metadata_cancel_checkout:
+    pattern:  /checkout/cancel/{nodeId}
+    defaults: { _controller: IfrescoClientBundle:Metadata:cancelCheckout }
+    options:
+        expose: true
+
+ifresco_client_metadata_sugar_lookup_rows_get:
+    pattern:  /sugar/lookup/rows
+    defaults: { _controller: IfrescoClientBundle:Metadata:getDataSugarLookupRows }
+    options:
+        expose: true
+
+ifresco_client_metadata_data_source_lookup_rows_get:
+    pattern:  /datasource/lookup/rows
+    defaults: { _controller: IfrescoClientBundle:Metadata:getDataSourceLookupRows }
+    options:
+        expose: true
+
+ifresco_client_metadata_content_type_get:
+    pattern:  /content/type
+    defaults: { _controller: IfrescoClientBundle:Metadata:getContentType }
+    options:
+        expose: true
+
+ifresco_client_metadata_content_type_save:
+    pattern:  /content/type/save
+    defaults: { _controller: IfrescoClientBundle:Metadata:saveContentType }
+    options:
+        expose: true

@@ -1,0 +1,95 @@
+ifresco_client_data_grid_index:
+    pattern: /datagrid
+    defaults: { _controller: IfrescoClientBundle:DataGrid:index }
+    options:
+        expose: true
+
+ifresco_client_view_index:
+    pattern:  /viewer
+    defaults: { _controller: IfrescoClientBundle:Viewer:index }
+    options:
+        expose: true
+
+ifresco_client_grid_data:
+    pattern:  /datagrid/griddata
+    defaults: { _controller: IfrescoClientBundle:DataGrid:gridData }
+    options:
+        expose: true
+        
+ifresco_client_grid_detail_view:
+    pattern:  /datagrid/detailview
+    defaults: { _controller: IfrescoClientBundle:DataGrid:detailView }
+    
+ifresco_client_grid_paste_clipboard:
+    pattern:  /datagrid/pasteclipboard
+    defaults: { _controller: IfrescoClientBundle:DataGrid:pasteClipboard }
+    options:
+        expose: true
+
+ifresco_client_test_pdf:
+    pattern:  /test/pdf
+    defaults: { _controller: IfrescoClientBundle:DataGrid:testPDF }
+    options:
+        expose: true
+
+ifresco_client_export_result_set:
+    pattern:  /datagrid/exportresultset
+    defaults: { _controller: IfrescoClientBundle:DataGrid:exportResultSet }
+    options:
+        expose: true
+
+ifresco_client_grid_export_download_csv_result_set:
+    pattern:  /datagrid/exportdownloadcsvresultset
+    defaults: { _controller: IfrescoClientBundle:DataGrid:exportDownloadCSVResultSet }
+    options:
+        expose: true
+
+ifresco_client_grid_export_background_pdf_result_set:
+    pattern:  /datagrid/exportbackgroundpdfresultset
+    defaults: { _controller: IfrescoClientBundle:DataGrid:exportBackgroundPDFResultSet }
+    options:
+        expose: true
+
+ifresco_client_grid_export_download_pdf_result_set:
+    pattern:  /datagrid/exportdownloadpdfresultset
+    defaults: { _controller: IfrescoClientBundle:DataGrid:exportDownloadPDFResultSet }
+    options:
+        expose: true
+        
+ifresco_client_grid_paste_clipboard:
+    pattern:  /datagrid/paste/clipboard
+    defaults: { _controller: IfrescoClientBundle:DataGrid:pasteClipboard }
+    options:
+        expose: true
+
+ifresco_client_upload:
+    pattern:  /upload
+    defaults: { _controller: IfrescoClientBundle:Upload:index }
+
+ifresco_client_versioning_get_json:
+    pattern:  /versioning/getjson
+    defaults: { _controller: IfrescoClientBundle:Versioning:getJSON }
+    options:
+        expose: true
+
+ifresco_client_versioning_download_version:
+    pattern:  /versioning/downloadversion
+    defaults: { _controller: IfrescoClientBundle:Versioning:downloadVersion }
+
+ifresco_client_versioning_new_version:
+    pattern:  /versioning/newversion
+    defaults: { _controller: IfrescoClientBundle:Versioning:newVersion }
+
+ifresco_client_versioning_create_new_version:
+    pattern:  /versioning/createnewversion
+    defaults: { _controller: IfrescoClientBundle:Versioning:createNewVersion }
+
+ifresco_client_versioning_revert_version:
+    pattern:  /versioning/revertversion
+    defaults: { _controller: IfrescoClientBundle:Versioning:revertVersion }
+    
+ifresco_client_grid_get_column_set:
+    pattern:  /get/columns/{id}
+    defaults: { _controller: IfrescoClientBundle:DataGrid:getColumns }
+    options:
+        expose: true

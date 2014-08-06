@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="{{ asset('bundles/ifrescoclient/css/home.css') }}">
+
+<div id="homeContainer">
+    <div id="innerContainer">
+        <div id="topHeader">
+            <div id="logoArea">
+                <a href="http://www.ifresco.at/">
+                    {% image '@IfrescoClientBundle/Resources/public/images/home/logo.gif' %}
+                    <img src="{{ asset_url }}" border="0">
+                    {% endimage %}
+                </a>
+            </div>
+        </div>
+        <div id="contentContainer">
+            <div id="contentContainerBox">
+                <div id="content">
+                    <h1 class="green">ifresco Client</h1>
+                    <p>
+                        {%  trans %}Never used ifresco Client before? Check out the Tutorials on{% endtrans %}
+                        <a href="http://www.ifresco.at/" target="_blank">www.ifresco.at</a>
+                        <br /><br />
+                    <div id="socialBtns">
+                        <a href="http://www.may.co.at/blog" target="_blank">
+                            {% image '@IfrescoClientBundle/Resources/public/images/home/blog_32.png' %}
+                            <img src="{{ asset_url }}" border="0">
+                            {% endimage %}
+                        </a>
+                        <a href="http://twitter.com/ifresco" target="_blank">
+                            {% image '@IfrescoClientBundle/Resources/public/images/home/twitter_32.png' %}
+                            <img src="{{ asset_url }}" border="0">
+                            {% endimage %}
+                        </a>
+                        <a href="http://www.youtube.com/user/ifresconize" target="_blank">
+                            {% image '@IfrescoClientBundle/Resources/public/images/home/youtube_32.png' %}
+                            <img src="{{ asset_url }}" border="0">
+                            {% endimage %}
+                        </a>
+                    </div>
+                    </p><br />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

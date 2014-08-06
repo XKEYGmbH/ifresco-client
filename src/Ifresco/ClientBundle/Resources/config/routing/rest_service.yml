@@ -1,0 +1,3 @@
+ifresco_client_restservice_increaseCounter:
+    pattern:  /increaseCounter
+    defaults: { _controller: IfrescoClientBundle:RESTService:increaseCounter }

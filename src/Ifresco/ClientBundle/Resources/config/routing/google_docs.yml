@@ -1,0 +1,29 @@
+ifresco_client_google_docs_authurl:
+    pattern: /authurl
+    defaults: { _controller: IfrescoClientBundle:GoogleDocs:getAuthUrl }
+    options:
+        expose: true
+        
+ifresco_client_google_docs_completeauth:
+    pattern: /completeauth
+    defaults: { _controller: IfrescoClientBundle:GoogleDocs:completeAuth }
+    options:
+        expose: true
+        
+ifresco_client_google_docs_node_info:
+    pattern: /node/info
+    defaults: { _controller: IfrescoClientBundle:GoogleDocs:getNodeInfo }
+    options:
+        expose: true
+        
+ifresco_client_google_docs_save_changes:
+    pattern: /save/changes
+    defaults: { _controller: IfrescoClientBundle:GoogleDocs:saveChanges }
+    options:
+        expose: true
+        
+ifresco_client_google_docs_discard_changes:
+    pattern: /discard/changes
+    defaults: { _controller: IfrescoClientBundle:GoogleDocs:discardChanges }
+    options:
+        expose: true

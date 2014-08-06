@@ -1,0 +1,5 @@
+ifresco_client_tag_cloud:
+    pattern: /cloud
+    defaults: { _controller: IfrescoClientBundle:Tag:getTagCloud }
+    options:
+        expose: true

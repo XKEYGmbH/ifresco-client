@@ -1,0 +1,35 @@
+ifresco_client_user_favorite_add:
+    pattern: /favorite/add
+    defaults: { _controller: IfrescoClientBundle:User:addFavorite }
+    options:
+        expose: true
+        
+ifresco_client_user_trash_can:
+    pattern: /trash/can
+    defaults: { _controller: IfrescoClientBundle:User:getTrashCan }
+    options:
+        expose: true
+        
+ifresco_client_user_trash_remove_node:
+    pattern: /trash/can/remove/node
+    defaults: { _controller: IfrescoClientBundle:User:deleteTrashCanNode }
+    options:
+        expose: true
+        
+ifresco_client_user_trash_remove_nodes:
+    pattern: /trash/can/remove/nodes
+    defaults: { _controller: IfrescoClientBundle:User:deleteTrashCanNodes }
+    options:
+        expose: true
+        
+ifresco_client_user_trash_restore_node:
+    pattern: /trash/can/restore/node
+    defaults: { _controller: IfrescoClientBundle:User:restoreTrashCanNode }
+    options:
+        expose: true
+        
+ifresco_client_user_trash_restore_nodes:
+    pattern: /trash/can/restore/nodes
+    defaults: { _controller: IfrescoClientBundle:User:restoreTrashCanNodes }
+    options:
+        expose: true

@@ -1,0 +1,24 @@
+ifresco_client_version_upload_new:
+    pattern: /upload/new
+    defaults: { _controller: IfrescoClientBundle:Versioning:uploadNewVersion }
+    options:
+        expose: true
+        
+ifresco_client_version_create_new:
+    pattern: /create/new
+    defaults: { _controller: IfrescoClientBundle:Versioning:createNewVersion }
+    options:
+        expose: true
+        
+ifresco_client_version_revert:
+    pattern: /revert
+    defaults: { _controller: IfrescoClientBundle:Versioning:revertVersion }
+    options:
+        expose: true
+
+ifresco_client_version_download:
+    pattern: /download
+    defaults: { _controller: IfrescoClientBundle:Versioning:downloadVersion }
+    options:
+        expose: true        
+        

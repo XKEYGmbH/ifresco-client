@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>Update required!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        {% stylesheets filter='cssrewrite'
+        '@IfrescoClientBundle/Resources/public/css/login.css'
+        'bundles/ifrescoclient/css/jquery/jquery.loadmask.css'
+        %}
+        <link href="{{ asset_url }}" rel="stylesheet" />
+        {% endstylesheets %}
+        {% javascripts
+            '@IfrescoClientBundle/Resources/public/js/jquery-1.3.2.min.js'
+            '@IfrescoClientBundle/Resources/public/js/jquery.loadmask.min.js'
+        %}
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#refreshBtn").click(function() {
+                    $.ajax({
+                        url: "{{ path('ifresco_client_install_dictionary') }}",
+                        success: function(data) {
+                            if (data.success == false) {
+                                $("body").unmask();
+                                $("#message").text("{% trans %}An error occured, please try it again!{% endtrans %}");
+                            }
+                            else {
+                                setTimeout(function(){
+                                    window.location.href = "{{ path('ifresco_client_index') }}";
+                                }, 10000);
+                            }
+                        },
+                        beforeSend: function() {
+                            $("body").mask("{% trans %}Updating...{% endtrans %}",300);
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div align="center">
+            <div id="loginContainer">
+                <div id="loginBox">
+                    <div class="loginTop">
+                        <div>
+                            {% image '@IfrescoClientBundle/Resources/public/images/logo200x106.png' %}
+                            <img src="{{ asset_url }}" height="106" width="200">
+                            {% endimage %}
+                        </div>
+                    </div>
+                    <div class="loginContent">
+                        <ul>
+                            <li><h3>{% trans %}Update required!{% endtrans %}</h3></li>
+                            {% if is_admin %}
+                            <li id="message">{% trans %}Please click on the button to automatically install the required Webscripts to the Alfresco Data Dictionary Repository{% endtrans %}</li>
+                            <li>
+                                <button type="button" class="submit" id="refreshBtn" style="width:200px;cursor:pointer;">{% trans %}Install / Update Webscripts{% endtrans %}</button>
+                            </li>
+                            {% else %}
+                            <li>{% trans %}Please contact an Administrator to update the required WebScripts{% endtrans %}</li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

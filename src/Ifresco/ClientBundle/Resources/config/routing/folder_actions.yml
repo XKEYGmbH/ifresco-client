@@ -1,0 +1,5 @@
+ifresco_client_folder_actions_space_create:
+    pattern:  /space/create
+    defaults: { _controller: IfrescoClientBundle:FolderAction:createSpace }
+    options:
+        expose: true

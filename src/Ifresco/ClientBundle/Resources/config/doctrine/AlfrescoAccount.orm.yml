@@ -1,0 +1,18 @@
+Ifresco\ClientBundle\Entity\AlfrescoAccount:
+    type: entity
+    table: alfresco_accounts
+    repositoryClass: Ifresco\ClientBundle\Repository\AlfrescoAccountRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        user_token:
+            type: string
+            length: 255
+        last_login:
+            type: datetime
+        created_at:
+            type: datetime
+        updated_at:
+            type: datetime

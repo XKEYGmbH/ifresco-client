@@ -1,0 +1,36 @@
+{#
+$logoPath ='/images/logo94x50.png';
+if(file_exists('images/custom_logo94x50.png'))
+    $logoPath ='/images/custom_logo94x50.png';
+
+#}<html>
+<head>
+    <title>ifresco client - document management by May Computer - powered by Alfresco</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {% stylesheets filter='cssrewrite'
+		'@IfrescoClientBundle/Resources/public/css/share.styles.css'
+    %}
+    <link href="{{ asset_url }}" rel="stylesheet" />
+    {% endstylesheets %}
+</head>
+<body>
+    <div class="sharePage">
+        <div class="shareHead">
+            <a id="page-logo" target="_blank" href="{{ LogoURL }}"><img src="{{ asset(LogoPath) }}" height="50" width="94" style="margin-left:10px;margin-top:4px;"></a>
+        </div>
+        <div class="shareInfo">
+            <div class="fileType">
+                <img src="{{ shareURI }}share/res/components/images/filetypes/{{ fileIcon }}">
+            </div>
+            <div class="fileData">
+                <span class="shareName">{{ metaData.name }}</span><br />
+                <span>Modified by {{ metaData.modifier.firstName }} on {{ metaData.modifiedOn|date('D d M Y H:i:s') }}</span>
+            </div>
+        </div>
+        <div class="shareContent">
+            {% autoescape false %}{{ shareViewCode }}{% endautoescape %}
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{#}
+{% javascripts
+		'@IfrescoClientBundle/Resources/public/js/jquery.latest.min.js'
+        '@IfrescoClientBundle/Resources/public/js/flowplayer/flowplayer.min.js'
+        %}
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+        
+{% stylesheets filter='cssrewrite'
+        'bundles/ifrescoclient/js/flowplayer/skin/minimalist.css'
+        %}
+        <link href="{{ asset_url }}" rel="stylesheet" />
+        {% endstylesheets %}
+#}
+        <div class="player" data-engine="flash" style="width:100%;height:100%;">
+	   <video preload>
+	      <source type="{{ type }}" src="{{ file }}">
+	   </video>
+	</div>
+	 
+	<script>
+	Ext.onReady(function() {
+	   $(".player").flowplayer({ swf: "{{ asset('bundles/ifrescoclient/js/flowplayer/flowplayer.swf') }}" });
+	});
+	</script>

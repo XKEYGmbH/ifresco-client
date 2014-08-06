@@ -1,0 +1,21 @@
+ifresco_client_viewer_preview:
+    pattern: /preview/{nodeId}/{versioned}
+    defaults: { _controller: IfrescoClientBundle:Viewer:preview, versioned: false }
+    options:
+        expose: true
+        
+ifresco_client_viewer_view_share:
+    pattern:  /view/share/{shareId}
+    defaults: { _controller: IfrescoClientBundle:Viewer:viewShare, shareId: false }
+    options:
+        expose: true
+        
+ifresco_client_viewer_share_preview:
+    pattern:  /view/share/{shareId}
+    defaults: { _controller: IfrescoClientBundle:Viewer:viewShare, shareId: false }
+    options:
+        expose: true
+
+ifresco_client_viewer_share_preview:
+    pattern:  /share/preview/{shareId}/{preview}
+    defaults: { _controller: IfrescoClientBundle:Viewer:sharePreview, shareId = false, preview = webpreview }

@@ -1,0 +1,11 @@
+ifresco_client_upload_REST:
+    pattern: /rest
+    defaults: { _controller: IfrescoClientBundle:Upload:uploadREST }
+    options:
+        expose: true
+
+ifresco_client_upload_content_types_get:
+    pattern:  /content/types/get
+    defaults: { _controller: IfrescoClientBundle:Upload:getContentTypes }
+    options:
+        expose: true

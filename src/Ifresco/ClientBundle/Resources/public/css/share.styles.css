@@ -1,0 +1,40 @@
+
+body {
+    font: 13px arial,helvetica,clean,sans-serif;
+}
+
+.sharePage {
+    margin: 20px;
+    }
+
+    .shareHead {
+        padding-bottom: 20px;
+        border-bottom: 1px dotted #C4C5C5;
+    }
+
+    .shareInfo {
+        margin: 10px 0;
+        }
+
+        .fileType, .fileData {
+            display: inline-block;
+        }
+
+        .fileType {
+            width: 48px;
+            height: 48px;
+        }
+
+        .fileData {
+            height: 48px;
+            vertical-align: top;
+            line-height: 22px;
+            color: #515D6B;
+            }
+
+            .fileData .shareName {
+                font-family: Helvetica,Arial,sans-serif;
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 3px;
+            }

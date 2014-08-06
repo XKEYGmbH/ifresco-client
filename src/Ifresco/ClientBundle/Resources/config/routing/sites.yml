@@ -1,0 +1,11 @@
+ifresco_client_sites_get:
+    pattern:  /get
+    defaults: { _controller: IfrescoClientBundle:Sites:getSites }
+    options:
+        expose: true
+        
+ifresco_client_site_tree:
+    pattern:  /site/tree
+    defaults: { _controller: IfrescoClientBundle:TreeFolder:getSiteTree }
+    options:
+        expose: true

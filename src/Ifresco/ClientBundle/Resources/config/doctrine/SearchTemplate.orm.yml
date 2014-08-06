@@ -1,0 +1,36 @@
+Ifresco\ClientBundle\Entity\SearchTemplate:
+    type: entity
+    table: search_templates
+    repositoryClass: Ifresco\ClientBundle\Repository\SearchTemplateRepository
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+        is_default_view:
+            type: boolean
+        is_multicolumn:
+            type: boolean
+        is_full_text_child:
+            type: boolean
+            default: false
+        is_full_text_child_overwrite:
+            type: boolean
+            default: false
+        column_set_id:
+            type: integer
+            length: 8
+            nullable: true
+        saved_search_id:
+            type: integer
+            length: 8
+            nullable: true
+        show_doctype:
+            type: text
+        content_type:
+            type: string
+            nullable: true
+        json_data:
+            type: text
