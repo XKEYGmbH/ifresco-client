@@ -1,6 +1,8 @@
 ifresco Client
 ========================
 
+DEPRECIATED!!! DUO ALFRESCO DROP OF THE SOAP API!
+
 ## Installation
 
 Go into directory and execute
